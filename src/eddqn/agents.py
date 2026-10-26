@@ -42,7 +42,7 @@ import torch.nn.functional as F
 
 from .metrics import min_cost_value, ranking_metrics
 
-ASYMMETRIC = {"tp": 0.5, "tn": 0.1, "fn": -0.5, "fp": -0.1}   # manuscript Eq. (9)
+ASYMMETRIC = {"tp": 0.5, "tn": 0.1, "fn": -0.5, "fp": -0.1}   # manuscript Eq. (1)
 SYMMETRIC = {"tp": 1.0, "tn": 1.0, "fn": -1.0, "fp": -1.0}
 
 

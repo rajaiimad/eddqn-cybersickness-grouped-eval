@@ -1,0 +1,40 @@
+\begin{longtable}{p{0.16\textwidth}p{0.2\textwidth}p{0.55\textwidth}}
+\toprule
+Family & Hyper-parameter & Candidate values \\
+\midrule
+\endhead
+All neural models & feature\_set & telemetry, telemetry+profile, exposure, exposure+profile \\
+All neural models & hidden & [64, 64], [128, 128], [256, 256], [256, 512, 256] \\
+All neural models & dropout & 0.0, 0.1, 0.2, 0.3 \\
+All neural models & norm & batch, layer \\
+All neural models & lr & 0.0003, 0.001, 0.003 \\
+All neural models & weight\_decay & 0.0, 0.0001, 0.001 \\
+All neural models & batch\_size & 256, 512 \\
+All agents & eps\_decay & 0.9, 0.95, 0.97 \\
+All agents & warmup & 0, 4000 \\
+All agents & updates\_per\_learn & 1, 2, 4 \\
+E-DDQN & gamma & 0.0, 0.5, 0.9, 0.99 \\
+E-DDQN & tau & 0.005, 0.01, 0.05 \\
+E-DDQN & rho & 0.4, 0.5, 0.6 \\
+E-DDQN & full\_info & False, True \\
+E-CB & rho & 0.4, 0.5, 0.6 \\
+E-CB & full\_info & False, True \\
+DQN & gamma & 0.0, 0.5, 0.9, 0.99 \\
+DQN & hard\_every & 10, 100, 500 \\
+CS-MLP & sampling & uniform, balanced \\
+LogReg & feature\_set & telemetry, telemetry+profile, exposure, exposure+profile \\
+LogReg & C & 0.0001, 0.001, 0.01, 0.1, 1.0, 10.0 \\
+HGB & feature\_set & telemetry, telemetry+profile, exposure, exposure+profile \\
+HGB & learning\_rate & 0.02, 0.05, 0.1 \\
+HGB & max\_iter & 50, 100, 200, 400 \\
+HGB & max\_leaf\_nodes & 4, 8, 16, 31 \\
+HGB & min\_samples\_leaf & 20, 100, 300 \\
+HGB & l2\_regularization & 0.0, 1.0, 10.0 \\
+RF & feature\_set & telemetry, telemetry+profile, exposure, exposure+profile \\
+RF & max\_depth & 3, 5, 8, None \\
+RF & min\_samples\_leaf & 5, 25, 100, 300 \\
+RF & max\_features & sqrt, 0.5, 1.0 \\
+RF & n\_estimators & 300 \\
+All agents & fixed & epochs=40, eval\_every=2, chunk=256, learn\_every=2, consolidation=5, eps\_start=1.0, eps\_end=0.01, buffer=50000, grad\_clip=1.0 \\
+\bottomrule
+\end{longtable}

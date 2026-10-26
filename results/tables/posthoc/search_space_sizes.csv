@@ -1,0 +1,8 @@
+model,n_configurations,budget
+E-DDQN,2985984,16
+E-CB,248832,16
+DQN,497664,16
+CS-MLP,4608,16
+LogReg,24,12
+HGB,1728,16
+RF,192,16

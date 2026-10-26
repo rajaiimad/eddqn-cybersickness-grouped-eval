@@ -1,0 +1,262 @@
+{
+  "curated_rows": 9390,
+  "curated_sessions": 35,
+  "raw_sessions_total": 74,
+  "raw_rows_total": 18384,
+  "curated_grade_counts": {
+    "0": 5243,
+    "1": 2656,
+    "2": 670,
+    "3": 821
+  },
+  "manuscript_total_samples": 20972,
+  "four_times_grade0": 20972,
+  "manuscript_train_per_grade": 3670,
+  "0.7_times_grade0": 3670.1,
+  "oversampling_factor_needed": {
+    "0": 1.0,
+    "1": 1.974,
+    "2": 7.825,
+    "3": 6.386
+  },
+  "binary_prevalence_raw": 0.44164004259850903,
+  "binary_prevalence_manuscript_test": 0.7498410680228862,
+  "dataset_csv_check": {
+    "dataset_csv_rows": 9390,
+    "selected_rows": 9390,
+    "row_order_identical": true,
+    "max_abs_diff_per_column": {
+      "TimeStamp": 0.0,
+      "CameraFieldOfView": 0.0,
+      "PlayerSpeed": 0.0,
+      "PlayerAcceleration": 0.0,
+      "CameraRotationX": 0.0,
+      "CameraRotationY": 0.0,
+      "CameraRotationZ": 0.0,
+      "PlayerPositionX": 0.0,
+      "PlayerPositionY": 0.0,
+      "PlayerPositionZ": 0.0,
+      "GameFps": 0.0,
+      "DiscomfortLevel": 0.0
+    },
+    "dataset_csv_has_session_id": false,
+    "dataset_csv_label_counts": {
+      "0": 5243,
+      "1": 2656,
+      "2": 670,
+      "3": 821
+    }
+  },
+  "selected_to_raw": [
+    {
+      "selected_id": 1,
+      "session_id": "DATA_EXPORT_Flight_2019_12_9_20_58_55",
+      "n_rows": 104,
+      "sha256": "dde465266fb5daa48d2f7a28c5fb23b580e0ff9a582c4b3d3b675c25a37780e6"
+    },
+    {
+      "selected_id": 2,
+      "session_id": "DATA_EXPORT_Flight_2019_12_9_21_2_27",
+      "n_rows": 302,
+      "sha256": "dc31349e35ba9dfb861eccdb8315856334d3aa92b35c73259164e2b9dabf4dc8"
+    },
+    {
+      "selected_id": 3,
+      "session_id": "DATA_EXPORT_Flight_2019_12_9_21_15_13",
+      "n_rows": 303,
+      "sha256": "2257daabea28a60d953bd4ebec3acfed976ea034b78264499a1bbed009311f48"
+    },
+    {
+      "selected_id": 4,
+      "session_id": "DATA_EXPORT_Flight_2019_12_9_21_23_15",
+      "n_rows": 302,
+      "sha256": "150b4e60c357aded3ebe4bf26ddfe4352afc0b2e6d7710a0b1c95312ac507882"
+    },
+    {
+      "selected_id": 5,
+      "session_id": "DATA_EXPORT_Flight_2019_12_10_19_29_29",
+      "n_rows": 103,
+      "sha256": "f6fd80b1bcb110da63d60aa03fe3c3fba5312fa0da66efd1f04b25836c9608ed"
+    },
+    {
+      "selected_id": 6,
+      "session_id": "DATA_EXPORT_Flight_2019_12_10_19_33_16",
+      "n_rows": 302,
+      "sha256": "1d48765734a53ec9e1450b02f63e96a92745b6688b6b28bdeb70940b2edc3226"
+    },
+    {
+      "selected_id": 7,
+      "session_id": "DATA_EXPORT_Flight_2019_12_10_19_40_59",
+      "n_rows": 302,
+      "sha256": "23e210e829dd189c00a28e83e7832f96c4b5569f42d795941e085b8f12bed0c3"
+    },
+    {
+      "selected_id": 8,
+      "session_id": "DATA_EXPORT_Flight_2019_12_10_19_49_49",
+      "n_rows": 302,
+      "sha256": "08976e820ba2f6d68d6ebab4e3bec97db14672d98e8d7da23fa0903fa6c563d0"
+    },
+    {
+      "selected_id": 9,
+      "session_id": "DATA_EXPORT_Flight_2019_12_10_19_57_40",
+      "n_rows": 303,
+      "sha256": "cfa65b12b00377f844f289d5f344fccdff7340c6dc05bbf8ec9b83a736aa2c2c"
+    },
+    {
+      "selected_id": 10,
+      "session_id": "DATA_EXPORT_Flight_2019_12_10_20_5_3",
+      "n_rows": 302,
+      "sha256": "1b93a7954a91a38097a60d3cb067717203cfa2904305af2e68747277adae1ba2"
+    },
+    {
+      "selected_id": 11,
+      "session_id": "DATA_EXPORT_Flight_2019_12_10_20_11_27",
+      "n_rows": 302,
+      "sha256": "2f19373519583a590ebcb62dfce2cfc560523d61014cbe001ce9fa8bf2071f26"
+    },
+    {
+      "selected_id": 12,
+      "session_id": "DATA_EXPORT_Flight_2019_12_10_20_17_57",
+      "n_rows": 302,
+      "sha256": "d32eadde1f06bbc7e77629e76b0b3dad0a8349e5841b1faca09e26bc0b7eba7a"
+    },
+    {
+      "selected_id": 13,
+      "session_id": "DATA_EXPORT_Flight_2019_12_10_20_26_7",
+      "n_rows": 53,
+      "sha256": "af56a4f3826c648b993ccad57bed4be15381349195a5a2bff0497dfc00099c68"
+    },
+    {
+      "selected_id": 14,
+      "session_id": "DATA_EXPORT_Flight_2019_12_10_20_28_12",
+      "n_rows": 302,
+      "sha256": "49359938b0588d94ec8428480ce35df32f31ca15cc6fab88d197e2d0374f323b"
+    },
+    {
+      "selected_id": 15,
+      "session_id": "DATA_EXPORT_Flight_2019_12_10_20_34_59",
+      "n_rows": 302,
+      "sha256": "87e586c22ce8a055ce250109a2994ccf4d6cd5edd2c74859386793e3ae7be813"
+    },
+    {
+      "selected_id": 16,
+      "session_id": "DATA_EXPORT_Flight_2019_12_10_20_41_47",
+      "n_rows": 303,
+      "sha256": "ff4e3c68534a8effe8f2dc5e1ce5471d8e49d0b34e0809f1f3fe2b667590f882"
+    },
+    {
+      "selected_id": 17,
+      "session_id": "DATA_EXPORT_Flight_2019_12_10_20_49_2",
+      "n_rows": 302,
+      "sha256": "96d34d3e778643abaa9a010109decf929c34b1156cfe6c87dd2b989539ab3aa9"
+    },
+    {
+      "selected_id": 18,
+      "session_id": "DATA_EXPORT_Flight_2019_12_10_21_1_27",
+      "n_rows": 302,
+      "sha256": "9b6f6e47c1f216221c9a923affed3a6db98f463dff4b00858405ca454ad85ced"
+    },
+    {
+      "selected_id": 19,
+      "session_id": "DATA_EXPORT_Flight_2019_12_10_21_7_47",
+      "n_rows": 302,
+      "sha256": "667023e7f40ef99e003f5c24a4be2a4bfdc0a45a6ad88c684d51dea4c261e6fe"
+    },
+    {
+      "selected_id": 20,
+      "session_id": "DATA_EXPORT_Flight_2019_12_10_21_15_1",
+      "n_rows": 302,
+      "sha256": "024faee1071fd380cdd23b8715538cf4d374d92e899cabfd100158e4c6780c4d"
+    },
+    {
+      "selected_id": 21,
+      "session_id": "DATA_EXPORT_Race_2019_12_6_16_27_18",
+      "n_rows": 302,
+      "sha256": "c6cad3c35a559c68fb3e0378ddd232373b2681b3bdb6c2dab27e9cf02525b42a"
+    },
+    {
+      "selected_id": 22,
+      "session_id": "DATA_EXPORT_Race_2019_12_6_16_36_23",
+      "n_rows": 106,
+      "sha256": "c8429277d93d67731b8bfefb976b7553ef75f39a644634f398a3906fce59886d"
+    },
+    {
+      "selected_id": 23,
+      "session_id": "DATA_EXPORT_Race_2019_12_6_16_39_4",
+      "n_rows": 302,
+      "sha256": "24b8af6bcd1d4cbe72b725693d0294f430de967d887ad0a0791d1ec5bca7da01"
+    },
+    {
+      "selected_id": 24,
+      "session_id": "DATA_EXPORT_Race_2019_12_6_16_46_41",
+      "n_rows": 302,
+      "sha256": "6bc2b3d64d48fe0a636dbff907771ba9f769425f427e963b8a025e78c56dc1a5"
+    },
+    {
+      "selected_id": 25,
+      "session_id": "DATA_EXPORT_Race_2019_12_6_16_54_46",
+      "n_rows": 302,
+      "sha256": "ff635f3a57251f1c9550e682510de0fca2dc609ff3f8882e6368dc3f77628e65"
+    },
+    {
+      "selected_id": 26,
+      "session_id": "DATA_EXPORT_Race_2019_12_6_17_2_16",
+      "n_rows": 303,
+      "sha256": "7b28b29d3752f13577ca1026fa1ca5bbdf34dd41b823b1a93be655370f51c22f"
+    },
+    {
+      "selected_id": 27,
+      "session_id": "DATA_EXPORT_Race_2019_12_6_17_9_18",
+      "n_rows": 302,
+      "sha256": "350c716e669b033a9973ee1d7e5c177747ec4908fee2f3ef525cf2f97736ffec"
+    },
+    {
+      "selected_id": 28,
+      "session_id": "DATA_EXPORT_Race_2019_12_6_17_16_33",
+      "n_rows": 25,
+      "sha256": "fc9c109b057b18f016a75f0a2de75995cb3b6dda55d07805361ef47dad756aac"
+    },
+    {
+      "selected_id": 29,
+      "session_id": "DATA_EXPORT_Race_2019_12_6_17_18_3",
+      "n_rows": 302,
+      "sha256": "b7e35dd3bc3ae84631329353b21f74c59a7fb0c699dc31670696df7532887e2f"
+    },
+    {
+      "selected_id": 30,
+      "session_id": "DATA_EXPORT_Race_2019_12_6_17_26_16",
+      "n_rows": 288,
+      "sha256": "c6098745d2222344af77eab1ff9240475c1b29dfe473adc73d9e11e1df8f4225"
+    },
+    {
+      "selected_id": 31,
+      "session_id": "DATA_EXPORT_Race_2019_12_6_17_34_3",
+      "n_rows": 251,
+      "sha256": "09fffbaf190eed787c915ec78754f5e5bf4071590c29f5f6bcddf8011fd9e19d"
+    },
+    {
+      "selected_id": 32,
+      "session_id": "DATA_EXPORT_Race_2019_12_6_17_41_6",
+      "n_rows": 302,
+      "sha256": "26160a38b5bba99e82729f874ac37b1c8315c9b738739cdf0a51cda885aac49e"
+    },
+    {
+      "selected_id": 33,
+      "session_id": "DATA_EXPORT_Race_2019_12_6_17_50_7",
+      "n_rows": 302,
+      "sha256": "b07126fc90e7d871f3e8abf1e95d6578daa5b4ec9db74b0de58416210be396d4"
+    },
+    {
+      "selected_id": 34,
+      "session_id": "DATA_EXPORT_Race_2019_12_6_17_56_36",
+      "n_rows": 302,
+      "sha256": "ca2510b466b958817fdfd304f8bfc93a67756a7361247a9adb4cce72b2677356"
+    },
+    {
+      "selected_id": 35,
+      "session_id": "DATA_EXPORT_Race_2019_12_6_18_3_49",
+      "n_rows": 302,
+      "sha256": "68cc1782200268106bfa2be0ca345ec5554c57f4dc163f32a1da9fc1c65ab5c5"
+    }
+  ]
+}

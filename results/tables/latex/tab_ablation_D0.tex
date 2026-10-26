@@ -1,0 +1,16 @@
+\begin{tabular}{lccccc}
+\toprule
+Variant & Recall & Spec. & Cost$_{5:1}$ & ROC-AUC & PR-AUC \\
+\midrule
+Full E-DDQN (selected) & 77.2 & 28.0 & 0.905$\pm$0.092 & 0.538 & 0.483 \\
+\midrule
+full-information replay toggled & 79.2 & 27.5 & 0.864$\pm$0.086 & 0.563 & 0.500 \\
+symmetric $\pm$1 reward instead of asymmetric & 79.8 & 32.0 & 0.825$\pm$0.067 & 0.572 & 0.517 \\
+uniform instead of class-balanced replay & 76.6 & 33.1 & 0.890$\pm$0.049 & 0.554 & 0.486 \\
+no double estimator (max-operator target) & 76.9 & 29.8 & 0.903$\pm$0.046 & 0.543 & 0.491 \\
+no dueling head & 77.3 & 30.5 & 0.890$\pm$0.080 & 0.559 & 0.494 \\
+hard target copy every 10 updates & 82.9 & 23.5 & 0.804$\pm$0.050 & 0.529 & 0.472 \\
+no warm-up & 77.7 & 27.7 & 0.896$\pm$0.112 & 0.547 & 0.497 \\
+$\gamma=0$ (contextual bandit) & 80.6 & 29.2 & 0.825$\pm$0.064 & 0.576 & 0.510 \\
+\bottomrule
+\end{tabular}

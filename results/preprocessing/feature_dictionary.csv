@@ -1,0 +1,51 @@
+feature,definition,causal,in_exposure_set
+is_flight,"1 if Flight game, 0 if Race (from the session folder name)",True,True
+elapsed_s,seconds since session start (TimeStamp),True,True
+speed,PlayerSpeed at t,True,False
+accel,PlayerAcceleration at t,True,False
+abs_accel,|PlayerAcceleration| at t,True,False
+rot_x,CameraRotationX (quaternion x) at t,True,False
+rot_y,CameraRotationY (quaternion y) at t,True,False
+rot_z,CameraRotationZ (quaternion z) at t,True,False
+rot_rate,||q_t - q_{t-1}|| (camera orientation change per sample; 0 at t=0),True,False
+fps,GameFps at t; start-up artefact GameFps=0 at t<1 s imputed with the TRAINING median,True,False
+roi_background,RegionOfInterest == background,True,False
+roi_middleground,RegionOfInterest == middleground,True,False
+roi_foreground,RegionOfInterest == foreground,True,False
+speed_mean_5,mean speed over the trailing 5 samples (t-4..t),True,False
+speed_std_5,std of speed over the trailing 5 samples,True,False
+speed_delta_5,speed_t - speed_(t-4) (first sample if t<4),True,False
+absacc_mean_5,mean |acceleration| over the trailing 5 samples,True,False
+absacc_max_5,max |acceleration| over the trailing 5 samples,True,False
+acc_spike_rate_5,fraction of the trailing 5 samples with |acc| > tau_acc (tau_acc = 90th pct of |acc| on TRAINING rows),True,False
+rotrate_mean_5,mean rot_rate over the trailing 5 samples (motion-instability index),True,False
+rotrate_std_5,std of rot_rate over the trailing 5 samples,True,False
+fps_mean_5,mean fps over the trailing 5 samples,True,False
+fps_min_5,min fps over the trailing 5 samples,True,False
+fps_drop_frac_5,fraction of the trailing 5 samples with fps < 80 (fixed threshold),True,False
+speed_mean_15,mean speed over the trailing 15 samples (t-14..t),True,True
+speed_std_15,std of speed over the trailing 15 samples,True,False
+speed_delta_15,speed_t - speed_(t-14) (first sample if t<14),True,False
+absacc_mean_15,mean |acceleration| over the trailing 15 samples,True,True
+absacc_max_15,max |acceleration| over the trailing 15 samples,True,False
+acc_spike_rate_15,fraction of the trailing 15 samples with |acc| > tau_acc (tau_acc = 90th pct of |acc| on TRAINING rows),True,False
+rotrate_mean_15,mean rot_rate over the trailing 15 samples (motion-instability index),True,True
+rotrate_std_15,std of rot_rate over the trailing 15 samples,True,False
+fps_mean_15,mean fps over the trailing 15 samples,True,False
+fps_min_15,min fps over the trailing 15 samples,True,False
+fps_drop_frac_15,fraction of the trailing 15 samples with fps < 80 (fixed threshold),True,False
+cum_rot,sum of rot_rate over 0..t,True,True
+cum_acc_spikes,number of acceleration spikes over 0..t,True,True
+cum_fps_drops,number of samples with fps < 80 over 0..t,True,False
+speed_mean_sofar,mean speed over 0..t,True,True
+prof_UserGenere_feminino,pre-session questionnaire (CSPQ) indicator: UserGenere_feminino,True,False
+prof_UserAge_37 A 50,pre-session questionnaire (CSPQ) indicator: UserAge_37 A 50,True,False
+prof_UserAge_+50,pre-session questionnaire (CSPQ) indicator: UserAge_+50,True,False
+prof_UserExperience_ALGUMA,pre-session questionnaire (CSPQ) indicator: UserExperience_ALGUMA,True,False
+prof_UserExperience_MUITA,pre-session questionnaire (CSPQ) indicator: UserExperience_MUITA,True,False
+prof_UserGlassesUse_SIM,pre-session questionnaire (CSPQ) indicator: UserGlassesUse_SIM,True,False
+prof_UserEyeDominance_ESQUERDO,pre-session questionnaire (CSPQ) indicator: UserEyeDominance_ESQUERDO,True,False
+prof_UserFlicker_ALGUM,pre-session questionnaire (CSPQ) indicator: UserFlicker_ALGUM,True,False
+prof_vision_MIOPIA,pre-session questionnaire (CSPQ) indicator: vision_MIOPIA,True,False
+prof_vision_ASTIGMATISMO,pre-session questionnaire (CSPQ) indicator: vision_ASTIGMATISMO,True,False
+prof_vision_HIPERMETROPIA,pre-session questionnaire (CSPQ) indicator: vision_HIPERMETROPIA,True,False

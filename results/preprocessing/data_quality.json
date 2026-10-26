@@ -1,0 +1,213 @@
+{
+  "evaluation": {
+    "rows": 9390,
+    "missing_values": {},
+    "fps_zero_first_sample": 8,
+    "fps_zero_elsewhere": 0,
+    "fps_below_80_after_start": 54,
+    "sampling_interval_s": {
+      "mean": 1.0000059189631214,
+      "min": 0.6838388,
+      "max": 1.3125462,
+      "non_increasing": 0
+    },
+    "duplicate_telemetry_rows_within_session": 0,
+    "duplicate_telemetry_rows_across_sessions": 0,
+    "grades_present": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sessions_with_1_to_0_label_transitions": 7,
+    "label_switches_per_session_mean": 1.1142857142857143,
+    "sessions_never_positive": 9,
+    "onset_time_s": {
+      "median": 81.50428,
+      "min": 4.01616,
+      "max": 294.0073
+    },
+    "per_game_values_of_removed_constant_columns": {
+      "CameraFieldOfView": {
+        "Flight": [
+          "111.7553"
+        ],
+        "Race": [
+          "96.01604"
+        ]
+      },
+      "StaticFrame": {
+        "Flight": [
+          "False"
+        ],
+        "Race": [
+          "True"
+        ]
+      },
+      "CameraAutoMovement": {
+        "Flight": [
+          "True"
+        ],
+        "Race": [
+          "False"
+        ]
+      },
+      "HapticFeedback": {
+        "Flight": [
+          "False"
+        ],
+        "Race": [
+          "False"
+        ]
+      },
+      "DegreeOfControl": {
+        "Flight": [
+          "total"
+        ],
+        "Race": [
+          "TOTAL"
+        ]
+      },
+      "DofSimulation": {
+        "Flight": [
+          "False"
+        ],
+        "Race": [
+          "False"
+        ]
+      },
+      "Locomotion": {
+        "Flight": [
+          "False"
+        ],
+        "Race": [
+          "False"
+        ]
+      },
+      "UserPosture": {
+        "Flight": [
+          "SENTADO"
+        ],
+        "Race": [
+          "SENTADO"
+        ]
+      },
+      "UserSymptoms": {
+        "Flight": [
+          "NENHUM"
+        ],
+        "Race": [
+          "NENHUM"
+        ]
+      }
+    }
+  },
+  "development": {
+    "rows": 8512,
+    "missing_values": {
+      "PlayerPositionX": 8512,
+      "PlayerPositionY": 8512,
+      "PlayerPositionZ": 8512
+    },
+    "fps_zero_first_sample": 7,
+    "fps_zero_elsewhere": 0,
+    "fps_below_80_after_start": 3310,
+    "sampling_interval_s": {
+      "mean": 1.0000224474713864,
+      "min": 0.9535000000000053,
+      "max": 1.0437999999999903,
+      "non_increasing": 0
+    },
+    "duplicate_telemetry_rows_within_session": 0,
+    "duplicate_telemetry_rows_across_sessions": 0,
+    "grades_present": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sessions_with_1_to_0_label_transitions": 15,
+    "label_switches_per_session_mean": 1.6486486486486487,
+    "sessions_never_positive": 10,
+    "onset_time_s": {
+      "median": 38.00189,
+      "min": 2.000936,
+      "max": 216.001
+    },
+    "per_game_values_of_removed_constant_columns": {
+      "CameraFieldOfView": {
+        "Flight": [
+          "60.0",
+          "95.63988"
+        ],
+        "Race": [
+          "95.63988"
+        ]
+      },
+      "StaticFrame": {
+        "Flight": [
+          "False"
+        ],
+        "Race": [
+          "True"
+        ]
+      },
+      "CameraAutoMovement": {
+        "Flight": [
+          "True"
+        ],
+        "Race": [
+          "False"
+        ]
+      },
+      "HapticFeedback": {
+        "Flight": [
+          "False"
+        ],
+        "Race": [
+          "False"
+        ]
+      },
+      "DegreeOfControl": {
+        "Flight": [
+          "total"
+        ],
+        "Race": [
+          "TOTAL"
+        ]
+      },
+      "DofSimulation": {
+        "Flight": [
+          "False"
+        ],
+        "Race": [
+          "False"
+        ]
+      },
+      "Locomotion": {
+        "Flight": [
+          "False"
+        ],
+        "Race": [
+          "False"
+        ]
+      },
+      "UserPosture": {
+        "Flight": [
+          "DE P\u00c9"
+        ],
+        "Race": [
+          "DE P\u00c9"
+        ]
+      },
+      "UserSymptoms": {
+        "Flight": [
+          "NENHUM"
+        ],
+        "Race": [
+          "NENHUM"
+        ]
+      }
+    }
+  }
+}

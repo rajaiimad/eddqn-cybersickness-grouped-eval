@@ -1,0 +1,42 @@
+\begin{longtable}{llcp{0.55\textwidth}}
+\toprule
+Model & Outer & OOF cost & Selected configuration \\
+\midrule
+\endhead
+E-DDQN & 0 & 0.424 & \footnotesize feature\_set=exposure+profile, hidden=[128, 128], gamma=0.99, full\_info=True, rho=0.4, tau=0.05, norm=layer, dropout=0.2, lr=0.003, weight\_decay=0.0, batch\_size=256, eps\_decay=0.97, warmup=0, updates\_per\_learn=4 \\
+E-DDQN & 1 & 0.452 & \footnotesize feature\_set=exposure+profile, hidden=[128, 128], gamma=0.99, full\_info=True, rho=0.4, tau=0.05, norm=layer, dropout=0.2, lr=0.003, weight\_decay=0.0, batch\_size=256, eps\_decay=0.97, warmup=0, updates\_per\_learn=4 \\
+E-DDQN & 2 & 0.484 & \footnotesize feature\_set=exposure+profile, hidden=[128, 128], gamma=0.99, full\_info=True, rho=0.4, tau=0.05, norm=layer, dropout=0.2, lr=0.003, weight\_decay=0.0, batch\_size=256, eps\_decay=0.97, warmup=0, updates\_per\_learn=4 \\
+E-DDQN & 3 & 0.490 & \footnotesize feature\_set=exposure+profile, hidden=[128, 128], gamma=0.99, full\_info=False, rho=0.4, tau=0.005, norm=layer, dropout=0.3, lr=0.0003, weight\_decay=0.0001, batch\_size=512, eps\_decay=0.9, warmup=0, updates\_per\_learn=1 \\
+E-DDQN & 4 & 0.483 & \footnotesize feature\_set=exposure+profile, hidden=[256, 512, 256], gamma=0.9, full\_info=False, rho=0.5, tau=0.05, norm=layer, dropout=0.3, lr=0.0003, weight\_decay=0.001, batch\_size=512, eps\_decay=0.95, warmup=4000, updates\_per\_learn=2 \\
+E-CB & 0 & 0.472 & \footnotesize feature\_set=exposure, hidden=[256, 512, 256], gamma=0.0, full\_info=True, rho=0.5, norm=layer, dropout=0.3, lr=0.003, weight\_decay=0.001, batch\_size=512, eps\_decay=0.97, warmup=4000, updates\_per\_learn=4 \\
+E-CB & 1 & 0.459 & \footnotesize feature\_set=exposure, hidden=[256, 512, 256], gamma=0.0, full\_info=True, rho=0.5, norm=layer, dropout=0.3, lr=0.003, weight\_decay=0.001, batch\_size=512, eps\_decay=0.97, warmup=4000, updates\_per\_learn=4 \\
+E-CB & 2 & 0.518 & \footnotesize feature\_set=exposure, hidden=[256, 512, 256], gamma=0.0, full\_info=True, rho=0.5, norm=layer, dropout=0.3, lr=0.003, weight\_decay=0.001, batch\_size=512, eps\_decay=0.97, warmup=4000, updates\_per\_learn=4 \\
+E-CB & 3 & 0.523 & \footnotesize feature\_set=exposure, hidden=[128, 128], gamma=0.0, full\_info=False, rho=0.6, norm=layer, dropout=0.2, lr=0.001, weight\_decay=0.001, batch\_size=256, eps\_decay=0.97, warmup=0, updates\_per\_learn=2 \\
+E-CB & 4 & 0.466 & \footnotesize feature\_set=exposure+profile, hidden=[64, 64], gamma=0.0, full\_info=True, rho=0.5, norm=layer, dropout=0.2, lr=0.003, weight\_decay=0.001, batch\_size=256, eps\_decay=0.95, warmup=0, updates\_per\_learn=1 \\
+DQN & 0 & 0.432 & \footnotesize feature\_set=exposure, hidden=[64, 64], gamma=0.0, full\_info=False, hard\_every=10, norm=layer, dropout=0.0, lr=0.001, weight\_decay=0.0001, batch\_size=256, eps\_decay=0.95, warmup=0, updates\_per\_learn=2 \\
+DQN & 1 & 0.452 & \footnotesize feature\_set=exposure+profile, hidden=[256, 512, 256], gamma=0.9, full\_info=False, hard\_every=500, norm=layer, dropout=0.0, lr=0.001, weight\_decay=0.001, batch\_size=512, eps\_decay=0.9, warmup=0, updates\_per\_learn=4 \\
+DQN & 2 & 0.538 & \footnotesize feature\_set=exposure, hidden=[128, 128], gamma=0.9, full\_info=False, hard\_every=500, norm=batch, dropout=0.3, lr=0.0003, weight\_decay=0.0, batch\_size=256, eps\_decay=0.95, warmup=0, updates\_per\_learn=2 \\
+DQN & 3 & 0.501 & \footnotesize feature\_set=exposure, hidden=[128, 128], gamma=0.9, full\_info=False, hard\_every=100, norm=layer, dropout=0.2, lr=0.001, weight\_decay=0.0, batch\_size=512, eps\_decay=0.97, warmup=0, updates\_per\_learn=2 \\
+DQN & 4 & 0.469 & \footnotesize feature\_set=exposure+profile, hidden=[256, 512, 256], gamma=0.0, full\_info=False, hard\_every=100, norm=batch, dropout=0.1, lr=0.003, weight\_decay=0.0, batch\_size=512, eps\_decay=0.97, warmup=4000, updates\_per\_learn=1 \\
+CS-MLP & 0 & 0.485 & \footnotesize feature\_set=exposure+profile, hidden=[128, 128], norm=layer, dropout=0.3, lr=0.001, weight\_decay=0.0, batch\_size=256, sampling=balanced \\
+CS-MLP & 1 & 0.490 & \footnotesize feature\_set=exposure+profile, hidden=[128, 128], norm=layer, dropout=0.3, lr=0.001, weight\_decay=0.0, batch\_size=256, sampling=balanced \\
+CS-MLP & 2 & 0.503 & \footnotesize feature\_set=exposure, hidden=[64, 64], norm=layer, dropout=0.3, lr=0.0003, weight\_decay=0.0, batch\_size=256, sampling=uniform \\
+CS-MLP & 3 & 0.527 & \footnotesize feature\_set=telemetry, hidden=[64, 64], norm=layer, dropout=0.0, lr=0.003, weight\_decay=0.0001, batch\_size=256, sampling=balanced \\
+CS-MLP & 4 & 0.500 & \footnotesize feature\_set=telemetry, hidden=[64, 64], norm=layer, dropout=0.3, lr=0.0003, weight\_decay=0.001, batch\_size=512, sampling=uniform \\
+LogReg & 0 & 0.486 & \footnotesize feature\_set=exposure, C=0.0001 \\
+LogReg & 1 & 0.522 & \footnotesize feature\_set=telemetry+profile, C=1.0 \\
+LogReg & 2 & 0.540 & \footnotesize feature\_set=exposure, C=10.0 \\
+LogReg & 3 & 0.511 & \footnotesize feature\_set=exposure, C=0.0001 \\
+LogReg & 4 & 0.531 & \footnotesize feature\_set=exposure+profile, C=0.01 \\
+HGB & 0 & 0.486 & \footnotesize feature\_set=exposure, learning\_rate=0.02, max\_iter=50, max\_leaf\_nodes=4, min\_samples\_leaf=20, l2\_regularization=1.0 \\
+HGB & 1 & 0.501 & \footnotesize feature\_set=exposure, learning\_rate=0.02, max\_iter=50, max\_leaf\_nodes=4, min\_samples\_leaf=20, l2\_regularization=1.0 \\
+HGB & 2 & 0.542 & \footnotesize feature\_set=exposure, learning\_rate=0.02, max\_iter=400, max\_leaf\_nodes=4, min\_samples\_leaf=20, l2\_regularization=0.0 \\
+HGB & 3 & 0.532 & \footnotesize feature\_set=telemetry, learning\_rate=0.05, max\_iter=200, max\_leaf\_nodes=31, min\_samples\_leaf=100, l2\_regularization=0.0 \\
+HGB & 4 & 0.527 & \footnotesize feature\_set=exposure, learning\_rate=0.02, max\_iter=400, max\_leaf\_nodes=4, min\_samples\_leaf=20, l2\_regularization=0.0 \\
+RF & 0 & 0.465 & \footnotesize feature\_set=telemetry, min\_samples\_leaf=100, max\_depth=3, max\_features=0.5 \\
+RF & 1 & 0.478 & \footnotesize feature\_set=exposure, min\_samples\_leaf=25, max\_depth=8, max\_features=sqrt \\
+RF & 2 & 0.509 & \footnotesize feature\_set=exposure, min\_samples\_leaf=5, max\_depth=5, max\_features=sqrt \\
+RF & 3 & 0.514 & \footnotesize feature\_set=exposure, min\_samples\_leaf=5, max\_depth=5, max\_features=sqrt \\
+RF & 4 & 0.510 & \footnotesize feature\_set=telemetry+profile, min\_samples\_leaf=25, max\_depth=3, max\_features=sqrt \\
+\bottomrule
+\end{longtable}

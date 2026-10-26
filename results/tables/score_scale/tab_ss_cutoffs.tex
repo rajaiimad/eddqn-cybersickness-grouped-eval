@@ -1,0 +1,29 @@
+\begin{tabular}{llccccc}
+\toprule
+Model & Training class mix (selected) & Fold & $\rho$ & $\pi$ & $k$ & Cut-off on $P(y=1\mid s)$: mean (range) \\
+\midrule
+E-DDQN & class-balanced replay & 0 & 0.400 & 0.457 & 1.786 & 0.101 (0.096--0.104) \\
+E-DDQN & class-balanced replay & 1 & 0.400 & 0.439 & 1.922 & 0.095 (0.084--0.101) \\
+E-DDQN & class-balanced replay & 2 & 0.400 & 0.437 & 1.951 & 0.094 (0.085--0.110) \\
+E-DDQN & class-balanced replay & 3 & 0.400 & 0.446 & 1.869 & 0.097 (0.091--0.105) \\
+E-DDQN & class-balanced replay & 4 & 0.500 & 0.436 & 1.305 & 0.135 (0.120--0.157) \\
+\midrule
+E-CB & class-balanced replay & 0 & 0.500 & 0.457 & 1.191 & 0.144 (0.137--0.149) \\
+E-CB & class-balanced replay & 1 & 0.500 & 0.439 & 1.282 & 0.136 (0.121--0.144) \\
+E-CB & class-balanced replay & 2 & 0.500 & 0.437 & 1.301 & 0.135 (0.123--0.156) \\
+E-CB & class-balanced replay & 3 & 0.600 & 0.446 & 0.831 & 0.195 (0.184--0.208) \\
+E-CB & class-balanced replay & 4 & 0.500 & 0.436 & 1.305 & 0.135 (0.120--0.157) \\
+\midrule
+CS-MLP & class-balanced minibatches (50/50), class weight 5 & 0 & -- & 0.457 & 1.191 & 0.144 (0.137--0.149) \\
+CS-MLP & class-balanced minibatches (50/50), class weight 5 & 1 & -- & 0.439 & 1.282 & 0.136 (0.121--0.144) \\
+CS-MLP & natural class mix, class weight 5 & 2 & -- & 0.437 & -- & 0.167 \\
+CS-MLP & class-balanced minibatches (50/50), class weight 5 & 3 & -- & 0.446 & 1.246 & 0.139 (0.131--0.149) \\
+CS-MLP & natural class mix, class weight 5 & 4 & -- & 0.436 & -- & 0.167 \\
+\midrule
+DQN & $\pm1$ reward, Huber loss ($\gamma=0.0$) & 0 & -- & 0.457 & -- & 0.250 \\
+DQN & $\pm1$ reward, Huber loss ($\gamma=0.9$) & 1 & -- & 0.439 & -- & -- \\
+DQN & $\pm1$ reward, Huber loss ($\gamma=0.9$) & 2 & -- & 0.437 & -- & -- \\
+DQN & $\pm1$ reward, Huber loss ($\gamma=0.9$) & 3 & -- & 0.446 & -- & -- \\
+DQN & $\pm1$ reward, Huber loss ($\gamma=0.0$) & 4 & -- & 0.436 & -- & 0.250 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,6 @@
+outer_fold,dev_sessions,test_sessions,dev_groups,test_groups,session_overlap,group_overlap,identical_profile_overlap,test_feature_rows_identical_to_a_train_row,test_samples,test_positives,dev_samples,dev_positives
+0,26,9,17,4,0,0,0,0,2378,942,7012,3205
+1,30,5,18,3,0,0,0,0,1510,691,7880,3456
+2,26,9,16,5,0,0,0,0,2273,1058,7117,3089
+3,29,6,17,4,0,0,0,0,1615,686,7775,3461
+4,29,6,16,5,0,0,0,0,1614,770,7776,3377

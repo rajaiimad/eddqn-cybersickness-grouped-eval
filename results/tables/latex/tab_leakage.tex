@@ -1,0 +1,11 @@
+\begin{tabular}{llccccc}
+\toprule
+Model & Evaluation protocol & Acc. & Recall & Spec. & MCC & ROC-AUC \\
+\midrule
+HGB & Oversample to 5,243/grade, then 70/15/15 row split (submitted protocol) & 97.6 & 99.8 & 91.0 & 0.935 & 0.995 \\
+HGB & Row-level random split, no oversampling & 95.3 & 94.1 & 96.3 & 0.905 & 0.992 \\
+HGB & Grouped 5-fold split (session-linkage groups) & 52.2 & 33.6 & 66.9 & 0.005 & 0.523 \\
+E-DDQN (submitted code) & Submitted script, submitted protocol (proxy) & 95.2 & 99.2 & 83.1 & 0.870 & -- \\
+E-DDQN (submitted code) & Submitted script, grouped split (proxy) & 41.1 & 92.1 & 7.7 & $-$0.004 & -- \\
+\bottomrule
+\end{tabular}

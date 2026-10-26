@@ -1,0 +1,16 @@
+\begin{tabular}{lcllc}
+\toprule
+Model & Outer fold & Feature set & Selected hyper-parameters & Inner-OOF cost \\
+\midrule
+Time-LR & 0 & time & C = 0.001 & 0.471 \\
+Time-LR & 1 & time & C = 1 & 0.528 \\
+Time-LR & 2 & time & C = 0.1 & 0.549 \\
+Time-LR & 3 & time & C = 0.01 & 0.497 \\
+Time-LR & 4 & time & C = 0.1 & 0.550 \\
+Time+game HGB & 0 & time+game & lr 0.02, iter 200, leaves 8, min leaf 300, $\ell_2$ 1 & 0.480 \\
+Time+game HGB & 1 & time+game & lr 0.02, iter 200, leaves 8, min leaf 300, $\ell_2$ 0 & 0.501 \\
+Time+game HGB & 2 & time+game & lr 0.02, iter 100, leaves 4, min leaf 300, $\ell_2$ 10 & 0.524 \\
+Time+game HGB & 3 & time+game & lr 0.02, iter 200, leaves 4, min leaf 300, $\ell_2$ 1 & 0.522 \\
+Time+game HGB & 4 & time+game & lr 0.02, iter 200, leaves 8, min leaf 300, $\ell_2$ 0 & 0.506 \\
+\bottomrule
+\end{tabular}

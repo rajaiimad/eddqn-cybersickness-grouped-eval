@@ -1,0 +1,210 @@
+\begin{longtable}{llrlrrrrrr}
+\toprule
+Model & Scenario & Value & Window & Rec. clean & Rec. att. & FPR clean & FPR att. & Cost clean & Cost att. \\
+\midrule
+\endhead
+CS-MLP & accel spikes & 10 & whole & 99.4 & 99.6 & 93.9 & 95.5 & 0.537 & 0.542 \\
+CS-MLP & accel spikes & 10 & window60 & 99.3 & 99.7 & 90.5 & 92.4 & 0.532 & 0.536 \\
+CS-MLP & accel spikes & 20 & whole & 99.4 & 99.8 & 93.9 & 98.3 & 0.537 & 0.553 \\
+CS-MLP & accel spikes & 20 & window60 & 100.0 & 100.0 & 89.2 & 97.9 & 0.545 & 0.599 \\
+CS-MLP & accel spikes & 40 & whole & 99.4 & 99.9 & 93.9 & 99.1 & 0.537 & 0.556 \\
+CS-MLP & accel spikes & 40 & window60 & 100.0 & 100.0 & 97.0 & 99.6 & 0.496 & 0.510 \\
+CS-MLP & fps cap & 45 & whole & 99.4 & 100.0 & 93.9 & 98.3 & 0.537 & 0.549 \\
+CS-MLP & fps cap & 45 & window60 & 99.5 & 100.0 & 95.4 & 98.8 & 0.509 & 0.514 \\
+CS-MLP & fps cap & 60 & whole & 99.4 & 100.0 & 93.9 & 98.3 & 0.537 & 0.549 \\
+CS-MLP & fps cap & 60 & window60 & 98.6 & 100.0 & 95.4 & 99.0 & 0.649 & 0.649 \\
+CS-MLP & fps cap & 72 & whole & 99.4 & 100.0 & 93.9 & 98.3 & 0.537 & 0.549 \\
+CS-MLP & fps cap & 72 & window60 & 99.5 & 100.0 & 96.6 & 98.8 & 0.511 & 0.510 \\
+CS-MLP & fps restore & 90 & whole & 99.4 & 99.7 & 93.9 & 93.7 & 0.537 & 0.530 \\
+CS-MLP & rot jitter & 0.02 & whole & 99.4 & 99.1 & 93.9 & 92.0 & 0.537 & 0.534 \\
+CS-MLP & rot jitter & 0.02 & window60 & 99.9 & 99.7 & 96.7 & 94.6 & 0.517 & 0.511 \\
+CS-MLP & rot jitter & 0.05 & whole & 99.4 & 98.8 & 93.9 & 91.4 & 0.537 & 0.536 \\
+CS-MLP & rot jitter & 0.05 & window60 & 98.3 & 96.4 & 94.4 & 91.2 & 0.656 & 0.667 \\
+CS-MLP & rot jitter & 0.1 & whole & 99.4 & 99.7 & 93.9 & 96.5 & 0.537 & 0.545 \\
+CS-MLP & rot jitter & 0.1 & window60 & 100.0 & 99.8 & 94.3 & 96.2 & 0.560 & 0.576 \\
+CS-MLP & rot smooth & 0.25 & whole & 99.4 & 99.5 & 93.9 & 97.1 & 0.537 & 0.553 \\
+CS-MLP & rot smooth & 0.5 & whole & 99.4 & 99.3 & 93.9 & 96.8 & 0.537 & 0.555 \\
+CS-MLP & speed scale down & $-$0.5 & whole & 99.4 & 95.6 & 93.9 & 85.3 & 0.537 & 0.573 \\
+CS-MLP & speed scale down & $-$0.25 & whole & 99.4 & 98.5 & 93.9 & 90.2 & 0.537 & 0.538 \\
+CS-MLP & speed scale up & 0.1 & whole & 99.4 & 99.6 & 93.9 & 95.1 & 0.537 & 0.540 \\
+CS-MLP & speed scale up & 0.1 & window60 & 99.3 & 99.7 & 92.2 & 94.1 & 0.541 & 0.544 \\
+CS-MLP & speed scale up & 0.25 & whole & 99.4 & 100.0 & 93.9 & 96.7 & 0.537 & 0.541 \\
+CS-MLP & speed scale up & 0.25 & window60 & 100.0 & 100.0 & 95.3 & 97.2 & 0.534 & 0.544 \\
+CS-MLP & speed scale up & 0.5 & whole & 99.4 & 100.0 & 93.9 & 98.2 & 0.537 & 0.548 \\
+CS-MLP & speed scale up & 0.5 & window60 & 100.0 & 100.0 & 87.4 & 97.1 & 0.448 & 0.497 \\
+DQN & accel spikes & 10 & whole & 96.9 & 96.8 & 83.7 & 86.1 & 0.536 & 0.552 \\
+DQN & accel spikes & 10 & window60 & 92.6 & 92.6 & 80.3 & 82.7 & 0.617 & 0.631 \\
+DQN & accel spikes & 20 & whole & 96.9 & 98.3 & 83.7 & 95.5 & 0.536 & 0.570 \\
+DQN & accel spikes & 20 & window60 & 96.9 & 97.4 & 78.5 & 98.0 & 0.540 & 0.650 \\
+DQN & accel spikes & 40 & whole & 96.9 & 97.9 & 83.7 & 95.4 & 0.536 & 0.578 \\
+DQN & accel spikes & 40 & window60 & 99.5 & 100.0 & 87.5 & 99.8 & 0.460 & 0.511 \\
+DQN & fps cap & 45 & whole & 96.9 & 96.9 & 83.7 & 83.7 & 0.536 & 0.536 \\
+DQN & fps cap & 45 & window60 & 94.1 & 94.1 & 84.5 & 84.5 & 0.581 & 0.581 \\
+DQN & fps cap & 60 & whole & 96.9 & 96.9 & 83.7 & 83.7 & 0.536 & 0.536 \\
+DQN & fps cap & 60 & window60 & 94.5 & 94.5 & 83.7 & 83.7 & 0.643 & 0.643 \\
+DQN & fps cap & 72 & whole & 96.9 & 96.9 & 83.7 & 83.7 & 0.536 & 0.536 \\
+DQN & fps cap & 72 & window60 & 93.5 & 93.5 & 83.9 & 83.9 & 0.591 & 0.591 \\
+DQN & fps restore & 90 & whole & 96.9 & 96.9 & 83.7 & 83.7 & 0.536 & 0.536 \\
+DQN & rot jitter & 0.02 & whole & 96.9 & 94.2 & 83.7 & 78.0 & 0.536 & 0.563 \\
+DQN & rot jitter & 0.02 & window60 & 95.6 & 95.5 & 85.1 & 83.4 & 0.555 & 0.548 \\
+DQN & rot jitter & 0.05 & whole & 96.9 & 93.2 & 83.7 & 74.7 & 0.536 & 0.568 \\
+DQN & rot jitter & 0.05 & window60 & 92.5 & 78.9 & 82.7 & 74.8 & 0.676 & 0.852 \\
+DQN & rot jitter & 0.1 & whole & 96.9 & 94.8 & 83.7 & 83.5 & 0.536 & 0.581 \\
+DQN & rot jitter & 0.1 & window60 & 96.3 & 95.7 & 86.6 & 84.7 & 0.590 & 0.591 \\
+DQN & rot smooth & 0.25 & whole & 96.9 & 99.6 & 83.7 & 92.4 & 0.536 & 0.525 \\
+DQN & rot smooth & 0.5 & whole & 96.9 & 98.9 & 83.7 & 91.0 & 0.536 & 0.533 \\
+DQN & speed scale down & $-$0.5 & whole & 96.9 & 92.2 & 83.7 & 70.6 & 0.536 & 0.567 \\
+DQN & speed scale down & $-$0.25 & whole & 96.9 & 94.7 & 83.7 & 76.9 & 0.536 & 0.547 \\
+DQN & speed scale up & 0.1 & whole & 96.9 & 97.0 & 83.7 & 88.1 & 0.536 & 0.557 \\
+DQN & speed scale up & 0.1 & window60 & 92.6 & 92.6 & 84.6 & 86.5 & 0.640 & 0.651 \\
+DQN & speed scale up & 0.25 & whole & 96.9 & 97.4 & 83.7 & 90.8 & 0.536 & 0.564 \\
+DQN & speed scale up & 0.25 & window60 & 97.2 & 97.0 & 82.6 & 87.9 & 0.523 & 0.558 \\
+DQN & speed scale up & 0.5 & whole & 96.9 & 97.8 & 83.7 & 91.8 & 0.536 & 0.562 \\
+DQN & speed scale up & 0.5 & window60 & 99.5 & 99.5 & 76.4 & 86.4 & 0.403 & 0.455 \\
+E-CB & accel spikes & 10 & whole & 96.6 & 97.9 & 85.4 & 88.3 & 0.552 & 0.540 \\
+E-CB & accel spikes & 10 & window60 & 97.0 & 98.2 & 77.4 & 79.1 & 0.506 & 0.491 \\
+E-CB & accel spikes & 20 & whole & 96.6 & 98.9 & 85.4 & 97.0 & 0.552 & 0.566 \\
+E-CB & accel spikes & 20 & window60 & 95.0 & 96.0 & 76.4 & 94.8 & 0.564 & 0.657 \\
+E-CB & accel spikes & 40 & whole & 96.6 & 99.3 & 85.4 & 97.7 & 0.552 & 0.562 \\
+E-CB & accel spikes & 40 & window60 & 99.5 & 100.0 & 89.4 & 99.3 & 0.469 & 0.508 \\
+E-CB & fps cap & 45 & whole & 96.6 & 96.6 & 85.4 & 85.4 & 0.552 & 0.552 \\
+E-CB & fps cap & 45 & window60 & 96.0 & 96.0 & 84.2 & 84.2 & 0.533 & 0.533 \\
+E-CB & fps cap & 60 & whole & 96.6 & 96.6 & 85.4 & 85.4 & 0.552 & 0.552 \\
+E-CB & fps cap & 60 & window60 & 94.6 & 94.6 & 87.2 & 87.2 & 0.663 & 0.663 \\
+E-CB & fps cap & 72 & whole & 96.6 & 96.6 & 85.4 & 85.4 & 0.552 & 0.552 \\
+E-CB & fps cap & 72 & window60 & 97.0 & 97.0 & 86.2 & 86.2 & 0.518 & 0.518 \\
+E-CB & fps restore & 90 & whole & 96.6 & 96.6 & 85.4 & 85.4 & 0.552 & 0.552 \\
+E-CB & rot jitter & 0.02 & whole & 96.6 & 96.5 & 85.4 & 76.3 & 0.552 & 0.504 \\
+E-CB & rot jitter & 0.02 & window60 & 97.9 & 95.5 & 85.3 & 81.9 & 0.502 & 0.540 \\
+E-CB & rot jitter & 0.05 & whole & 96.6 & 94.4 & 85.4 & 79.1 & 0.552 & 0.565 \\
+E-CB & rot jitter & 0.05 & window60 & 93.9 & 86.8 & 84.6 & 71.4 & 0.664 & 0.695 \\
+E-CB & rot jitter & 0.1 & whole & 96.6 & 96.1 & 85.4 & 88.2 & 0.552 & 0.578 \\
+E-CB & rot jitter & 0.1 & window60 & 97.7 & 95.0 & 88.5 & 82.7 & 0.572 & 0.593 \\
+E-CB & rot smooth & 0.25 & whole & 96.6 & 95.9 & 85.4 & 94.4 & 0.552 & 0.618 \\
+E-CB & rot smooth & 0.5 & whole & 96.6 & 95.3 & 85.4 & 90.9 & 0.552 & 0.612 \\
+E-CB & speed scale down & $-$0.5 & whole & 96.6 & 81.0 & 85.4 & 59.5 & 0.552 & 0.752 \\
+E-CB & speed scale down & $-$0.25 & whole & 96.6 & 88.9 & 85.4 & 71.2 & 0.552 & 0.643 \\
+E-CB & speed scale up & 0.1 & whole & 96.6 & 98.0 & 85.4 & 91.0 & 0.552 & 0.552 \\
+E-CB & speed scale up & 0.1 & window60 & 97.4 & 98.2 & 79.4 & 82.2 & 0.509 & 0.508 \\
+E-CB & speed scale up & 0.25 & whole & 96.6 & 98.2 & 85.4 & 94.1 & 0.552 & 0.565 \\
+E-CB & speed scale up & 0.25 & window60 & 95.6 & 95.4 & 84.8 & 91.4 & 0.572 & 0.614 \\
+E-CB & speed scale up & 0.5 & whole & 96.6 & 98.7 & 85.4 & 95.9 & 0.552 & 0.564 \\
+E-CB & speed scale up & 0.5 & window60 & 99.1 & 99.5 & 73.3 & 89.3 & 0.397 & 0.469 \\
+E-DDQN & accel spikes & 10 & whole & 90.4 & 90.5 & 91.9 & 92.1 & 0.726 & 0.723 \\
+E-DDQN & accel spikes & 10 & window60 & 91.7 & 91.4 & 97.9 & 98.0 & 0.737 & 0.745 \\
+E-DDQN & accel spikes & 20 & whole & 90.4 & 94.9 & 91.9 & 93.8 & 0.726 & 0.637 \\
+E-DDQN & accel spikes & 20 & window60 & 88.8 & 90.4 & 94.5 & 96.0 & 0.796 & 0.774 \\
+E-DDQN & accel spikes & 40 & whole & 90.4 & 95.4 & 91.9 & 94.3 & 0.726 & 0.627 \\
+E-DDQN & accel spikes & 40 & window60 & 94.0 & 94.0 & 98.7 & 99.9 & 0.651 & 0.657 \\
+E-DDQN & fps cap & 45 & whole & 90.4 & 90.4 & 91.9 & 91.9 & 0.726 & 0.726 \\
+E-DDQN & fps cap & 45 & window60 & 90.2 & 90.2 & 99.3 & 99.3 & 0.752 & 0.752 \\
+E-DDQN & fps cap & 60 & whole & 90.4 & 90.4 & 91.9 & 91.9 & 0.726 & 0.726 \\
+E-DDQN & fps cap & 60 & window60 & 83.7 & 83.7 & 95.5 & 95.5 & 0.907 & 0.907 \\
+E-DDQN & fps cap & 72 & whole & 90.4 & 90.4 & 91.9 & 91.9 & 0.726 & 0.726 \\
+E-DDQN & fps cap & 72 & window60 & 89.1 & 89.1 & 99.2 & 99.2 & 0.775 & 0.775 \\
+E-DDQN & fps restore & 90 & whole & 90.4 & 90.4 & 91.9 & 91.9 & 0.726 & 0.726 \\
+E-DDQN & rot jitter & 0.02 & whole & 90.4 & 92.7 & 91.9 & 91.4 & 0.726 & 0.671 \\
+E-DDQN & rot jitter & 0.02 & window60 & 91.4 & 92.7 & 100.0 & 100.0 & 0.734 & 0.702 \\
+E-DDQN & rot jitter & 0.05 & whole & 90.4 & 93.9 & 91.9 & 91.2 & 0.726 & 0.644 \\
+E-DDQN & rot jitter & 0.05 & window60 & 83.2 & 82.1 & 88.5 & 88.5 & 0.870 & 0.889 \\
+E-DDQN & rot jitter & 0.1 & whole & 90.4 & 94.0 & 91.9 & 92.2 & 0.726 & 0.648 \\
+E-DDQN & rot jitter & 0.1 & window60 & 91.0 & 84.7 & 88.5 & 91.4 & 0.708 & 0.854 \\
+E-DDQN & rot smooth & 0.25 & whole & 90.4 & 88.0 & 91.9 & 91.8 & 0.726 & 0.777 \\
+E-DDQN & rot smooth & 0.5 & whole & 90.4 & 88.9 & 91.9 & 92.3 & 0.726 & 0.760 \\
+E-DDQN & speed scale down & $-$0.5 & whole & 90.4 & 86.7 & 91.9 & 90.9 & 0.726 & 0.802 \\
+E-DDQN & speed scale down & $-$0.25 & whole & 90.4 & 88.2 & 91.9 & 91.7 & 0.726 & 0.772 \\
+E-DDQN & speed scale up & 0.1 & whole & 90.4 & 91.4 & 91.9 & 92.0 & 0.726 & 0.704 \\
+E-DDQN & speed scale up & 0.1 & window60 & 91.3 & 92.0 & 98.4 & 98.4 & 0.748 & 0.734 \\
+E-DDQN & speed scale up & 0.25 & whole & 90.4 & 92.8 & 91.9 & 91.8 & 0.726 & 0.672 \\
+E-DDQN & speed scale up & 0.25 & window60 & 87.0 & 88.3 & 99.8 & 99.9 & 0.845 & 0.817 \\
+E-DDQN & speed scale up & 0.5 & whole & 90.4 & 93.5 & 91.9 & 90.7 & 0.726 & 0.650 \\
+E-DDQN & speed scale up & 0.5 & window60 & 94.0 & 94.0 & 91.0 & 90.9 & 0.612 & 0.611 \\
+HGB & accel spikes & 10 & whole & 97.0 & 97.1 & 85.4 & 87.8 & 0.543 & 0.555 \\
+HGB & accel spikes & 10 & window60 & 99.3 & 99.3 & 86.1 & 88.5 & 0.507 & 0.521 \\
+HGB & accel spikes & 20 & whole & 97.0 & 97.9 & 85.4 & 94.5 & 0.543 & 0.575 \\
+HGB & accel spikes & 20 & window60 & 91.2 & 92.8 & 81.8 & 95.3 & 0.670 & 0.724 \\
+HGB & accel spikes & 40 & whole & 97.0 & 98.1 & 85.4 & 95.7 & 0.543 & 0.577 \\
+HGB & accel spikes & 40 & window60 & 99.5 & 100.0 & 90.1 & 97.6 & 0.473 & 0.500 \\
+HGB & fps cap & 45 & whole & 97.0 & 97.0 & 85.4 & 85.9 & 0.543 & 0.545 \\
+HGB & fps cap & 45 & window60 & 93.9 & 93.9 & 89.0 & 89.2 & 0.609 & 0.610 \\
+HGB & fps cap & 60 & whole & 97.0 & 97.0 & 85.4 & 85.9 & 0.543 & 0.545 \\
+HGB & fps cap & 60 & window60 & 97.5 & 97.5 & 92.3 & 92.4 & 0.648 & 0.649 \\
+HGB & fps cap & 72 & whole & 97.0 & 97.0 & 85.4 & 85.9 & 0.543 & 0.545 \\
+HGB & fps cap & 72 & window60 & 99.4 & 99.4 & 88.4 & 88.6 & 0.471 & 0.472 \\
+HGB & fps restore & 90 & whole & 97.0 & 97.0 & 85.4 & 86.9 & 0.543 & 0.551 \\
+HGB & rot jitter & 0.02 & whole & 97.0 & 97.0 & 85.4 & 85.0 & 0.543 & 0.541 \\
+HGB & rot jitter & 0.02 & window60 & 99.4 & 99.4 & 87.9 & 87.7 & 0.482 & 0.481 \\
+HGB & rot jitter & 0.05 & whole & 97.0 & 96.6 & 85.4 & 82.9 & 0.543 & 0.538 \\
+HGB & rot jitter & 0.05 & window60 & 91.6 & 90.2 & 84.6 & 82.0 & 0.703 & 0.710 \\
+HGB & rot jitter & 0.1 & whole & 97.0 & 96.3 & 85.4 & 82.7 & 0.543 & 0.543 \\
+HGB & rot jitter & 0.1 & window60 & 91.3 & 89.9 & 84.0 & 77.4 & 0.676 & 0.664 \\
+HGB & rot smooth & 0.25 & whole & 97.0 & 97.0 & 85.4 & 88.3 & 0.543 & 0.558 \\
+HGB & rot smooth & 0.5 & whole & 97.0 & 96.9 & 85.4 & 88.0 & 0.543 & 0.559 \\
+HGB & speed scale down & $-$0.5 & whole & 97.0 & 81.0 & 85.4 & 64.4 & 0.543 & 0.780 \\
+HGB & speed scale down & $-$0.25 & whole & 97.0 & 91.0 & 85.4 & 78.3 & 0.543 & 0.635 \\
+HGB & speed scale up & 0.1 & whole & 97.0 & 97.3 & 85.4 & 88.9 & 0.543 & 0.556 \\
+HGB & speed scale up & 0.1 & window60 & 99.4 & 99.4 & 81.9 & 83.3 & 0.479 & 0.487 \\
+HGB & speed scale up & 0.25 & whole & 97.0 & 98.0 & 85.4 & 90.7 & 0.543 & 0.550 \\
+HGB & speed scale up & 0.25 & window60 & 92.9 & 94.3 & 88.1 & 92.3 & 0.649 & 0.643 \\
+HGB & speed scale up & 0.5 & whole & 97.0 & 98.2 & 85.4 & 91.7 & 0.543 & 0.551 \\
+HGB & speed scale up & 0.5 & window60 & 99.4 & 99.4 & 77.3 & 87.1 & 0.411 & 0.461 \\
+LogReg & accel spikes & 10 & whole & 99.1 & 99.2 & 91.9 & 92.6 & 0.532 & 0.536 \\
+LogReg & accel spikes & 10 & window60 & 99.4 & 99.4 & 88.9 & 89.5 & 0.520 & 0.524 \\
+LogReg & accel spikes & 20 & whole & 99.1 & 99.3 & 91.9 & 94.8 & 0.532 & 0.545 \\
+LogReg & accel spikes & 20 & window60 & 99.4 & 99.4 & 86.4 & 92.6 & 0.540 & 0.578 \\
+LogReg & accel spikes & 40 & whole & 99.1 & 99.9 & 91.9 & 96.7 & 0.532 & 0.543 \\
+LogReg & accel spikes & 40 & window60 & 99.5 & 99.5 & 89.2 & 93.6 & 0.468 & 0.491 \\
+LogReg & fps cap & 45 & whole & 99.1 & 97.0 & 91.9 & 86.3 & 0.532 & 0.549 \\
+LogReg & fps cap & 45 & window60 & 99.5 & 86.8 & 93.0 & 82.4 & 0.496 & 0.745 \\
+LogReg & fps cap & 60 & whole & 99.1 & 98.1 & 91.9 & 88.4 & 0.532 & 0.535 \\
+LogReg & fps cap & 60 & window60 & 99.3 & 89.7 & 92.4 & 84.3 & 0.618 & 0.729 \\
+LogReg & fps cap & 72 & whole & 99.1 & 98.6 & 91.9 & 90.2 & 0.532 & 0.534 \\
+LogReg & fps cap & 72 & window60 & 99.5 & 95.2 & 91.7 & 88.3 & 0.486 & 0.573 \\
+LogReg & fps restore & 90 & whole & 99.1 & 99.1 & 91.9 & 91.9 & 0.532 & 0.532 \\
+LogReg & rot jitter & 0.02 & whole & 99.1 & 99.2 & 91.9 & 92.1 & 0.532 & 0.533 \\
+LogReg & rot jitter & 0.02 & window60 & 99.5 & 99.5 & 91.5 & 91.6 & 0.499 & 0.500 \\
+LogReg & rot jitter & 0.05 & whole & 99.1 & 99.3 & 91.9 & 92.5 & 0.532 & 0.533 \\
+LogReg & rot jitter & 0.05 & window60 & 96.4 & 96.8 & 92.2 & 92.5 & 0.673 & 0.668 \\
+LogReg & rot jitter & 0.1 & whole & 99.1 & 99.2 & 91.9 & 92.7 & 0.532 & 0.535 \\
+LogReg & rot jitter & 0.1 & window60 & 95.7 & 96.9 & 91.1 & 91.3 & 0.629 & 0.605 \\
+LogReg & rot smooth & 0.25 & whole & 99.1 & 99.1 & 91.9 & 91.7 & 0.532 & 0.532 \\
+LogReg & rot smooth & 0.5 & whole & 99.1 & 99.1 & 91.9 & 91.7 & 0.532 & 0.532 \\
+LogReg & speed scale down & $-$0.5 & whole & 99.1 & 97.8 & 91.9 & 86.8 & 0.532 & 0.534 \\
+LogReg & speed scale down & $-$0.25 & whole & 99.1 & 98.7 & 91.9 & 89.2 & 0.532 & 0.526 \\
+LogReg & speed scale up & 0.1 & whole & 99.1 & 99.2 & 91.9 & 92.9 & 0.532 & 0.536 \\
+LogReg & speed scale up & 0.1 & window60 & 99.4 & 99.4 & 87.8 & 88.7 & 0.513 & 0.518 \\
+LogReg & speed scale up & 0.25 & whole & 99.1 & 99.4 & 91.9 & 93.6 & 0.532 & 0.536 \\
+LogReg & speed scale up & 0.25 & window60 & 99.4 & 99.4 & 90.8 & 91.9 & 0.520 & 0.527 \\
+LogReg & speed scale up & 0.5 & whole & 99.1 & 99.7 & 91.9 & 94.9 & 0.532 & 0.537 \\
+LogReg & speed scale up & 0.5 & window60 & 99.5 & 99.5 & 86.0 & 92.5 & 0.452 & 0.486 \\
+RF & accel spikes & 10 & whole & 98.7 & 99.0 & 81.7 & 84.5 & 0.485 & 0.494 \\
+RF & accel spikes & 10 & window60 & 99.3 & 99.3 & 75.0 & 79.1 & 0.444 & 0.467 \\
+RF & accel spikes & 20 & whole & 98.7 & 99.7 & 81.7 & 96.2 & 0.485 & 0.543 \\
+RF & accel spikes & 20 & window60 & 97.6 & 99.1 & 68.6 & 96.2 & 0.466 & 0.605 \\
+RF & accel spikes & 40 & whole & 98.7 & 99.8 & 81.7 & 97.4 & 0.485 & 0.549 \\
+RF & accel spikes & 40 & window60 & 99.5 & 100.0 & 81.1 & 99.8 & 0.427 & 0.511 \\
+RF & fps cap & 45 & whole & 98.7 & 98.7 & 81.7 & 81.3 & 0.485 & 0.483 \\
+RF & fps cap & 45 & window60 & 99.4 & 99.4 & 84.9 & 84.9 & 0.456 & 0.456 \\
+RF & fps cap & 60 & whole & 98.7 & 98.7 & 81.7 & 81.3 & 0.485 & 0.483 \\
+RF & fps cap & 60 & window60 & 99.2 & 99.2 & 84.7 & 84.7 & 0.569 & 0.569 \\
+RF & fps cap & 72 & whole & 98.7 & 98.7 & 81.7 & 81.3 & 0.485 & 0.483 \\
+RF & fps cap & 72 & window60 & 99.4 & 99.4 & 85.6 & 85.6 & 0.457 & 0.457 \\
+RF & fps restore & 90 & whole & 98.7 & 98.8 & 81.7 & 81.8 & 0.485 & 0.483 \\
+RF & rot jitter & 0.02 & whole & 98.7 & 98.2 & 81.7 & 79.4 & 0.485 & 0.482 \\
+RF & rot jitter & 0.02 & window60 & 99.4 & 99.4 & 85.0 & 83.0 & 0.467 & 0.456 \\
+RF & rot jitter & 0.05 & whole & 98.7 & 97.7 & 81.7 & 79.0 & 0.485 & 0.491 \\
+RF & rot jitter & 0.05 & window60 & 96.1 & 91.5 & 84.3 & 82.4 & 0.625 & 0.691 \\
+RF & rot jitter & 0.1 & whole & 98.7 & 98.0 & 81.7 & 81.1 & 0.485 & 0.496 \\
+RF & rot jitter & 0.1 & window60 & 96.3 & 92.8 & 82.1 & 79.1 & 0.563 & 0.616 \\
+RF & rot smooth & 0.25 & whole & 98.7 & 99.0 & 81.7 & 85.9 & 0.485 & 0.502 \\
+RF & rot smooth & 0.5 & whole & 98.7 & 99.1 & 81.7 & 84.9 & 0.485 & 0.494 \\
+RF & speed scale down & $-$0.5 & whole & 98.7 & 90.6 & 81.7 & 61.8 & 0.485 & 0.553 \\
+RF & speed scale down & $-$0.25 & whole & 98.7 & 95.9 & 81.7 & 73.3 & 0.485 & 0.501 \\
+RF & speed scale up & 0.1 & whole & 98.7 & 99.1 & 81.7 & 84.3 & 0.485 & 0.492 \\
+RF & speed scale up & 0.1 & window60 & 99.0 & 99.0 & 75.5 & 77.5 & 0.452 & 0.464 \\
+RF & speed scale up & 0.25 & whole & 98.7 & 99.1 & 81.7 & 86.7 & 0.485 & 0.504 \\
+RF & speed scale up & 0.25 & window60 & 98.6 & 98.3 & 84.0 & 85.5 & 0.502 & 0.515 \\
+RF & speed scale up & 0.5 & whole & 98.7 & 99.0 & 81.7 & 92.1 & 0.485 & 0.537 \\
+RF & speed scale up & 0.5 & window60 & 99.4 & 99.4 & 66.3 & 85.6 & 0.354 & 0.453 \\
+\bottomrule
+\end{longtable}

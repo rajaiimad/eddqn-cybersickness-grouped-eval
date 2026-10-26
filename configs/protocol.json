@@ -1,0 +1,305 @@
+{
+  "_comment": "FROZEN evaluation protocol. Written and committed BEFORE any model was trained or scored on the curated evaluation sessions. Design choices were calibrated on the Oct-2019 development-only sessions. Changing anything here after the frozen run invalidates the outer-test results.",
+  "label": "DiscomfortLevel >= 1 -> positive (cybersickness event)",
+  "unit_of_independence": "conservative session-linkage group (see src/eddqn/grouping.py)",
+  "k_outer": 5,
+  "k_inner": 3,
+  "split_seed": 20261012,
+  "hpo_seed": 777,
+  "final_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "costs": {
+    "c_fn": 5.0,
+    "c_fp": 1.0
+  },
+  "hpo_objective": "pooled inner-OOF expected 5:1 cost at the cost-minimising threshold (lower is better); tie-break: pooled inner-OOF PR-AUC",
+  "checkpoint_rule": "neural models: epoch with the lowest achievable validation 5:1 cost (tie-break PR-AUC), evaluated every eval_every epochs on the inner validation fold",
+  "primary_operating_rule": "D1_min_cost: threshold minimising 5:1 expected cost on the pooled inner-OOF predictions of the development groups",
+  "secondary_operating_rules": [
+    "D0_bayes_1_6 (no tuning: implied P(y=1) >= 1/6, i.e. argmax-Q for the asymmetric agents)",
+    "recall>=0.95 on pooled inner-OOF"
+  ],
+  "matched_recalls": [
+    0.8,
+    0.9,
+    0.95,
+    0.99
+  ],
+  "matched_specificities": [
+    0.5,
+    0.8
+  ],
+  "hpo_budget": {
+    "E-DDQN": 16,
+    "E-CB": 16,
+    "DQN": 16,
+    "CS-MLP": 16,
+    "HGB": 16,
+    "RF": 16,
+    "LogReg": 12
+  },
+  "feature_sets": [
+    "telemetry",
+    "telemetry+profile",
+    "exposure",
+    "exposure+profile"
+  ],
+  "search_spaces": {
+    "_neural_common": {
+      "feature_set": [
+        "telemetry",
+        "telemetry+profile",
+        "exposure",
+        "exposure+profile"
+      ],
+      "hidden": [
+        [
+          64,
+          64
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          256,
+          256
+        ],
+        [
+          256,
+          512,
+          256
+        ]
+      ],
+      "dropout": [
+        0.0,
+        0.1,
+        0.2,
+        0.3
+      ],
+      "norm": [
+        "batch",
+        "layer"
+      ],
+      "lr": [
+        0.0003,
+        0.001,
+        0.003
+      ],
+      "weight_decay": [
+        0.0,
+        0.0001,
+        0.001
+      ],
+      "batch_size": [
+        256,
+        512
+      ]
+    },
+    "_agent_common": {
+      "eps_decay": [
+        0.9,
+        0.95,
+        0.97
+      ],
+      "warmup": [
+        0,
+        4000
+      ],
+      "updates_per_learn": [
+        1,
+        2,
+        4
+      ]
+    },
+    "E-DDQN": {
+      "gamma": [
+        0.0,
+        0.5,
+        0.9,
+        0.99
+      ],
+      "tau": [
+        0.005,
+        0.01,
+        0.05
+      ],
+      "rho": [
+        0.4,
+        0.5,
+        0.6
+      ],
+      "full_info": [
+        false,
+        true
+      ]
+    },
+    "E-CB": {
+      "rho": [
+        0.4,
+        0.5,
+        0.6
+      ],
+      "full_info": [
+        false,
+        true
+      ]
+    },
+    "DQN": {
+      "gamma": [
+        0.0,
+        0.5,
+        0.9,
+        0.99
+      ],
+      "hard_every": [
+        10,
+        100,
+        500
+      ]
+    },
+    "CS-MLP": {
+      "sampling": [
+        "uniform",
+        "balanced"
+      ]
+    },
+    "LogReg": {
+      "feature_set": [
+        "telemetry",
+        "telemetry+profile",
+        "exposure",
+        "exposure+profile"
+      ],
+      "C": [
+        0.0001,
+        0.001,
+        0.01,
+        0.1,
+        1.0,
+        10.0
+      ]
+    },
+    "HGB": {
+      "feature_set": [
+        "telemetry",
+        "telemetry+profile",
+        "exposure",
+        "exposure+profile"
+      ],
+      "learning_rate": [
+        0.02,
+        0.05,
+        0.1
+      ],
+      "max_iter": [
+        50,
+        100,
+        200,
+        400
+      ],
+      "max_leaf_nodes": [
+        4,
+        8,
+        16,
+        31
+      ],
+      "min_samples_leaf": [
+        20,
+        100,
+        300
+      ],
+      "l2_regularization": [
+        0.0,
+        1.0,
+        10.0
+      ]
+    },
+    "RF": {
+      "feature_set": [
+        "telemetry",
+        "telemetry+profile",
+        "exposure",
+        "exposure+profile"
+      ],
+      "max_depth": [
+        3,
+        5,
+        8,
+        null
+      ],
+      "min_samples_leaf": [
+        5,
+        25,
+        100,
+        300
+      ],
+      "max_features": [
+        "sqrt",
+        0.5,
+        1.0
+      ],
+      "n_estimators": [
+        300
+      ]
+    }
+  },
+  "fixed_training": {
+    "agents": {
+      "epochs": 40,
+      "eval_every": 2,
+      "chunk": 256,
+      "learn_every": 2,
+      "consolidation": 5,
+      "eps_start": 1.0,
+      "eps_end": 0.01,
+      "buffer": 50000,
+      "grad_clip": 1.0
+    },
+    "CS-MLP": {
+      "epochs": 40,
+      "eval_every": 2
+    }
+  },
+  "ablation_components": {
+    "-asymmetric reward (symmetric +-1)": {
+      "reward": "symmetric"
+    },
+    "-dueling head": {
+      "dueling": false
+    },
+    "-double estimator": {
+      "double": false
+    },
+    "-soft target (hard copy every 10 updates)": {
+      "target_update": "hard",
+      "hard_every": 10
+    },
+    "-class-balanced replay (uniform)": {
+      "replay": "uniform"
+    },
+    "-warm-up": {
+      "warmup": 0
+    },
+    "+/- full-information replay (toggled)": {
+      "full_info": "toggle"
+    },
+    "gamma = 0 (contextual bandit)": {
+      "gamma": 0.0
+    }
+  },
+  "reward_ratio_sensitivity": [
+    1,
+    2,
+    5,
+    10
+  ],
+  "attack_eval": "see configs/attacks.json",
+  "dev_calibration": "results/dev_calibration/ (Oct-2019 development-only sessions): 60-epoch runs showed validation cost plateauing by epoch ~20-30 (best epochs 2-48); 40 epochs with checkpointing fixed for all neural families. Mean run time: E-DDQN 256-512-256 ~70 s/60 epochs, 64-64 ~12 s; DQN ~57 s; CS-MLP ~18 s (1 CPU thread).",
+  "frozen_at_commit": "see git log: 'Freeze evaluation protocol' commit"
+}

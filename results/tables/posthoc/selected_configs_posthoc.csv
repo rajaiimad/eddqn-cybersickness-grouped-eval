@@ -1,0 +1,11 @@
+model,outer,C,feature_set,pooled_oof_min_cost,learning_rate,max_iter,max_leaf_nodes,min_samples_leaf,l2_regularization
+Time-LR,0,0.001,time,0.4713348545350827,,,,,
+Time-LR,1,1.0,time,0.5282994923857868,,,,,
+Time-LR,2,0.1,time,0.5493887874104257,,,,,
+Time-LR,3,0.01,time,0.4967202572347267,,,,,
+Time-LR,4,0.1,time,0.5497685185185185,,,,,
+TimeGame-HGB,0,,time+game,0.479749001711352,0.02,200.0,8.0,300.0,1.0
+TimeGame-HGB,1,,time+game,0.5013959390862944,0.02,200.0,8.0,300.0,0.0
+TimeGame-HGB,2,,time+game,0.5236757060559224,0.02,100.0,4.0,300.0,10.0
+TimeGame-HGB,3,,time+game,0.5221864951768489,0.02,200.0,4.0,300.0,1.0
+TimeGame-HGB,4,,time+game,0.5063014403292181,0.02,200.0,8.0,300.0,0.0

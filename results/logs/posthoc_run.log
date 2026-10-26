@@ -1,0 +1,48 @@
+330 jobs, 240 to run, 4 workers
+  12/240 done, 0.0 min elapsed, ETA 0.6 min
+  24/240 done, 0.0 min elapsed, ETA 0.4 min
+  36/240 done, 0.1 min elapsed, ETA 0.3 min
+  48/240 done, 0.1 min elapsed, ETA 0.3 min
+  60/240 done, 0.1 min elapsed, ETA 0.2 min
+  72/240 done, 0.1 min elapsed, ETA 0.2 min
+  84/240 done, 0.1 min elapsed, ETA 0.2 min
+  96/240 done, 0.1 min elapsed, ETA 0.2 min
+  108/240 done, 0.1 min elapsed, ETA 0.2 min
+  120/240 done, 0.1 min elapsed, ETA 0.1 min
+  132/240 done, 0.2 min elapsed, ETA 0.1 min
+  144/240 done, 0.2 min elapsed, ETA 0.1 min
+  156/240 done, 0.2 min elapsed, ETA 0.1 min
+  168/240 done, 0.2 min elapsed, ETA 0.1 min
+  180/240 done, 0.2 min elapsed, ETA 0.1 min
+  192/240 done, 0.2 min elapsed, ETA 0.1 min
+  204/240 done, 0.2 min elapsed, ETA 0.0 min
+  216/240 done, 0.2 min elapsed, ETA 0.0 min
+  228/240 done, 0.3 min elapsed, ETA 0.0 min
+  240/240 done, 0.3 min elapsed, ETA 0.0 min
+150 jobs, 150 to run, 4 workers
+  7/150 done, 0.0 min elapsed, ETA 0.1 min
+  14/150 done, 0.0 min elapsed, ETA 0.0 min
+  21/150 done, 0.0 min elapsed, ETA 0.0 min
+  28/150 done, 0.0 min elapsed, ETA 0.0 min
+  35/150 done, 0.0 min elapsed, ETA 0.0 min
+  42/150 done, 0.0 min elapsed, ETA 0.0 min
+  49/150 done, 0.0 min elapsed, ETA 0.0 min
+  56/150 done, 0.0 min elapsed, ETA 0.0 min
+  63/150 done, 0.0 min elapsed, ETA 0.0 min
+  70/150 done, 0.0 min elapsed, ETA 0.0 min
+  77/150 done, 0.0 min elapsed, ETA 0.0 min
+  84/150 done, 0.0 min elapsed, ETA 0.0 min
+  91/150 done, 0.1 min elapsed, ETA 0.0 min
+  98/150 done, 0.1 min elapsed, ETA 0.0 min
+  105/150 done, 0.1 min elapsed, ETA 0.0 min
+  112/150 done, 0.1 min elapsed, ETA 0.0 min
+  119/150 done, 0.1 min elapsed, ETA 0.0 min
+  126/150 done, 0.1 min elapsed, ETA 0.0 min
+  133/150 done, 0.1 min elapsed, ETA 0.0 min
+  140/150 done, 0.2 min elapsed, ETA 0.0 min
+  147/150 done, 0.2 min elapsed, ETA 0.0 min
+  150/150 done, 0.2 min elapsed, ETA 0.0 min
+
+real	2m11.225s
+user	3m20.390s
+sys	0m3.496s

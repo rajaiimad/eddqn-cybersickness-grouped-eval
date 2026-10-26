@@ -1,0 +1,33 @@
+{
+  "_comment": "FROZEN before the final evaluation. Synthetic, bounded FEATURE-SPACE (telemetry-channel) perturbations of the logged per-second telemetry of the outer-test sessions. They are stress tests of the detector, NOT physically validated rendering attacks: the dataset contains no attacked sessions, no rendering-parameter logs beyond these channels, and no measurement of the physiological effect of any manipulation. Cybersickness labels are therefore NEVER changed; the attack indicator z is kept separately.",
+  "seed": 4242,
+  "channels": {
+    "GameFps": "frame pacing (Type I latency/frame-pacing manipulation proxy)",
+    "CameraRotationX/Y/Z": "camera orientation (Type II motion-distortion proxy)",
+    "PlayerSpeed (+ PlayerAcceleration recomputed as the per-second speed difference, as in the logger)": "locomotion (Type II motion-distortion proxy)"
+  },
+  "not_testable": {
+    "CameraFieldOfView": "constant within each game in the curated release (Race 96.016, Flight 111.755); no FOV variation was ever observed, so any FOV perturbation would be pure extrapolation. Type III (FOV) manipulation is therefore NOT evaluated.",
+    "physiological effect": "unknown for every scenario; labels are not modified"
+  },
+  "bounds": {
+    "PlayerSpeed": "clipped to the per-game range observed in the curated release (Flight 10-130, Race 0-146)",
+    "GameFps": "never raised above the logged value except in 'fps_restore'; floor 45 fps is inside the observed range (min 36)",
+    "rotation": "each component clipped to [-1, 1]"
+  },
+  "windows": {"whole": "entire session", "window60": "one 60-s window per session starting at a uniformly random second (seeded)"},
+  "stress_scenarios": {
+    "fps_cap": {"param": "F", "values": [72, 60, 45], "rule": "GameFps <- min(GameFps, F) inside the window"},
+    "rot_jitter": {"param": "eps", "values": [0.02, 0.05, 0.1], "rule": "rotation components += U[-eps, eps] i.i.d. per second inside the window"},
+    "speed_scale_up": {"param": "kappa", "values": [0.1, 0.25, 0.5], "rule": "speed <- clip(speed * (1 + kappa)) inside the window; acceleration recomputed"},
+    "accel_spikes": {"param": "delta", "values": [10, 20, 40], "rule": "speed += delta for one second every 20 s inside the window (creates +delta/-delta acceleration spikes); clipped"}
+  },
+  "evasion_candidates": {
+    "_comment": "Candidate whole-session manipulations available to an adversary who wants the monitor to stay silent while the user is exposed (telemetry spoofing). The adaptive adversary picks, per model and per session, the candidate (including every stress scenario above, whole-session window) that minimises the alarm rate on that session's positive samples (worst case; the adversary is given the labels).",
+    "speed_scale_down": {"param": "kappa", "values": [-0.25, -0.5]},
+    "rot_smooth": {"param": "lambda", "values": [0.5, 0.25], "rule": "q'_t = q'_{t-1} + lambda (q_t - q_{t-1}); attenuates orientation change"},
+    "fps_restore": {"param": "F", "values": [90], "rule": "GameFps <- F (hides any logged frame drop)"}
+  },
+  "false_alarm_induction": "worst case over the same candidate set, maximising the alarm rate on negative samples of each session",
+  "reported": ["alarm rate, recall and FPR on attacked samples vs. the same samples clean", "5:1 expected cost", "worst-case recall under the adaptive evasion adversary", "worst-case FPR under the adaptive false-alarm adversary"]
+}

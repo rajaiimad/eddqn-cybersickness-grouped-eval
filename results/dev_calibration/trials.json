@@ -1,0 +1,130 @@
+[
+ {
+  "family": "E-DDQN",
+  "config": {
+   "epochs": 60,
+   "eval_every": 2,
+   "chunk": 256,
+   "learn_every": 2,
+   "consolidation": 5,
+   "eps_start": 1.0,
+   "eps_end": 0.01,
+   "buffer": 50000,
+   "grad_clip": 1.0,
+   "eps_decay": 0.95,
+   "warmup": 4000,
+   "updates_per_learn": 2,
+   "lr": 0.001,
+   "weight_decay": 0.0001,
+   "batch_size": 512,
+   "dropout": 0.2,
+   "norm": "batch",
+   "reward": "asymmetric",
+   "dueling": true,
+   "double": true,
+   "target_update": "soft",
+   "replay": "balanced",
+   "gamma": 0.9,
+   "tau": 0.01,
+   "rho": 0.5,
+   "full_info": false,
+   "hidden": [
+    256,
+    512,
+    256
+   ],
+   "feature_set": "telemetry+profile"
+  }
+ },
+ {
+  "family": "E-DDQN",
+  "config": {
+   "epochs": 60,
+   "eval_every": 2,
+   "chunk": 256,
+   "learn_every": 2,
+   "consolidation": 5,
+   "eps_start": 1.0,
+   "eps_end": 0.01,
+   "buffer": 50000,
+   "grad_clip": 1.0,
+   "eps_decay": 0.95,
+   "warmup": 4000,
+   "updates_per_learn": 2,
+   "lr": 0.001,
+   "weight_decay": 0.0001,
+   "batch_size": 512,
+   "dropout": 0.2,
+   "norm": "batch",
+   "reward": "asymmetric",
+   "dueling": true,
+   "double": true,
+   "target_update": "soft",
+   "replay": "balanced",
+   "gamma": 0.0,
+   "tau": 0.01,
+   "rho": 0.5,
+   "full_info": true,
+   "hidden": [
+    64,
+    64
+   ],
+   "feature_set": "exposure+profile"
+  }
+ },
+ {
+  "family": "DQN",
+  "config": {
+   "epochs": 60,
+   "eval_every": 2,
+   "chunk": 256,
+   "learn_every": 2,
+   "consolidation": 5,
+   "eps_start": 1.0,
+   "eps_end": 0.01,
+   "buffer": 50000,
+   "grad_clip": 1.0,
+   "eps_decay": 0.95,
+   "warmup": 4000,
+   "updates_per_learn": 2,
+   "lr": 0.001,
+   "weight_decay": 0.0001,
+   "batch_size": 512,
+   "dropout": 0.2,
+   "norm": "batch",
+   "reward": "symmetric",
+   "dueling": false,
+   "double": false,
+   "target_update": "hard",
+   "replay": "uniform",
+   "full_info": false,
+   "gamma": 0.9,
+   "hard_every": 100,
+   "hidden": [
+    256,
+    512,
+    256
+   ],
+   "feature_set": "telemetry+profile"
+  }
+ },
+ {
+  "family": "CS-MLP",
+  "config": {
+   "epochs": 60,
+   "eval_every": 2,
+   "hidden": [
+    256,
+    512,
+    256
+   ],
+   "dropout": 0.2,
+   "norm": "batch",
+   "lr": 0.001,
+   "weight_decay": 0.0001,
+   "batch_size": 512,
+   "sampling": "uniform",
+   "feature_set": "telemetry+profile"
+  }
+ }
+]

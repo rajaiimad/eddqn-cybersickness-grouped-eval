@@ -1,0 +1,3567 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<USERDATA>
+  <Data TimeStamp="0,01119211">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>0,01119211</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>0</PlayerSpeed>
+    <PlayerAcceleration>0</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>background</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="1,025355">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>1,025355</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>0</PlayerSpeed>
+    <PlayerAcceleration>0</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>background</RegionOfInterest>
+    <GameFps>14</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="2,025161">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>2,025161</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>0</PlayerSpeed>
+    <PlayerAcceleration>0</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>background</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="3,004365">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>3,004365</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>0</PlayerSpeed>
+    <PlayerAcceleration>0</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="4,003814">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>4,003814</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>7</PlayerSpeed>
+    <PlayerAcceleration>7</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="5,007221">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>5,007221</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>30</PlayerSpeed>
+    <PlayerAcceleration>23</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="6,025307">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>6,025307</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>52</PlayerSpeed>
+    <PlayerAcceleration>22</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="7,003554">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>7,003554</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>73</PlayerSpeed>
+    <PlayerAcceleration>21</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="8,0258">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>8,0258</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>91</PlayerSpeed>
+    <PlayerAcceleration>18</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="9,025406">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>9,025406</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>52</PlayerSpeed>
+    <PlayerAcceleration>-39</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="10,02573">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>10,02573</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>21</PlayerSpeed>
+    <PlayerAcceleration>-31</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="11,00269">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>11,00269</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>12</PlayerSpeed>
+    <PlayerAcceleration>-9</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="12,00684">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>12,00684</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>5</PlayerSpeed>
+    <PlayerAcceleration>-7</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="13,00559">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>13,00559</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>2</PlayerSpeed>
+    <PlayerAcceleration>-3</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="14,00504">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>14,00504</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>13</PlayerSpeed>
+    <PlayerAcceleration>11</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="15,02547">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>15,02547</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>30</PlayerSpeed>
+    <PlayerAcceleration>17</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="16,00516">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>16,00516</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>10</PlayerSpeed>
+    <PlayerAcceleration>-20</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="17,00551">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>17,00551</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>6</PlayerSpeed>
+    <PlayerAcceleration>-4</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="18,00397">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>18,00397</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>8</PlayerSpeed>
+    <PlayerAcceleration>2</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="19,00596">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>19,00596</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>10</PlayerSpeed>
+    <PlayerAcceleration>2</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="20,00599">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>20,00599</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>5</PlayerSpeed>
+    <PlayerAcceleration>-5</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="21,00392">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>21,00392</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>12</PlayerSpeed>
+    <PlayerAcceleration>7</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="22,00444">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>22,00444</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>6</PlayerSpeed>
+    <PlayerAcceleration>-6</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="23,00466">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>23,00466</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>11</PlayerSpeed>
+    <PlayerAcceleration>5</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="24,00388">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>24,00388</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>4</PlayerSpeed>
+    <PlayerAcceleration>-7</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="25,00393">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>25,00393</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>8</PlayerSpeed>
+    <PlayerAcceleration>4</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="26,00816">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>26,00816</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>8</PlayerSpeed>
+    <PlayerAcceleration>0</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="27,00941">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>27,00941</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>3</PlayerSpeed>
+    <PlayerAcceleration>-5</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="28,01225">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>28,01225</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>10</PlayerSpeed>
+    <PlayerAcceleration>7</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>46</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="29,00776">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>29,00776</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>5</PlayerSpeed>
+    <PlayerAcceleration>-5</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="30,0105">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>30,0105</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>22</PlayerSpeed>
+    <PlayerAcceleration>17</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="31,00783">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>31,00783</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>30</PlayerSpeed>
+    <PlayerAcceleration>8</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="32,00817">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>32,00817</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>47</PlayerSpeed>
+    <PlayerAcceleration>17</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="33,00852">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>33,00852</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>63</PlayerSpeed>
+    <PlayerAcceleration>16</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="34,00612">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>34,00612</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>78</PlayerSpeed>
+    <PlayerAcceleration>15</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="35,00642">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>35,00642</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>92</PlayerSpeed>
+    <PlayerAcceleration>14</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="36,00835">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>36,00835</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>105</PlayerSpeed>
+    <PlayerAcceleration>13</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="37,00621">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>37,00621</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>62</PlayerSpeed>
+    <PlayerAcceleration>-43</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="38,00533">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>38,00533</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>15</PlayerSpeed>
+    <PlayerAcceleration>-47</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="39,02438">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>39,02438</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>0</PlayerSpeed>
+    <PlayerAcceleration>-15</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="40,02439">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>40,02439</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>7</PlayerSpeed>
+    <PlayerAcceleration>7</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="41,02346">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>41,02346</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>3</PlayerSpeed>
+    <PlayerAcceleration>-4</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="42,00637">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>42,00637</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>20</PlayerSpeed>
+    <PlayerAcceleration>17</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="43,00499">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>43,00499</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>37</PlayerSpeed>
+    <PlayerAcceleration>17</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="44,00681">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>44,00681</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>43</PlayerSpeed>
+    <PlayerAcceleration>6</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="45,00403">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>45,00403</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>58</PlayerSpeed>
+    <PlayerAcceleration>15</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>background</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="46,00374">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>46,00374</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>71</PlayerSpeed>
+    <PlayerAcceleration>13</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="47,00547">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>47,00547</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>84</PlayerSpeed>
+    <PlayerAcceleration>13</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="48,00706">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>48,00706</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>93</PlayerSpeed>
+    <PlayerAcceleration>9</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="49,00489">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>49,00489</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>105</PlayerSpeed>
+    <PlayerAcceleration>12</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="50,0036">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>50,0036</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>118</PlayerSpeed>
+    <PlayerAcceleration>13</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="51,02443">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>51,02443</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>94</PlayerSpeed>
+    <PlayerAcceleration>-24</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="52,00165">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>52,00165</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>23</PlayerSpeed>
+    <PlayerAcceleration>-71</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>background</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="53,02591">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>53,02591</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>11</PlayerSpeed>
+    <PlayerAcceleration>-12</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="54,00517">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>54,00517</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>9</PlayerSpeed>
+    <PlayerAcceleration>-2</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="55,00774">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>55,00774</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>28</PlayerSpeed>
+    <PlayerAcceleration>19</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="56,00254">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>56,00254</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>45</PlayerSpeed>
+    <PlayerAcceleration>17</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="57,00599">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>57,00599</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>52</PlayerSpeed>
+    <PlayerAcceleration>7</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="58,00664">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>58,00664</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>69</PlayerSpeed>
+    <PlayerAcceleration>17</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="59,02613">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>59,02613</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>15</PlayerSpeed>
+    <PlayerAcceleration>-54</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="60,00742">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>60,00742</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>4</PlayerSpeed>
+    <PlayerAcceleration>-11</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="61,00656">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>61,00656</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>22</PlayerSpeed>
+    <PlayerAcceleration>18</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="62,00666">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>62,00666</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>6</PlayerSpeed>
+    <PlayerAcceleration>-16</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="63,00558">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>63,00558</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>3</PlayerSpeed>
+    <PlayerAcceleration>-3</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="64,00526">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>64,00526</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>8</PlayerSpeed>
+    <PlayerAcceleration>5</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="65,00536">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>65,00536</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>5</PlayerSpeed>
+    <PlayerAcceleration>-3</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="66,00719">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>66,00719</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>6</PlayerSpeed>
+    <PlayerAcceleration>1</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="67,0055">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>67,0055</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>7</PlayerSpeed>
+    <PlayerAcceleration>1</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="68,00354">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>68,00354</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>7</PlayerSpeed>
+    <PlayerAcceleration>0</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="69,00489">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>69,00489</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>5</PlayerSpeed>
+    <PlayerAcceleration>-2</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="70,00499">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>70,00499</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>10</PlayerSpeed>
+    <PlayerAcceleration>5</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="71,00432">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>71,00432</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>8</PlayerSpeed>
+    <PlayerAcceleration>-2</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="72,00951">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>72,00951</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>26</PlayerSpeed>
+    <PlayerAcceleration>18</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="73,00434">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>73,00434</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>23</PlayerSpeed>
+    <PlayerAcceleration>-3</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="74,00309">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>74,00309</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>39</PlayerSpeed>
+    <PlayerAcceleration>16</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="75,00346">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>75,00346</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>57</PlayerSpeed>
+    <PlayerAcceleration>18</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>background</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="76,00484">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>76,00484</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>75</PlayerSpeed>
+    <PlayerAcceleration>18</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="77,0061">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>77,0061</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>91</PlayerSpeed>
+    <PlayerAcceleration>16</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>background</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="78,00804">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>78,00804</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>102</PlayerSpeed>
+    <PlayerAcceleration>11</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="79,00715">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>79,00715</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>113</PlayerSpeed>
+    <PlayerAcceleration>11</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="80,00938">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>80,00938</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>124</PlayerSpeed>
+    <PlayerAcceleration>11</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="81,00716">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>81,00716</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>133</PlayerSpeed>
+    <PlayerAcceleration>9</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="82,00994">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>82,00994</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>143</PlayerSpeed>
+    <PlayerAcceleration>10</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="83,00689">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>83,00689</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>26</PlayerSpeed>
+    <PlayerAcceleration>-117</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="84,00813">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>84,00813</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>4</PlayerSpeed>
+    <PlayerAcceleration>-22</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="85,00665">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>85,00665</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>11</PlayerSpeed>
+    <PlayerAcceleration>7</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="86,00749">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>86,00749</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>26</PlayerSpeed>
+    <PlayerAcceleration>15</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="87,00671">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>87,00671</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>28</PlayerSpeed>
+    <PlayerAcceleration>2</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>background</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="88,00731">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>88,00731</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>5</PlayerSpeed>
+    <PlayerAcceleration>-23</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>background</RegionOfInterest>
+    <GameFps>46</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="89,00848">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>89,00848</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>6</PlayerSpeed>
+    <PlayerAcceleration>1</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="90,01156">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>90,01156</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>1</PlayerSpeed>
+    <PlayerAcceleration>-5</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="91,0055">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>91,0055</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>16</PlayerSpeed>
+    <PlayerAcceleration>15</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>46</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="92,00813">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>92,00813</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>1</PlayerSpeed>
+    <PlayerAcceleration>-15</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="93,00597">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>93,00597</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>9</PlayerSpeed>
+    <PlayerAcceleration>8</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="94,00701">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>94,00701</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>5</PlayerSpeed>
+    <PlayerAcceleration>-4</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="95,00835">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>95,00835</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>23</PlayerSpeed>
+    <PlayerAcceleration>18</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="96,00768">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>96,00768</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>25</PlayerSpeed>
+    <PlayerAcceleration>2</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="97,00456">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>97,00456</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>43</PlayerSpeed>
+    <PlayerAcceleration>18</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="98,00697">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>98,00697</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>62</PlayerSpeed>
+    <PlayerAcceleration>19</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="99,02598">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>99,02598</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>8</PlayerSpeed>
+    <PlayerAcceleration>-54</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="100,0055">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>100,0055</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>0</PlayerSpeed>
+    <PlayerAcceleration>-8</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="101,0072">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>101,0072</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>5</PlayerSpeed>
+    <PlayerAcceleration>5</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="102,007">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>102,007</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>15</PlayerSpeed>
+    <PlayerAcceleration>10</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="103,0078">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>103,0078</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>1</PlayerSpeed>
+    <PlayerAcceleration>-14</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="104,0097">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>104,0097</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>8</PlayerSpeed>
+    <PlayerAcceleration>7</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="105,0082">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>105,0082</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>11</PlayerSpeed>
+    <PlayerAcceleration>3</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="106,0069">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>106,0069</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>30</PlayerSpeed>
+    <PlayerAcceleration>19</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="107,0067">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>107,0067</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>40</PlayerSpeed>
+    <PlayerAcceleration>10</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="108,0045">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>108,0045</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>59</PlayerSpeed>
+    <PlayerAcceleration>19</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="109,0065">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>109,0065</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>78</PlayerSpeed>
+    <PlayerAcceleration>19</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="110,0247">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>110,0247</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>75</PlayerSpeed>
+    <PlayerAcceleration>-3</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="111,0063">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>111,0063</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>24</PlayerSpeed>
+    <PlayerAcceleration>-51</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="112,0054">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>112,0054</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>12</PlayerSpeed>
+    <PlayerAcceleration>-12</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="113,0063">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>113,0063</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>6</PlayerSpeed>
+    <PlayerAcceleration>-6</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="114,0073">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>114,0073</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>23</PlayerSpeed>
+    <PlayerAcceleration>17</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="115,0137">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>115,0137</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>41</PlayerSpeed>
+    <PlayerAcceleration>18</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="116,0054">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>116,0054</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>58</PlayerSpeed>
+    <PlayerAcceleration>17</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="117,0042">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>117,0042</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>74</PlayerSpeed>
+    <PlayerAcceleration>16</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="118,006">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>118,006</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>89</PlayerSpeed>
+    <PlayerAcceleration>15</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="119,0094">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>119,0094</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>93</PlayerSpeed>
+    <PlayerAcceleration>4</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>background</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="120,0088">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>120,0088</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>30</PlayerSpeed>
+    <PlayerAcceleration>-63</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>46</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="121,0094">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>121,0094</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>12</PlayerSpeed>
+    <PlayerAcceleration>-18</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>2</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="122,0099">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>122,0099</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>8</PlayerSpeed>
+    <PlayerAcceleration>-4</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>2</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="123,0088">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>123,0088</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>12</PlayerSpeed>
+    <PlayerAcceleration>4</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>2</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="124,0097">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>124,0097</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>18</PlayerSpeed>
+    <PlayerAcceleration>6</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>46</GameFps>
+    <DiscomfortLevel>2</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="125,0088">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>125,0088</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>29</PlayerSpeed>
+    <PlayerAcceleration>11</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>46</GameFps>
+    <DiscomfortLevel>2</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="126,0101">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>126,0101</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>31</PlayerSpeed>
+    <PlayerAcceleration>2</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>46</GameFps>
+    <DiscomfortLevel>2</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="127,0095">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>127,0095</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>12</PlayerSpeed>
+    <PlayerAcceleration>-19</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>foreground</RegionOfInterest>
+    <GameFps>46</GameFps>
+    <DiscomfortLevel>2</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="128,0096">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>128,0096</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>4</PlayerSpeed>
+    <PlayerAcceleration>-8</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>background</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>2</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="129,0067">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>129,0067</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>1</PlayerSpeed>
+    <PlayerAcceleration>-3</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>background</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>2</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="130,009">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>130,009</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>1</PlayerSpeed>
+    <PlayerAcceleration>0</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+  <Data TimeStamp="131,0112">
+    <UserGenere>feminino</UserGenere>
+    <UserAge>18 A 36</UserAge>
+    <UserExperience>NENHUMA</UserExperience>
+    <UserSymptoms>NENHUM</UserSymptoms>
+    <UserFlicker>NENHUM</UserFlicker>
+    <UserGlassesUse>SIM</UserGlassesUse>
+    <UserVisionProblems>MIOPIA</UserVisionProblems>
+    <UserPosture>DE PÉ</UserPosture>
+    <UserEyeDominance>DIREITO</UserEyeDominance>
+    <StaticFrame>True</StaticFrame>
+    <HapticFeedback>False</HapticFeedback>
+    <DegreeOfControl>TOTAL</DegreeOfControl>
+    <DofSimulation>False</DofSimulation>
+    <Locomotion>False</Locomotion>
+    <CameraAutoMovement>False</CameraAutoMovement>
+    <TimeStamp>131,0112</TimeStamp>
+    <CameraFieldOfView>95,63988</CameraFieldOfView>
+    <PlayerSpeed>0</PlayerSpeed>
+    <PlayerAcceleration>-1</PlayerAcceleration>
+    <CameraRotationX>0,06174421</CameraRotationX>
+    <CameraRotationY>-0,9814414</CameraRotationY>
+    <CameraRotationZ>0,01995647</CameraRotationZ>
+    <RegionOfInterest>middleground</RegionOfInterest>
+    <GameFps>44</GameFps>
+    <DiscomfortLevel>0</DiscomfortLevel>
+  </Data>
+</USERDATA>

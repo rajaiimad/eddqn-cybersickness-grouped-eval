@@ -1,0 +1,12 @@
+{
+  "oversampled_total": 20972,
+  "split_sizes": [
+    14680,
+    3146,
+    3146
+  ],
+  "test_rows_with_exact_copy_in_train": 2170,
+  "test_positive_rows_with_exact_copy_in_train": 2170,
+  "test_positive_rows": 2359,
+  "test_sessions_also_in_train": 35
+}

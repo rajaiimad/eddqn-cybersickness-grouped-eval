@@ -1,0 +1,852 @@
+{
+  "LogReg": {
+    "0": {
+      "config_id": 3,
+      "config": {
+        "feature_set": "exposure",
+        "C": 0.0001
+      },
+      "pooled_oof_min_cost": 0.4860239589275528,
+      "pooled_oof_pr_auc": 0.6351820095396876
+    },
+    "1": {
+      "config_id": 8,
+      "config": {
+        "feature_set": "telemetry+profile",
+        "C": 1.0
+      },
+      "pooled_oof_min_cost": 0.5215736040609137,
+      "pooled_oof_pr_auc": 0.5440288259557686
+    },
+    "2": {
+      "config_id": 10,
+      "config": {
+        "feature_set": "exposure",
+        "C": 10.0
+      },
+      "pooled_oof_min_cost": 0.539553182520725,
+      "pooled_oof_pr_auc": 0.4862482434521218
+    },
+    "3": {
+      "config_id": 3,
+      "config": {
+        "feature_set": "exposure",
+        "C": 0.0001
+      },
+      "pooled_oof_min_cost": 0.5109967845659164,
+      "pooled_oof_pr_auc": 0.568499953716521
+    },
+    "4": {
+      "config_id": 0,
+      "config": {
+        "feature_set": "exposure+profile",
+        "C": 0.01
+      },
+      "pooled_oof_min_cost": 0.5307355967078189,
+      "pooled_oof_pr_auc": 0.6100210153640861
+    }
+  },
+  "E-DDQN": {
+    "0": {
+      "config_id": 7,
+      "config": {
+        "feature_set": "exposure+profile",
+        "hidden": [
+          128,
+          128
+        ],
+        "dropout": 0.2,
+        "norm": "layer",
+        "lr": 0.003,
+        "weight_decay": 0.0,
+        "batch_size": 256,
+        "eps_decay": 0.97,
+        "warmup": 0,
+        "updates_per_learn": 4,
+        "gamma": 0.99,
+        "tau": 0.05,
+        "rho": 0.4,
+        "full_info": true,
+        "epochs": 40,
+        "eval_every": 2,
+        "chunk": 256,
+        "learn_every": 2,
+        "consolidation": 5,
+        "eps_start": 1.0,
+        "eps_end": 0.01,
+        "buffer": 50000,
+        "grad_clip": 1.0,
+        "reward": "asymmetric",
+        "dueling": true,
+        "double": true,
+        "target_update": "soft",
+        "replay": "balanced"
+      },
+      "pooled_oof_min_cost": 0.4239874500855676,
+      "pooled_oof_pr_auc": 0.6543456152986522
+    },
+    "1": {
+      "config_id": 7,
+      "config": {
+        "feature_set": "exposure+profile",
+        "hidden": [
+          128,
+          128
+        ],
+        "dropout": 0.2,
+        "norm": "layer",
+        "lr": 0.003,
+        "weight_decay": 0.0,
+        "batch_size": 256,
+        "eps_decay": 0.97,
+        "warmup": 0,
+        "updates_per_learn": 4,
+        "gamma": 0.99,
+        "tau": 0.05,
+        "rho": 0.4,
+        "full_info": true,
+        "epochs": 40,
+        "eval_every": 2,
+        "chunk": 256,
+        "learn_every": 2,
+        "consolidation": 5,
+        "eps_start": 1.0,
+        "eps_end": 0.01,
+        "buffer": 50000,
+        "grad_clip": 1.0,
+        "reward": "asymmetric",
+        "dueling": true,
+        "double": true,
+        "target_update": "soft",
+        "replay": "balanced"
+      },
+      "pooled_oof_min_cost": 0.4521573604060914,
+      "pooled_oof_pr_auc": 0.4958967525318674
+    },
+    "2": {
+      "config_id": 7,
+      "config": {
+        "feature_set": "exposure+profile",
+        "hidden": [
+          128,
+          128
+        ],
+        "dropout": 0.2,
+        "norm": "layer",
+        "lr": 0.003,
+        "weight_decay": 0.0,
+        "batch_size": 256,
+        "eps_decay": 0.97,
+        "warmup": 0,
+        "updates_per_learn": 4,
+        "gamma": 0.99,
+        "tau": 0.05,
+        "rho": 0.4,
+        "full_info": true,
+        "epochs": 40,
+        "eval_every": 2,
+        "chunk": 256,
+        "learn_every": 2,
+        "consolidation": 5,
+        "eps_start": 1.0,
+        "eps_end": 0.01,
+        "buffer": 50000,
+        "grad_clip": 1.0,
+        "reward": "asymmetric",
+        "dueling": true,
+        "double": true,
+        "target_update": "soft",
+        "replay": "balanced"
+      },
+      "pooled_oof_min_cost": 0.48419277785583814,
+      "pooled_oof_pr_auc": 0.5618108139630975
+    },
+    "3": {
+      "config_id": 14,
+      "config": {
+        "feature_set": "exposure+profile",
+        "hidden": [
+          128,
+          128
+        ],
+        "dropout": 0.3,
+        "norm": "layer",
+        "lr": 0.0003,
+        "weight_decay": 0.0001,
+        "batch_size": 512,
+        "eps_decay": 0.9,
+        "warmup": 0,
+        "updates_per_learn": 1,
+        "gamma": 0.99,
+        "tau": 0.005,
+        "rho": 0.4,
+        "full_info": false,
+        "epochs": 40,
+        "eval_every": 2,
+        "chunk": 256,
+        "learn_every": 2,
+        "consolidation": 5,
+        "eps_start": 1.0,
+        "eps_end": 0.01,
+        "buffer": 50000,
+        "grad_clip": 1.0,
+        "reward": "asymmetric",
+        "dueling": true,
+        "double": true,
+        "target_update": "soft",
+        "replay": "balanced"
+      },
+      "pooled_oof_min_cost": 0.49016077170418004,
+      "pooled_oof_pr_auc": 0.5756403684325329
+    },
+    "4": {
+      "config_id": 8,
+      "config": {
+        "feature_set": "exposure+profile",
+        "hidden": [
+          256,
+          512,
+          256
+        ],
+        "dropout": 0.3,
+        "norm": "layer",
+        "lr": 0.0003,
+        "weight_decay": 0.001,
+        "batch_size": 512,
+        "eps_decay": 0.95,
+        "warmup": 4000,
+        "updates_per_learn": 2,
+        "gamma": 0.9,
+        "tau": 0.05,
+        "rho": 0.5,
+        "full_info": false,
+        "epochs": 40,
+        "eval_every": 2,
+        "chunk": 256,
+        "learn_every": 2,
+        "consolidation": 5,
+        "eps_start": 1.0,
+        "eps_end": 0.01,
+        "buffer": 50000,
+        "grad_clip": 1.0,
+        "reward": "asymmetric",
+        "dueling": true,
+        "double": true,
+        "target_update": "soft",
+        "replay": "balanced"
+      },
+      "pooled_oof_min_cost": 0.48289609053497945,
+      "pooled_oof_pr_auc": 0.5265016754619016
+    }
+  },
+  "E-CB": {
+    "0": {
+      "config_id": 4,
+      "config": {
+        "feature_set": "exposure",
+        "hidden": [
+          256,
+          512,
+          256
+        ],
+        "dropout": 0.3,
+        "norm": "layer",
+        "lr": 0.003,
+        "weight_decay": 0.001,
+        "batch_size": 512,
+        "eps_decay": 0.97,
+        "warmup": 4000,
+        "updates_per_learn": 4,
+        "rho": 0.5,
+        "full_info": true,
+        "epochs": 40,
+        "eval_every": 2,
+        "chunk": 256,
+        "learn_every": 2,
+        "consolidation": 5,
+        "eps_start": 1.0,
+        "eps_end": 0.01,
+        "buffer": 50000,
+        "grad_clip": 1.0,
+        "reward": "asymmetric",
+        "dueling": true,
+        "double": true,
+        "target_update": "soft",
+        "replay": "balanced",
+        "gamma": 0.0
+      },
+      "pooled_oof_min_cost": 0.4724757558471192,
+      "pooled_oof_pr_auc": 0.6068247363839641
+    },
+    "1": {
+      "config_id": 4,
+      "config": {
+        "feature_set": "exposure",
+        "hidden": [
+          256,
+          512,
+          256
+        ],
+        "dropout": 0.3,
+        "norm": "layer",
+        "lr": 0.003,
+        "weight_decay": 0.001,
+        "batch_size": 512,
+        "eps_decay": 0.97,
+        "warmup": 4000,
+        "updates_per_learn": 4,
+        "rho": 0.5,
+        "full_info": true,
+        "epochs": 40,
+        "eval_every": 2,
+        "chunk": 256,
+        "learn_every": 2,
+        "consolidation": 5,
+        "eps_start": 1.0,
+        "eps_end": 0.01,
+        "buffer": 50000,
+        "grad_clip": 1.0,
+        "reward": "asymmetric",
+        "dueling": true,
+        "double": true,
+        "target_update": "soft",
+        "replay": "balanced",
+        "gamma": 0.0
+      },
+      "pooled_oof_min_cost": 0.45875634517766495,
+      "pooled_oof_pr_auc": 0.6125584553188824
+    },
+    "2": {
+      "config_id": 4,
+      "config": {
+        "feature_set": "exposure",
+        "hidden": [
+          256,
+          512,
+          256
+        ],
+        "dropout": 0.3,
+        "norm": "layer",
+        "lr": 0.003,
+        "weight_decay": 0.001,
+        "batch_size": 512,
+        "eps_decay": 0.97,
+        "warmup": 4000,
+        "updates_per_learn": 4,
+        "rho": 0.5,
+        "full_info": true,
+        "epochs": 40,
+        "eval_every": 2,
+        "chunk": 256,
+        "learn_every": 2,
+        "consolidation": 5,
+        "eps_start": 1.0,
+        "eps_end": 0.01,
+        "buffer": 50000,
+        "grad_clip": 1.0,
+        "reward": "asymmetric",
+        "dueling": true,
+        "double": true,
+        "target_update": "soft",
+        "replay": "balanced",
+        "gamma": 0.0
+      },
+      "pooled_oof_min_cost": 0.5176338344808206,
+      "pooled_oof_pr_auc": 0.47311259889389956
+    },
+    "3": {
+      "config_id": 14,
+      "config": {
+        "feature_set": "exposure",
+        "hidden": [
+          128,
+          128
+        ],
+        "dropout": 0.2,
+        "norm": "layer",
+        "lr": 0.001,
+        "weight_decay": 0.001,
+        "batch_size": 256,
+        "eps_decay": 0.97,
+        "warmup": 0,
+        "updates_per_learn": 2,
+        "rho": 0.6,
+        "full_info": false,
+        "epochs": 40,
+        "eval_every": 2,
+        "chunk": 256,
+        "learn_every": 2,
+        "consolidation": 5,
+        "eps_start": 1.0,
+        "eps_end": 0.01,
+        "buffer": 50000,
+        "grad_clip": 1.0,
+        "reward": "asymmetric",
+        "dueling": true,
+        "double": true,
+        "target_update": "soft",
+        "replay": "balanced",
+        "gamma": 0.0
+      },
+      "pooled_oof_min_cost": 0.5233440514469453,
+      "pooled_oof_pr_auc": 0.6392779645585712
+    },
+    "4": {
+      "config_id": 12,
+      "config": {
+        "feature_set": "exposure+profile",
+        "hidden": [
+          64,
+          64
+        ],
+        "dropout": 0.2,
+        "norm": "layer",
+        "lr": 0.003,
+        "weight_decay": 0.001,
+        "batch_size": 256,
+        "eps_decay": 0.95,
+        "warmup": 0,
+        "updates_per_learn": 1,
+        "rho": 0.5,
+        "full_info": true,
+        "epochs": 40,
+        "eval_every": 2,
+        "chunk": 256,
+        "learn_every": 2,
+        "consolidation": 5,
+        "eps_start": 1.0,
+        "eps_end": 0.01,
+        "buffer": 50000,
+        "grad_clip": 1.0,
+        "reward": "asymmetric",
+        "dueling": true,
+        "double": true,
+        "target_update": "soft",
+        "replay": "balanced",
+        "gamma": 0.0
+      },
+      "pooled_oof_min_cost": 0.4660493827160494,
+      "pooled_oof_pr_auc": 0.5834440712778941
+    }
+  },
+  "DQN": {
+    "0": {
+      "config_id": 5,
+      "config": {
+        "feature_set": "exposure",
+        "hidden": [
+          64,
+          64
+        ],
+        "dropout": 0.0,
+        "norm": "layer",
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "batch_size": 256,
+        "eps_decay": 0.95,
+        "warmup": 0,
+        "updates_per_learn": 2,
+        "gamma": 0.0,
+        "hard_every": 10,
+        "epochs": 40,
+        "eval_every": 2,
+        "chunk": 256,
+        "learn_every": 2,
+        "consolidation": 5,
+        "eps_start": 1.0,
+        "eps_end": 0.01,
+        "buffer": 50000,
+        "grad_clip": 1.0,
+        "reward": "symmetric",
+        "dueling": false,
+        "double": false,
+        "target_update": "hard",
+        "replay": "uniform",
+        "full_info": false
+      },
+      "pooled_oof_min_cost": 0.4322589845978323,
+      "pooled_oof_pr_auc": 0.6272216555423038
+    },
+    "1": {
+      "config_id": 11,
+      "config": {
+        "feature_set": "exposure+profile",
+        "hidden": [
+          256,
+          512,
+          256
+        ],
+        "dropout": 0.0,
+        "norm": "layer",
+        "lr": 0.001,
+        "weight_decay": 0.001,
+        "batch_size": 512,
+        "eps_decay": 0.9,
+        "warmup": 0,
+        "updates_per_learn": 4,
+        "gamma": 0.9,
+        "hard_every": 500,
+        "epochs": 40,
+        "eval_every": 2,
+        "chunk": 256,
+        "learn_every": 2,
+        "consolidation": 5,
+        "eps_start": 1.0,
+        "eps_end": 0.01,
+        "buffer": 50000,
+        "grad_clip": 1.0,
+        "reward": "symmetric",
+        "dueling": false,
+        "double": false,
+        "target_update": "hard",
+        "replay": "uniform",
+        "full_info": false
+      },
+      "pooled_oof_min_cost": 0.45241116751269034,
+      "pooled_oof_pr_auc": 0.47383563151858843
+    },
+    "2": {
+      "config_id": 3,
+      "config": {
+        "feature_set": "exposure",
+        "hidden": [
+          128,
+          128
+        ],
+        "dropout": 0.3,
+        "norm": "batch",
+        "lr": 0.0003,
+        "weight_decay": 0.0,
+        "batch_size": 256,
+        "eps_decay": 0.95,
+        "warmup": 0,
+        "updates_per_learn": 2,
+        "gamma": 0.9,
+        "hard_every": 500,
+        "epochs": 40,
+        "eval_every": 2,
+        "chunk": 256,
+        "learn_every": 2,
+        "consolidation": 5,
+        "eps_start": 1.0,
+        "eps_end": 0.01,
+        "buffer": 50000,
+        "grad_clip": 1.0,
+        "reward": "symmetric",
+        "dueling": false,
+        "double": false,
+        "target_update": "hard",
+        "replay": "uniform",
+        "full_info": false
+      },
+      "pooled_oof_min_cost": 0.5378670788253478,
+      "pooled_oof_pr_auc": 0.5215884126438808
+    },
+    "3": {
+      "config_id": 13,
+      "config": {
+        "feature_set": "exposure",
+        "hidden": [
+          128,
+          128
+        ],
+        "dropout": 0.2,
+        "norm": "layer",
+        "lr": 0.001,
+        "weight_decay": 0.0,
+        "batch_size": 512,
+        "eps_decay": 0.97,
+        "warmup": 0,
+        "updates_per_learn": 2,
+        "gamma": 0.9,
+        "hard_every": 100,
+        "epochs": 40,
+        "eval_every": 2,
+        "chunk": 256,
+        "learn_every": 2,
+        "consolidation": 5,
+        "eps_start": 1.0,
+        "eps_end": 0.01,
+        "buffer": 50000,
+        "grad_clip": 1.0,
+        "reward": "symmetric",
+        "dueling": false,
+        "double": false,
+        "target_update": "hard",
+        "replay": "uniform",
+        "full_info": false
+      },
+      "pooled_oof_min_cost": 0.5010932475884244,
+      "pooled_oof_pr_auc": 0.6558590474271984
+    },
+    "4": {
+      "config_id": 15,
+      "config": {
+        "feature_set": "exposure+profile",
+        "hidden": [
+          256,
+          512,
+          256
+        ],
+        "dropout": 0.1,
+        "norm": "batch",
+        "lr": 0.003,
+        "weight_decay": 0.0,
+        "batch_size": 512,
+        "eps_decay": 0.97,
+        "warmup": 4000,
+        "updates_per_learn": 1,
+        "gamma": 0.0,
+        "hard_every": 100,
+        "epochs": 40,
+        "eval_every": 2,
+        "chunk": 256,
+        "learn_every": 2,
+        "consolidation": 5,
+        "eps_start": 1.0,
+        "eps_end": 0.01,
+        "buffer": 50000,
+        "grad_clip": 1.0,
+        "reward": "symmetric",
+        "dueling": false,
+        "double": false,
+        "target_update": "hard",
+        "replay": "uniform",
+        "full_info": false
+      },
+      "pooled_oof_min_cost": 0.46875,
+      "pooled_oof_pr_auc": 0.5678385709500453
+    }
+  },
+  "CS-MLP": {
+    "0": {
+      "config_id": 0,
+      "config": {
+        "feature_set": "exposure+profile",
+        "hidden": [
+          128,
+          128
+        ],
+        "dropout": 0.3,
+        "norm": "layer",
+        "lr": 0.001,
+        "weight_decay": 0.0,
+        "batch_size": 256,
+        "sampling": "balanced",
+        "epochs": 40,
+        "eval_every": 2
+      },
+      "pooled_oof_min_cost": 0.4854535082715345,
+      "pooled_oof_pr_auc": 0.5957252108491125
+    },
+    "1": {
+      "config_id": 0,
+      "config": {
+        "feature_set": "exposure+profile",
+        "hidden": [
+          128,
+          128
+        ],
+        "dropout": 0.3,
+        "norm": "layer",
+        "lr": 0.001,
+        "weight_decay": 0.0,
+        "batch_size": 256,
+        "sampling": "balanced",
+        "epochs": 40,
+        "eval_every": 2
+      },
+      "pooled_oof_min_cost": 0.4897208121827411,
+      "pooled_oof_pr_auc": 0.49412035250438124
+    },
+    "2": {
+      "config_id": 2,
+      "config": {
+        "feature_set": "exposure",
+        "hidden": [
+          64,
+          64
+        ],
+        "dropout": 0.3,
+        "norm": "layer",
+        "lr": 0.0003,
+        "weight_decay": 0.0,
+        "batch_size": 256,
+        "sampling": "uniform",
+        "epochs": 40,
+        "eval_every": 2
+      },
+      "pooled_oof_min_cost": 0.5034424617113953,
+      "pooled_oof_pr_auc": 0.5004789989794242
+    },
+    "3": {
+      "config_id": 9,
+      "config": {
+        "feature_set": "telemetry",
+        "hidden": [
+          64,
+          64
+        ],
+        "dropout": 0.0,
+        "norm": "layer",
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "batch_size": 256,
+        "sampling": "balanced",
+        "epochs": 40,
+        "eval_every": 2
+      },
+      "pooled_oof_min_cost": 0.5265594855305467,
+      "pooled_oof_pr_auc": 0.5647373890856018
+    },
+    "4": {
+      "config_id": 6,
+      "config": {
+        "feature_set": "telemetry",
+        "hidden": [
+          64,
+          64
+        ],
+        "dropout": 0.3,
+        "norm": "layer",
+        "lr": 0.0003,
+        "weight_decay": 0.001,
+        "batch_size": 512,
+        "sampling": "uniform",
+        "epochs": 40,
+        "eval_every": 2
+      },
+      "pooled_oof_min_cost": 0.4998713991769547,
+      "pooled_oof_pr_auc": 0.5467721987303338
+    }
+  },
+  "HGB": {
+    "0": {
+      "config_id": 11,
+      "config": {
+        "feature_set": "exposure",
+        "learning_rate": 0.02,
+        "max_iter": 50,
+        "max_leaf_nodes": 4,
+        "min_samples_leaf": 20,
+        "l2_regularization": 1.0
+      },
+      "pooled_oof_min_cost": 0.4857387335995436,
+      "pooled_oof_pr_auc": 0.5848654401206155
+    },
+    "1": {
+      "config_id": 11,
+      "config": {
+        "feature_set": "exposure",
+        "learning_rate": 0.02,
+        "max_iter": 50,
+        "max_leaf_nodes": 4,
+        "min_samples_leaf": 20,
+        "l2_regularization": 1.0
+      },
+      "pooled_oof_min_cost": 0.5010152284263959,
+      "pooled_oof_pr_auc": 0.5040265524454808
+    },
+    "2": {
+      "config_id": 14,
+      "config": {
+        "feature_set": "exposure",
+        "learning_rate": 0.02,
+        "max_iter": 400,
+        "max_leaf_nodes": 4,
+        "min_samples_leaf": 20,
+        "l2_regularization": 0.0
+      },
+      "pooled_oof_min_cost": 0.541801320781228,
+      "pooled_oof_pr_auc": 0.4126099712134933
+    },
+    "3": {
+      "config_id": 4,
+      "config": {
+        "feature_set": "telemetry",
+        "learning_rate": 0.05,
+        "max_iter": 200,
+        "max_leaf_nodes": 31,
+        "min_samples_leaf": 100,
+        "l2_regularization": 0.0
+      },
+      "pooled_oof_min_cost": 0.5319614147909968,
+      "pooled_oof_pr_auc": 0.5293198641770489
+    },
+    "4": {
+      "config_id": 14,
+      "config": {
+        "feature_set": "exposure",
+        "learning_rate": 0.02,
+        "max_iter": 400,
+        "max_leaf_nodes": 4,
+        "min_samples_leaf": 20,
+        "l2_regularization": 0.0
+      },
+      "pooled_oof_min_cost": 0.527391975308642,
+      "pooled_oof_pr_auc": 0.5120018721802143
+    }
+  },
+  "RF": {
+    "0": {
+      "config_id": 1,
+      "config": {
+        "feature_set": "telemetry",
+        "max_depth": 3,
+        "min_samples_leaf": 100,
+        "max_features": 0.5,
+        "n_estimators": 300
+      },
+      "pooled_oof_min_cost": 0.46534512264689104,
+      "pooled_oof_pr_auc": 0.5682873240803479
+    },
+    "1": {
+      "config_id": 13,
+      "config": {
+        "feature_set": "exposure",
+        "max_depth": 8,
+        "min_samples_leaf": 25,
+        "max_features": "sqrt",
+        "n_estimators": 300
+      },
+      "pooled_oof_min_cost": 0.47779187817258884,
+      "pooled_oof_pr_auc": 0.5427632891105671
+    },
+    "2": {
+      "config_id": 12,
+      "config": {
+        "feature_set": "exposure",
+        "max_depth": 5,
+        "min_samples_leaf": 5,
+        "max_features": "sqrt",
+        "n_estimators": 300
+      },
+      "pooled_oof_min_cost": 0.5086412814388085,
+      "pooled_oof_pr_auc": 0.4469755890127135
+    },
+    "3": {
+      "config_id": 12,
+      "config": {
+        "feature_set": "exposure",
+        "max_depth": 5,
+        "min_samples_leaf": 5,
+        "max_features": "sqrt",
+        "n_estimators": 300
+      },
+      "pooled_oof_min_cost": 0.5135691318327974,
+      "pooled_oof_pr_auc": 0.49470415155175224
+    },
+    "4": {
+      "config_id": 14,
+      "config": {
+        "feature_set": "telemetry+profile",
+        "max_depth": 3,
+        "min_samples_leaf": 25,
+        "max_features": "sqrt",
+        "n_estimators": 300
+      },
+      "pooled_oof_min_cost": 0.5104166666666666,
+      "pooled_oof_pr_auc": 0.5202830116741868
+    }
+  }
+}

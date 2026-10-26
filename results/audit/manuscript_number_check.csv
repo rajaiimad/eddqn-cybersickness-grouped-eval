@@ -1,0 +1,23 @@
+item,metric,manuscript,recomputed,consistent
+E-DDQN test (Tab.8/9),accuracy,96.88,96.885,True
+E-DDQN test (Tab.8/9),precision,96.43,96.427,True
+E-DDQN test (Tab.8/9),recall,99.53,99.534,True
+E-DDQN test (Tab.8/9),specificity,88.95,88.945,True
+E-DDQN test (Tab.8/9),f1,97.96,97.956,True
+E-DDQN test (Tab.8/9),mcc,0.916,0.916,True
+E-DDQN test (Tab.8/9),balanced_accuracy,94.24,94.24,True
+E-DDQN test (Tab.8/9),g_mean,94.09,94.091,True
+E-DDQN test (Tab.8/9),npv,98.45,98.453,True
+E-DDQN test (Tab.8/9),f2,98.9,98.896,True
+Std DQN binary test (Tab.8/9),accuracy,94.53,94.533,True
+Std DQN binary test (Tab.8/9),precision,98.07,98.066,True
+Std DQN binary test (Tab.8/9),recall,94.57,94.574,True
+Std DQN binary test (Tab.8/9),specificity,94.41,94.409,True
+Std DQN binary test (Tab.8/9),f1,96.29,96.288,True
+Std DQN binary test (Tab.8/9),mcc,0.861,0.861,True
+Std DQN binary test (Tab.8/9),balanced_accuracy,94.49,94.492,True
+Std DQN binary test (Tab.8/9),g_mean,94.49,94.492,True
+Std DQN binary test (Tab.8/9),npv,85.3,85.304,True
+Std DQN binary test (Tab.8/9),f2,95.25,95.252,True
+McNemar (Sec. V-E),"chi2 from printed b,c",28.6,28.623,True
+McNemar (Sec. V-E),b - c implied by confusion matrices,62.0,74.0,False

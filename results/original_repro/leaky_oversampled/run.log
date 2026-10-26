@@ -1,0 +1,153 @@
+Using device: cpu
+Train: 14680 | Val: 3146 | Test: 3146
+Train class dist: [ 3670 11010]
+Val   class dist: [ 786 2360]
+Test  class dist: [ 787 2359]
+Feature check passed: 21 features confirmed
+
+Pre-filling replay memory (warm-up)...
+Memory pre-filled with 14680 transitions.
+
+=======================================================
+TRAINING STARTED
+=======================================================
+Episode  10/500 | Reward:   725.60 | Progress: 0.4228 | Epsilon: 0.7374
+  > VAL  Acc 78.54% BalAcc 67.37% Rec 89.70% | TEST Acc 77.97% Rec 89.36% FN 251
+Episode  20/500 | Reward:  2238.30 | Progress: 0.6920 | Epsilon: 0.5438
+  > VAL  Acc 78.07% BalAcc 58.10% Rec 98.01% | TEST Acc 78.64% Rec 97.67% FN 55
+Episode  30/500 | Reward:  2979.30 | Progress: 0.7003 | Epsilon: 0.4010
+  > VAL  Acc 82.64% BalAcc 66.50% Rec 98.77% | TEST Acc 82.17% Rec 98.26% FN 41
+Episode  40/500 | Reward:  3632.70 | Progress: 0.7118 | Epsilon: 0.2957
+  > VAL  Acc 87.19% BalAcc 76.78% Rec 97.58% | TEST Acc 87.70% Rec 97.67% FN 55
+Episode  50/500 | Reward:  3985.30 | Progress: 0.7098 | Epsilon: 0.2181
+  > VAL  Acc 86.49% BalAcc 75.30% Rec 97.67% | TEST Acc 85.86% Rec 97.80% FN 52
+Episode  60/500 | Reward:  4387.90 | Progress: 0.7212 | Epsilon: 0.1608
+  > VAL  Acc 88.08% BalAcc 78.52% Rec 97.63% | TEST Acc 87.89% Rec 97.80% FN 52
+Episode  70/500 | Reward:  4745.30 | Progress: 0.7392 | Epsilon: 0.1186
+  > VAL  Acc 88.97% BalAcc 80.05% Rec 97.88% | TEST Acc 88.53% Rec 97.92% FN 49
+Episode  80/500 | Reward:  4977.40 | Progress: 0.7460 | Epsilon: 0.0874
+  > VAL  Acc 88.65% BalAcc 78.31% Rec 98.98% | TEST Acc 88.43% Rec 98.86% FN 27
+Episode  90/500 | Reward:  5089.60 | Progress: 0.7456 | Epsilon: 0.0645
+  > VAL  Acc 89.86% BalAcc 81.15% Rec 98.56% | TEST Acc 89.00% Rec 98.77% FN 29
+Episode 100/500 | Reward:  5172.30 | Progress: 0.7459 | Epsilon: 0.0476
+  > VAL  Acc 91.48% BalAcc 84.27% Rec 98.69% | TEST Acc 91.23% Rec 98.35% FN 39
+Episode 110/500 | Reward:  5271.50 | Progress: 0.7507 | Epsilon: 0.0351
+  > VAL  Acc 92.02% BalAcc 85.60% Rec 98.43% | TEST Acc 91.67% Rec 98.52% FN 35
+Episode 120/500 | Reward:  5378.60 | Progress: 0.7575 | Epsilon: 0.0259
+  > VAL  Acc 91.74% BalAcc 84.90% Rec 98.56% | TEST Acc 91.04% Rec 98.30% FN 40
+Episode 130/500 | Reward:  5425.70 | Progress: 0.7575 | Epsilon: 0.0191
+  > VAL  Acc 92.02% BalAcc 85.35% Rec 98.69% | TEST Acc 91.29% Rec 98.18% FN 43
+Episode 140/500 | Reward:  5509.00 | Progress: 0.7655 | Epsilon: 0.0141
+  > VAL  Acc 93.20% BalAcc 87.70% Rec 98.69% | TEST Acc 92.53% Rec 98.81% FN 28
+Episode 150/500 | Reward:  5463.70 | Progress: 0.7555 | Epsilon: 0.0104
+  > VAL  Acc 92.56% BalAcc 86.39% Rec 98.73% | TEST Acc 91.74% Rec 98.60% FN 33
+Episode 160/500 | Reward:  5450.10 | Progress: 0.7550 | Epsilon: 0.0100
+  > VAL  Acc 94.18% BalAcc 90.40% Rec 97.97% | TEST Acc 93.17% Rec 97.37% FN 62
+Episode 170/500 | Reward:  5499.20 | Progress: 0.7618 | Epsilon: 0.0100
+  > VAL  Acc 89.57% BalAcc 80.24% Rec 98.90% | TEST Acc 89.07% Rec 99.36% FN 15
+Episode 180/500 | Reward:  5525.80 | Progress: 0.7648 | Epsilon: 0.0100
+  > VAL  Acc 93.99% BalAcc 89.80% Rec 98.18% | TEST Acc 93.39% Rec 97.63% FN 56
+Episode 190/500 | Reward:  5517.30 | Progress: 0.7625 | Epsilon: 0.0100
+  > VAL  Acc 93.45% BalAcc 88.08% Rec 98.81% | TEST Acc 92.43% Rec 98.47% FN 36
+Episode 200/500 | Reward:  5532.90 | Progress: 0.7671 | Epsilon: 0.0100
+  > VAL  Acc 94.63% BalAcc 90.69% Rec 98.56% | TEST Acc 93.90% Rec 98.22% FN 42
+Episode 210/500 | Reward:  5546.80 | Progress: 0.7684 | Epsilon: 0.0100
+  > VAL  Acc 92.63% BalAcc 86.22% Rec 99.03% | TEST Acc 92.02% Rec 99.07% FN 22
+Episode 220/500 | Reward:  5580.60 | Progress: 0.7713 | Epsilon: 0.0100
+  > VAL  Acc 93.45% BalAcc 88.04% Rec 98.86% | TEST Acc 92.98% Rec 98.60% FN 33
+Episode 230/500 | Reward:  5548.10 | Progress: 0.7688 | Epsilon: 0.0100
+  > VAL  Acc 94.76% BalAcc 90.99% Rec 98.52% | TEST Acc 94.15% Rec 98.09% FN 45
+Episode 240/500 | Reward:  5580.60 | Progress: 0.7728 | Epsilon: 0.0100
+  > VAL  Acc 94.63% BalAcc 90.31% Rec 98.94% | TEST Acc 94.12% Rec 98.64% FN 32
+Episode 250/500 | Reward:  5568.50 | Progress: 0.7704 | Epsilon: 0.0100
+  > VAL  Acc 94.18% BalAcc 89.33% Rec 99.03% | TEST Acc 93.42% Rec 99.03% FN 23
+Episode 260/500 | Reward:  5582.40 | Progress: 0.7727 | Epsilon: 0.0100
+  > VAL  Acc 94.63% BalAcc 90.27% Rec 98.98% | TEST Acc 93.48% Rec 98.47% FN 36
+Episode 270/500 | Reward:  5587.80 | Progress: 0.7726 | Epsilon: 0.0100
+  > VAL  Acc 95.58% BalAcc 93.15% Rec 98.01% | TEST Acc 94.95% Rec 97.80% FN 52
+Episode 280/500 | Reward:  5580.60 | Progress: 0.7723 | Epsilon: 0.0100
+  > VAL  Acc 93.10% BalAcc 87.13% Rec 99.07% | TEST Acc 92.47% Rec 99.15% FN 20
+Episode 290/500 | Reward:  5601.90 | Progress: 0.7760 | Epsilon: 0.0100
+  > VAL  Acc 95.42% BalAcc 91.90% Rec 98.94% | TEST Acc 94.95% Rec 98.86% FN 27
+Episode 300/500 | Reward:  5598.10 | Progress: 0.7758 | Epsilon: 0.0100
+  > VAL  Acc 94.69% BalAcc 90.48% Rec 98.90% | TEST Acc 94.06% Rec 98.81% FN 28
+Episode 310/500 | Reward:  5601.50 | Progress: 0.7757 | Epsilon: 0.0100
+  > VAL  Acc 95.52% BalAcc 92.01% Rec 99.03% | TEST Acc 94.47% Rec 99.07% FN 22
+Episode 320/500 | Reward:  5618.90 | Progress: 0.7779 | Epsilon: 0.0100
+  > VAL  Acc 95.17% BalAcc 91.48% Rec 98.86% | TEST Acc 94.98% Rec 99.41% FN 14
+Episode 330/500 | Reward:  5635.60 | Progress: 0.7814 | Epsilon: 0.0100
+  > VAL  Acc 95.55% BalAcc 92.45% Rec 98.64% | TEST Acc 95.36% Rec 99.07% FN 22
+Episode 340/500 | Reward:  5644.70 | Progress: 0.7813 | Epsilon: 0.0100
+  > VAL  Acc 95.17% BalAcc 91.60% Rec 98.73% | TEST Acc 95.14% Rec 99.03% FN 23
+Episode 350/500 | Reward:  5646.10 | Progress: 0.7811 | Epsilon: 0.0100
+  > VAL  Acc 95.90% BalAcc 93.11% Rec 98.69% | TEST Acc 95.36% Rec 98.98% FN 24
+Episode 360/500 | Reward:  5637.10 | Progress: 0.7810 | Epsilon: 0.0100
+  > VAL  Acc 95.77% BalAcc 92.56% Rec 98.98% | TEST Acc 95.42% Rec 99.11% FN 21
+Episode 370/500 | Reward:  5660.40 | Progress: 0.7845 | Epsilon: 0.0100
+  > VAL  Acc 95.90% BalAcc 92.85% Rec 98.94% | TEST Acc 95.65% Rec 99.03% FN 23
+Episode 380/500 | Reward:  5632.00 | Progress: 0.7802 | Epsilon: 0.0100
+  > VAL  Acc 94.60% BalAcc 90.16% Rec 99.03% | TEST Acc 94.79% Rec 99.32% FN 16
+Episode 390/500 | Reward:  5669.50 | Progress: 0.7853 | Epsilon: 0.0100
+  > VAL  Acc 95.80% BalAcc 92.79% Rec 98.81% | TEST Acc 95.52% Rec 99.03% FN 23
+Episode 400/500 | Reward:  5656.50 | Progress: 0.7825 | Epsilon: 0.0100
+  > VAL  Acc 95.87% BalAcc 92.79% Rec 98.94% | TEST Acc 95.58% Rec 99.11% FN 21
+Episode 410/500 | Reward:  5670.50 | Progress: 0.7852 | Epsilon: 0.0100
+  > VAL  Acc 95.80% BalAcc 92.49% Rec 99.11% | TEST Acc 95.20% Rec 99.24% FN 18
+Episode 420/500 | Reward:  5645.40 | Progress: 0.7827 | Epsilon: 0.0100
+  > VAL  Acc 95.42% BalAcc 91.82% Rec 99.03% | TEST Acc 94.88% Rec 99.32% FN 16
+Episode 430/500 | Reward:  5670.50 | Progress: 0.7848 | Epsilon: 0.0100
+  > VAL  Acc 95.80% BalAcc 92.58% Rec 99.03% | TEST Acc 95.42% Rec 99.15% FN 20
+Episode 440/500 | Reward:  5672.10 | Progress: 0.7852 | Epsilon: 0.0100
+  > VAL  Acc 96.09% BalAcc 93.36% Rec 98.81% | TEST Acc 95.84% Rec 99.15% FN 20
+Episode 450/500 | Reward:  5672.70 | Progress: 0.7846 | Epsilon: 0.0100
+  > VAL  Acc 95.87% BalAcc 92.79% Rec 98.94% | TEST Acc 95.68% Rec 99.19% FN 19
+Episode 460/500 | Reward:  5671.70 | Progress: 0.7854 | Epsilon: 0.0100
+  > VAL  Acc 95.58% BalAcc 92.26% Rec 98.90% | TEST Acc 95.45% Rec 99.32% FN 16
+Episode 470/500 | Reward:  5671.60 | Progress: 0.7852 | Epsilon: 0.0100
+  > VAL  Acc 95.71% BalAcc 92.47% Rec 98.94% | TEST Acc 95.68% Rec 99.32% FN 16
+Episode 480/500 | Reward:  5678.60 | Progress: 0.7861 | Epsilon: 0.0100
+  > VAL  Acc 95.87% BalAcc 92.79% Rec 98.94% | TEST Acc 95.52% Rec 99.19% FN 19
+Episode 490/500 | Reward:  5672.30 | Progress: 0.7856 | Epsilon: 0.0100
+  > VAL  Acc 95.90% BalAcc 92.81% Rec 98.98% | TEST Acc 95.55% Rec 99.19% FN 19
+Episode 500/500 | Reward:  5664.10 | Progress: 0.7839 | Epsilon: 0.0100
+  > VAL  Acc 95.77% BalAcc 92.56% Rec 98.98% | TEST Acc 95.52% Rec 99.24% FN 18
+
+Loaded best model from episode 410 (selected on validation, metric=acc_at_recall, floor=0.99)
+
+================================================================
+PERFORMANCE ON ALL SPLITS  (same best-validation model)
+================================================================
+Split           Acc%   Prec%    Rec%   Spec%     F1%     MCC    FN
+Train          97.70   97.52   99.47   92.40   98.48   0.938    58
+Validation     95.80   95.47   99.11   85.88   97.26   0.886    21
+Test           95.20   94.62   99.24   83.10   96.88   0.870    18
+
+Train-Test accuracy gap: +2.50 pp  (small gap = good generalization)
+================================================================
+
+=======================================================
+FINAL TEST RESULTS (best-validation model)
+=======================================================
+  Accuracy  : 95.20%
+  Precision : 94.62%
+  Recall    : 99.24%
+  Specificity: 83.10%
+  Bal. Acc  : 91.17%
+  MCC       : 0.8701
+  F1 Score  : 96.88%
+  TP=2341 | TN=654 | FP=133 | FN=18
+=======================================================
+
+Model saved -> TrainedModel_FastDQL/statedictmodel.pt
+Plots saved -> Results_FastDQL/
+
+Generating SHAP explanations...
+SHAP shape check passed
+/home/user/J2-Fix/revision/results/original_repro/run/leaky_oversampled/DRL_cybersickness_FAST_v2.py:528: FutureWarning: The NumPy global RNG was seeded by calling `np.random.seed`. In a future version this function will no longer use the global RNG. Pass `rng` explicitly to opt-in to the new behaviour and silence this warning.
+  shap.summary_plot(shap_attack, test_shap_np, feature_names=feature_names, show=False)
+/home/user/J2-Fix/revision/results/original_repro/run/leaky_oversampled/DRL_cybersickness_FAST_v2.py:532: FutureWarning: The NumPy global RNG was seeded by calling `np.random.seed`. In a future version this function will no longer use the global RNG. Pass `rng` explicitly to opt-in to the new behaviour and silence this warning.
+  shap.summary_plot(shap_attack, test_shap_np, feature_names=feature_names, plot_type='bar', show=False)
+
+=======================================================
+ALL DONE - Check the Results folder.
+=======================================================

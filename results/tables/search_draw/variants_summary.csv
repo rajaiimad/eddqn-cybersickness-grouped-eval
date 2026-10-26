@@ -1,0 +1,9 @@
+variant,family,cost_seed_mean,cost_seed_sd,roc_auc_seed_mean,within_fold_roc_auc,ens_cost,exposure_only_candidates,questionnaire_candidates,folds_selecting_questionnaire,selected_feature_sets,selected_gamma
+E-DDQN,E-DDQN,0.662790202342918,0.048412050604047685,0.5380110428680936,0.5391276329315765,0.7263045793397231,2,10,5,exposure+profile;exposure+profile;exposure+profile;exposure+profile;exposure+profile,0.99;0.99;0.99;0.99;0.9
+DQN,DQN,0.5842172523961662,0.0403956098970558,0.6609673232710847,0.6659404209706137,0.5363152289669861,6,8,2,exposure;exposure+profile;exposure;exposure;exposure+profile,0.0;0.9;0.9;0.9;0.0
+E-DDQN-draw2,E-DDQN,0.5491373801916933,0.014096301395460895,0.7107366506703554,0.714362406590037,0.5273695420660277,8,6,0,exposure;exposure;exposure;exposure;exposure,0.99;0.99;0.9;0.99;0.0
+DQN-draw2,DQN,0.6337380191693291,0.06623012527647094,0.634218564456583,0.6314162469129634,0.661874334398296,4,7,3,exposure;exposure+profile;exposure+profile;exposure;exposure+profile,0.9;0.0;0.0;0.5;0.0
+E-DDQN-draw3,E-DDQN,0.5577635782747604,0.018711792109245253,0.6578959183627477,0.6705383351061418,0.5612353567625133,7,5,2,exposure+profile;exposure+profile;exposure;exposure;exposure,0.9;0.9;0.0;0.0;0.99
+DQN-draw3,DQN,0.5799148029818957,0.03406212983828935,0.627830035624336,0.628651701054588,0.5577209797657082,3,6,4,exposure+profile;exposure+profile;exposure+profile;exposure;exposure+profile,0.9;0.9;0.9;0.5;0.9
+E-DDQN-exposure,E-DDQN,0.5646219382321618,0.020801614637881508,0.6762206579388109,0.6868520821859049,0.5200212992545261,16,0,0,exposure;exposure;exposure;exposure;exposure,0.9;0.5;0.9;0.9;0.5
+DQN-exposure,DQN,0.5363578274760383,0.017262845413683094,0.7052510814998729,0.7124007893585328,0.5450479233226837,16,0,0,exposure;exposure;exposure;exposure;exposure,0.5;0.0;0.9;0.5;0.0

@@ -1,0 +1,1027 @@
+{
+  "checks": [
+    {
+      "check": "A1 every linkage group is in exactly one outer fold",
+      "pass": true,
+      "detail": "21 groups"
+    },
+    {
+      "check": "A2 every session belongs to exactly one linkage group",
+      "pass": true,
+      "detail": "35 sessions"
+    },
+    {
+      "check": "A3 saved outer split file equals the recomputed split",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "A4 saved inner split file equals the recomputed split",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "A5 outer 0: inner folds partition exactly the development groups",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "A6 outer 0 inner 0: partitions cover the data once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "A6 outer 0 inner 1: partitions cover the data once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "A6 outer 0 inner 2: partitions cover the data once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "A5 outer 1: inner folds partition exactly the development groups",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "A6 outer 1 inner 0: partitions cover the data once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "A6 outer 1 inner 1: partitions cover the data once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "A6 outer 1 inner 2: partitions cover the data once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "A5 outer 2: inner folds partition exactly the development groups",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "A6 outer 2 inner 0: partitions cover the data once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "A6 outer 2 inner 1: partitions cover the data once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "A6 outer 2 inner 2: partitions cover the data once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "A5 outer 3: inner folds partition exactly the development groups",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "A6 outer 3 inner 0: partitions cover the data once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "A6 outer 3 inner 1: partitions cover the data once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "A6 outer 3 inner 2: partitions cover the data once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "A5 outer 4: inner folds partition exactly the development groups",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "A6 outer 4 inner 0: partitions cover the data once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "A6 outer 4 inner 1: partitions cover the data once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "A6 outer 4 inner 2: partitions cover the data once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "A7 no session, linkage group or exact questionnaire profile is shared by any two partitions (15 outer x inner splits, train/val/test)",
+      "pass": true,
+      "detail": "45 partition pairs"
+    },
+    {
+      "check": "C1 outer 0 inner 0: learned preprocessing parameters do not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C2 outer 0 inner 0: training matrix does not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C1 outer 0 inner 1: learned preprocessing parameters do not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C2 outer 0 inner 1: training matrix does not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C1 outer 0 inner 2: learned preprocessing parameters do not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C2 outer 0 inner 2: training matrix does not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C1 outer 1 inner 0: learned preprocessing parameters do not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C2 outer 1 inner 0: training matrix does not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C1 outer 1 inner 1: learned preprocessing parameters do not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C2 outer 1 inner 1: training matrix does not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C1 outer 1 inner 2: learned preprocessing parameters do not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C2 outer 1 inner 2: training matrix does not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C1 outer 2 inner 0: learned preprocessing parameters do not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C2 outer 2 inner 0: training matrix does not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C1 outer 2 inner 1: learned preprocessing parameters do not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C2 outer 2 inner 1: training matrix does not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C1 outer 2 inner 2: learned preprocessing parameters do not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C2 outer 2 inner 2: training matrix does not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C1 outer 3 inner 0: learned preprocessing parameters do not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C2 outer 3 inner 0: training matrix does not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C1 outer 3 inner 1: learned preprocessing parameters do not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C2 outer 3 inner 1: training matrix does not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C1 outer 3 inner 2: learned preprocessing parameters do not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C2 outer 3 inner 2: training matrix does not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C1 outer 4 inner 0: learned preprocessing parameters do not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C2 outer 4 inner 0: training matrix does not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C1 outer 4 inner 1: learned preprocessing parameters do not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C2 outer 4 inner 1: training matrix does not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C1 outer 4 inner 2: learned preprocessing parameters do not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C2 outer 4 inner 2: training matrix does not depend on val/test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "B1 no raw telemetry row (with or without elapsed time) or derived feature vector of an evaluation partition is identical to a training row",
+      "pass": true,
+      "detail": "45 comparisons"
+    },
+    {
+      "check": "D1 HPO preprocessing caches contain no outer-test rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "D2 no HPO run stored a test score",
+      "pass": true,
+      "detail": "3390 HPO runs"
+    },
+    {
+      "check": "D3 hpo_results.csv holds only inner-validation metrics",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "D4 every selected configuration is the best pooled inner-validation configuration",
+      "pass": true,
+      "detail": "35 (family, fold) selections; mismatches []"
+    },
+    {
+      "check": "D5 stored D1 thresholds (per seed and seed ensemble) are re-derived exactly from the saved inner-validation scores",
+      "pass": true,
+      "detail": "210 thresholds; max |difference| 9.71e-17"
+    },
+    {
+      "check": "D6 neural checkpoints are the best inner-validation epoch",
+      "pass": true,
+      "detail": "300 training runs"
+    },
+    {
+      "check": "D7 no training log records a test metric",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "D8 the threshold function receives only validation scores and labels",
+      "pass": true,
+      "detail": "['oof_score', 'oof_y', 'protocol']"
+    },
+    {
+      "check": "E E-DDQN outer 0: reward matches the stored action and the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 0: stored label is the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 0: non-terminal s' is the same session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 0: non-terminal s' is the next second",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 0: terminal flag exactly at the last second of a session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 0: buffer holds the logged s, a, r, s', done (no overwrite)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 0: sessions are contiguous and time-ordered in the training rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 1: reward matches the stored action and the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 1: stored label is the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 1: non-terminal s' is the same session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 1: non-terminal s' is the next second",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 1: terminal flag exactly at the last second of a session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 1: buffer holds the logged s, a, r, s', done (no overwrite)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 1: sessions are contiguous and time-ordered in the training rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 2: reward matches the stored action and the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 2: stored label is the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 2: non-terminal s' is the same session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 2: non-terminal s' is the next second",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 2: terminal flag exactly at the last second of a session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 2: buffer holds the logged s, a, r, s', done (no overwrite)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 2: sessions are contiguous and time-ordered in the training rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 3: reward matches the stored action and the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 3: stored label is the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 3: non-terminal s' is the same session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 3: non-terminal s' is the next second",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 3: terminal flag exactly at the last second of a session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 3: buffer holds the logged s, a, r, s', done (no overwrite)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 3: sessions are contiguous and time-ordered in the training rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 4: reward matches the stored action and the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 4: stored label is the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 4: non-terminal s' is the same session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 4: non-terminal s' is the next second",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 4: terminal flag exactly at the last second of a session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 4: buffer holds the logged s, a, r, s', done (no overwrite)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-DDQN outer 4: sessions are contiguous and time-ordered in the training rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 0: reward matches the stored action and the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 0: stored label is the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 0: non-terminal s' is the same session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 0: non-terminal s' is the next second",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 0: terminal flag exactly at the last second of a session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 0: buffer holds the logged s, a, r, s', done (no overwrite)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 0: sessions are contiguous and time-ordered in the training rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 1: reward matches the stored action and the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 1: stored label is the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 1: non-terminal s' is the same session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 1: non-terminal s' is the next second",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 1: terminal flag exactly at the last second of a session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 1: buffer holds the logged s, a, r, s', done (no overwrite)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 1: sessions are contiguous and time-ordered in the training rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 2: reward matches the stored action and the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 2: stored label is the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 2: non-terminal s' is the same session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 2: non-terminal s' is the next second",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 2: terminal flag exactly at the last second of a session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 2: buffer holds the logged s, a, r, s', done (no overwrite)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 2: sessions are contiguous and time-ordered in the training rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 3: reward matches the stored action and the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 3: stored label is the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 3: non-terminal s' is the same session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 3: non-terminal s' is the next second",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 3: terminal flag exactly at the last second of a session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 3: buffer holds the logged s, a, r, s', done (no overwrite)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 3: sessions are contiguous and time-ordered in the training rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 4: reward matches the stored action and the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 4: stored label is the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 4: non-terminal s' is the same session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 4: non-terminal s' is the next second",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 4: terminal flag exactly at the last second of a session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 4: buffer holds the logged s, a, r, s', done (no overwrite)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E E-CB outer 4: sessions are contiguous and time-ordered in the training rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 0: reward matches the stored action and the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 0: stored label is the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 0: non-terminal s' is the same session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 0: non-terminal s' is the next second",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 0: terminal flag exactly at the last second of a session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 0: buffer holds the logged s, a, r, s', done (no overwrite)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 0: sessions are contiguous and time-ordered in the training rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 1: reward matches the stored action and the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 1: stored label is the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 1: non-terminal s' is the same session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 1: non-terminal s' is the next second",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 1: terminal flag exactly at the last second of a session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 1: buffer holds the logged s, a, r, s', done (no overwrite)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 1: sessions are contiguous and time-ordered in the training rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 2: reward matches the stored action and the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 2: stored label is the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 2: non-terminal s' is the same session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 2: non-terminal s' is the next second",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 2: terminal flag exactly at the last second of a session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 2: buffer holds the logged s, a, r, s', done (no overwrite)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 2: sessions are contiguous and time-ordered in the training rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 3: reward matches the stored action and the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 3: stored label is the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 3: non-terminal s' is the same session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 3: non-terminal s' is the next second",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 3: terminal flag exactly at the last second of a session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 3: buffer holds the logged s, a, r, s', done (no overwrite)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 3: sessions are contiguous and time-ordered in the training rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 4: reward matches the stored action and the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 4: stored label is the label of s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 4: non-terminal s' is the same session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 4: non-terminal s' is the next second",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 4: terminal flag exactly at the last second of a session",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 4: buffer holds the logged s, a, r, s', done (no overwrite)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "E DQN outer 4: sessions are contiguous and time-ordered in the training rows",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "info": {
+    "split_pairs_checked": 45,
+    "nearest_neighbour": [
+      {
+        "outer": 0,
+        "test_to_nearest_dev": 2.916,
+        "dev_to_nearest_other_group": 1.6679,
+        "dev_to_nearest_same_session": 1.3963,
+        "consecutive_seconds": 2.5271
+      },
+      {
+        "outer": 1,
+        "test_to_nearest_dev": 1.3528,
+        "dev_to_nearest_other_group": 2.0054,
+        "dev_to_nearest_same_session": 1.4912,
+        "consecutive_seconds": 2.6052
+      },
+      {
+        "outer": 2,
+        "test_to_nearest_dev": 2.0166,
+        "dev_to_nearest_other_group": 1.8128,
+        "dev_to_nearest_same_session": 1.404,
+        "consecutive_seconds": 2.5018
+      },
+      {
+        "outer": 3,
+        "test_to_nearest_dev": 1.4518,
+        "dev_to_nearest_other_group": 1.9249,
+        "dev_to_nearest_same_session": 1.4731,
+        "consecutive_seconds": 2.5339
+      },
+      {
+        "outer": 4,
+        "test_to_nearest_dev": 1.6734,
+        "dev_to_nearest_other_group": 1.8633,
+        "dev_to_nearest_same_session": 1.4336,
+        "consecutive_seconds": 2.5362
+      }
+    ],
+    "nn_note": "medians; test rows are compared with the nearest development row, against the same distance for development rows to another linkage group and within their own session",
+    "replay": [
+      {
+        "family": "E-DDQN",
+        "outer": 0,
+        "gamma": 0.99,
+        "full_info": true,
+        "transitions_checked": 19584,
+        "terminal": 76,
+        "counterfactual_share": 0.5
+      },
+      {
+        "family": "E-DDQN",
+        "outer": 1,
+        "gamma": 0.99,
+        "full_info": true,
+        "transitions_checked": 20808,
+        "terminal": 80,
+        "counterfactual_share": 0.5
+      },
+      {
+        "family": "E-DDQN",
+        "outer": 2,
+        "gamma": 0.99,
+        "full_info": true,
+        "transitions_checked": 16544,
+        "terminal": 60,
+        "counterfactual_share": 0.5
+      },
+      {
+        "family": "E-DDQN",
+        "outer": 3,
+        "gamma": 0.99,
+        "full_info": false,
+        "transitions_checked": 9590,
+        "terminal": 36,
+        "counterfactual_share": 0.0
+      },
+      {
+        "family": "E-DDQN",
+        "outer": 4,
+        "gamma": 0.9,
+        "full_info": false,
+        "transitions_checked": 13384,
+        "terminal": 47,
+        "counterfactual_share": 0.0
+      },
+      {
+        "family": "E-CB",
+        "outer": 0,
+        "gamma": 0.0,
+        "full_info": true,
+        "transitions_checked": 27584,
+        "terminal": 106,
+        "counterfactual_share": 0.5
+      },
+      {
+        "family": "E-CB",
+        "outer": 1,
+        "gamma": 0.0,
+        "full_info": true,
+        "transitions_checked": 28808,
+        "terminal": 110,
+        "counterfactual_share": 0.5
+      },
+      {
+        "family": "E-CB",
+        "outer": 2,
+        "gamma": 0.0,
+        "full_info": true,
+        "transitions_checked": 24544,
+        "terminal": 88,
+        "counterfactual_share": 0.5
+      },
+      {
+        "family": "E-CB",
+        "outer": 3,
+        "gamma": 0.0,
+        "full_info": false,
+        "transitions_checked": 9590,
+        "terminal": 36,
+        "counterfactual_share": 0.0
+      },
+      {
+        "family": "E-CB",
+        "outer": 4,
+        "gamma": 0.0,
+        "full_info": true,
+        "transitions_checked": 18768,
+        "terminal": 68,
+        "counterfactual_share": 0.5
+      },
+      {
+        "family": "DQN",
+        "outer": 0,
+        "gamma": 0.0,
+        "full_info": false,
+        "transitions_checked": 9792,
+        "terminal": 38,
+        "counterfactual_share": 0.0
+      },
+      {
+        "family": "DQN",
+        "outer": 1,
+        "gamma": 0.9,
+        "full_info": false,
+        "transitions_checked": 10404,
+        "terminal": 40,
+        "counterfactual_share": 0.0
+      },
+      {
+        "family": "DQN",
+        "outer": 2,
+        "gamma": 0.9,
+        "full_info": false,
+        "transitions_checked": 8272,
+        "terminal": 30,
+        "counterfactual_share": 0.0
+      },
+      {
+        "family": "DQN",
+        "outer": 3,
+        "gamma": 0.9,
+        "full_info": false,
+        "transitions_checked": 9590,
+        "terminal": 36,
+        "counterfactual_share": 0.0
+      },
+      {
+        "family": "DQN",
+        "outer": 4,
+        "gamma": 0.0,
+        "full_info": false,
+        "transitions_checked": 13384,
+        "terminal": 47,
+        "counterfactual_share": 0.0
+      }
+    ]
+  }
+}

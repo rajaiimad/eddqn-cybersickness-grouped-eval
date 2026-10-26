@@ -1,0 +1,8 @@
+{
+ "R1_headline_challenged": false,
+ "R2_draw_dependent": true,
+ "R2_cost_span": 0.11365282215122463,
+ "R2_within_fold_auc_span": 0.17523477365846052,
+ "R3_exposure_gap_dqn_minus_eddqn": 0.025548707172627916,
+ "R3_outcome": "supported"
+}

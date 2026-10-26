@@ -1,0 +1,19 @@
+{
+ "TSEDDQNCostPipe": "0.663",
+ "TSEDDQNCostSingle": "0.717",
+ "TSEDDQNDeltaCost": "+0.054",
+ "TSEDDQNDeltaRecall": "$-$3.5",
+ "TSEDDQNDeltaFPR": "$-$4.1",
+ "TSOtherDeltaCostMin": "$-$0.009",
+ "TSOtherDeltaCostMax": "+0.067",
+ "TSAbsDeltaCostMax": "0.067",
+ "TSMaxAbsDeltaFamily": "DQN",
+ "TSSpreadEDDQN": "0.85",
+ "TSSpreadOtherMin": "0.85",
+ "TSSpreadOtherMax": "0.93",
+ "TSNeuralDeltaCostMin": "+0.045",
+ "TSNeuralDeltaCostMax": "+0.067",
+ "TSTreeLRDeltaCostMin": "$-$0.009",
+ "TSTreeLRDeltaCostMax": "+0.014",
+ "TSRankUnchanged": "unchanged"
+}

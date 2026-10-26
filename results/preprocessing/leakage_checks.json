@@ -1,0 +1,90 @@
+{
+  "causality": {
+    "checks": 40,
+    "max_abs_difference": 0.0
+  },
+  "train_only_fitting": {
+    "params_identical": true,
+    "train_matrix_identical": true,
+    "val_matrix_identical": true
+  },
+  "oversampling_or_synthetic_samples": "none (class balance is handled only inside training minibatches / loss weights)",
+  "evaluation_data_hash": "c671f5eb8105a876",
+  "partition_overlap": [
+    {
+      "outer_fold": 0,
+      "dev_sessions": 26,
+      "test_sessions": 9,
+      "dev_groups": 17,
+      "test_groups": 4,
+      "session_overlap": 0,
+      "group_overlap": 0,
+      "identical_profile_overlap": 0,
+      "test_feature_rows_identical_to_a_train_row": 0,
+      "test_samples": 2378,
+      "test_positives": 942,
+      "dev_samples": 7012,
+      "dev_positives": 3205
+    },
+    {
+      "outer_fold": 1,
+      "dev_sessions": 30,
+      "test_sessions": 5,
+      "dev_groups": 18,
+      "test_groups": 3,
+      "session_overlap": 0,
+      "group_overlap": 0,
+      "identical_profile_overlap": 0,
+      "test_feature_rows_identical_to_a_train_row": 0,
+      "test_samples": 1510,
+      "test_positives": 691,
+      "dev_samples": 7880,
+      "dev_positives": 3456
+    },
+    {
+      "outer_fold": 2,
+      "dev_sessions": 26,
+      "test_sessions": 9,
+      "dev_groups": 16,
+      "test_groups": 5,
+      "session_overlap": 0,
+      "group_overlap": 0,
+      "identical_profile_overlap": 0,
+      "test_feature_rows_identical_to_a_train_row": 0,
+      "test_samples": 2273,
+      "test_positives": 1058,
+      "dev_samples": 7117,
+      "dev_positives": 3089
+    },
+    {
+      "outer_fold": 3,
+      "dev_sessions": 29,
+      "test_sessions": 6,
+      "dev_groups": 17,
+      "test_groups": 4,
+      "session_overlap": 0,
+      "group_overlap": 0,
+      "identical_profile_overlap": 0,
+      "test_feature_rows_identical_to_a_train_row": 0,
+      "test_samples": 1615,
+      "test_positives": 686,
+      "dev_samples": 7775,
+      "dev_positives": 3461
+    },
+    {
+      "outer_fold": 4,
+      "dev_sessions": 29,
+      "test_sessions": 6,
+      "dev_groups": 16,
+      "test_groups": 5,
+      "session_overlap": 0,
+      "group_overlap": 0,
+      "identical_profile_overlap": 0,
+      "test_feature_rows_identical_to_a_train_row": 0,
+      "test_samples": 1614,
+      "test_positives": 770,
+      "dev_samples": 7776,
+      "dev_positives": 3377
+    }
+  ]
+}

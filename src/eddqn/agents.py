@@ -1,7 +1,7 @@
 """Corrected value-based agents: E-DDQN (proposed) and the standard DQN baseline.
 
-Formulation (derived in the paper, Section III)
------------------------------------------------
+Formulation (see reports/03_rl_formulation.md for the derivation)
+------------------------------------------------------------------
 * episode      : one recorded play-through (session), in temporal order.
 * state  s_t   : causal feature vector of the session at second t.
 * action a_t   : 0 = no alarm, 1 = alarm.
@@ -130,6 +130,7 @@ class AgentConfig:
     consolidation: int = 5           # extra updates at the end of every epoch
     grad_clip: float = 1.0
     eval_every: int = 2
+    checkpoint: str = "best"       # 'best' (validation checkpoint) | 'last' (final epoch; post-hoc check)
     seed: int = 0
     extra: dict = field(default_factory=dict)
 
@@ -322,7 +323,7 @@ class ValueAgent:
             self.history.append(rec)
             if log:
                 log(rec)
-        if X_val is not None:
+        if X_val is not None and c.checkpoint == "best":
             self.online.load_state_dict(best_state)
-        self.best_epoch = best_epoch if X_val is not None else c.epochs
+        self.best_epoch = best_epoch if X_val is not None and c.checkpoint == "best" else c.epochs
         return self

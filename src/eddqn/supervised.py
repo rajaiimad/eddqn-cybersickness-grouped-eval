@@ -37,10 +37,11 @@ class CostSensitiveMLP:
     positive-class-weighted BCE (w = 5), checkpoint chosen on validation."""
 
     def __init__(self, hidden=(256, 512, 256), dropout=0.2, norm="batch", lr=1e-3, weight_decay=1e-4,
-                 batch_size=512, epochs=60, eval_every=2, sampling="uniform", seed=0, w_pos=W_POS, **_):
+                 batch_size=512, epochs=60, eval_every=2, sampling="uniform", seed=0, w_pos=W_POS, checkpoint="best", **_):
         self.kw = dict(hidden=tuple(hidden), dropout=dropout, norm=norm)
         self.lr, self.wd, self.bs, self.epochs = lr, weight_decay, batch_size, epochs
         self.eval_every, self.sampling, self.seed, self.w_pos = eval_every, sampling, seed, w_pos
+        self.checkpoint = checkpoint     # 'best' (validation checkpoint) | 'last' (final epoch; post-hoc check)
 
     def fit(self, X, y, sessions=None, X_val=None, y_val=None, log=None):
         torch.manual_seed(self.seed)
@@ -81,8 +82,10 @@ class CostSensitiveMLP:
                     best, self.best_epoch = (crit, prauc), ep
                     best_state = copy.deepcopy(net.state_dict())
             self.history.append(rec)
-        if X_val is not None:
+        if X_val is not None and self.checkpoint == "best":
             net.load_state_dict(best_state)
+        elif X_val is not None:
+            self.best_epoch = self.epochs
         self.net = net
         return self
 

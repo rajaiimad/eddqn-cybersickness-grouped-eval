@@ -1,0 +1,13 @@
+\begin{tabular}{lccccc}
+\toprule
+Family & Ens.\ cost & Within-fold AUC & $\Delta$Cost (E-DDQN$-$B) & $p_{\text{boot}}^{\text{Holm}}$ & $p_{\text{sign-flip}}^{\text{Holm}}$ \\
+\midrule
+E-DDQN & 0.520 & 0.687 & -- & -- & -- \\
+DQN & 0.545 & 0.712 & $-$0.025 & 1.000 & 1.000 \\
+E-CB & 0.515 & 0.728 & +0.005 & 1.000 & 1.000 \\
+CS-MLP & 0.497 & 0.690 & +0.023 & 1.000 & 1.000 \\
+LogReg & 0.560 & 0.674 & $-$0.040 & 1.000 & 1.000 \\
+HGB & 0.545 & 0.660 & $-$0.025 & 1.000 & 1.000 \\
+RF & 0.509 & 0.677 & +0.011 & 1.000 & 1.000 \\
+\bottomrule
+\end{tabular}

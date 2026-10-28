@@ -346,5 +346,108 @@
    "B2_seed_mean_paired_tests": "E-DDQN minus each of the six other primary families, on the per-sample 5:1 cost averaged over the five seeds' own D1 decisions (seed-mean analogue of the primary test): group bootstrap (seed 5), exact sign-flip test, Holm over the six comparisons.",
    "B3_ensemble_vs_seed_mean": "Descriptive, for each primary family: recall and false-positive rate under the seed-mean (per-seed D1) and seed-ensemble decisions; ratio of the SD of the ensemble test scores to the mean SD of the per-seed test scores; and the position of the ensemble D1 threshold relative to the range of the per-seed D1 thresholds."
   }
+ },
+ "review_round_6": {
+  "_comment": "Specified on 2026-10-28 after all other results were known, in response to a further internal pre-submission review (round 6), and committed BEFORE any of these runs or analyses. Every result is reported whatever it shows; the primary results are not replaced.",
+  "exposure_only_all": {
+   "question": "Do the remaining families' comparisons with E-DDQN depend on which inputs their searches selected (algorithm vs inputs confound)?",
+   "variants": [
+    {
+     "name": "E-CB-exposure",
+     "base": "E-CB",
+     "config_seed": 9204,
+     "feature_set": "exposure",
+     "note": "primary budget drawn from the family's search space with the feature set fixed to 'exposure' (logistic regression has only 6 such configurations, all of which are used)"
+    },
+    {
+     "name": "CS-MLP-exposure",
+     "base": "CS-MLP",
+     "config_seed": 9205,
+     "feature_set": "exposure",
+     "note": "primary budget drawn from the family's search space with the feature set fixed to 'exposure' (logistic regression has only 6 such configurations, all of which are used)"
+    },
+    {
+     "name": "LogReg-exposure",
+     "base": "LogReg",
+     "config_seed": 9206,
+     "feature_set": "exposure",
+     "note": "primary budget drawn from the family's search space with the feature set fixed to 'exposure' (logistic regression has only 6 such configurations, all of which are used)"
+    },
+    {
+     "name": "HGB-exposure",
+     "base": "HGB",
+     "config_seed": 9207,
+     "feature_set": "exposure",
+     "note": "primary budget drawn from the family's search space with the feature set fixed to 'exposure' (logistic regression has only 6 such configurations, all of which are used)"
+    },
+    {
+     "name": "RF-exposure",
+     "base": "RF",
+     "config_seed": 9208,
+     "feature_set": "exposure",
+     "note": "primary budget drawn from the family's search space with the feature set fixed to 'exposure' (logistic regression has only 6 such configurations, all of which are used)"
+    }
+   ],
+   "reused": [
+    "E-DDQN-exposure",
+    "DQN-exposure"
+   ],
+   "analysis": "per family: seed-mean D1 cost, seed-ensemble D1 cost, within-fold ROC-AUC; E-DDQN-exposure minus each other exposure-only family: seed-ensemble D1 cost difference (2,000-replicate group bootstrap, seed 5; exact sign-flip test; Holm over six) and pooled ROC-AUC difference (group bootstrap, seed 6).",
+   "decision_rules": {
+    "F1_inputs_explain_deficit": "E-DDQN's primary ranking deficit is called explained by its inputs if, with exposure features only, its within-fold ROC-AUC is within 0.03 of the median of the other six families' exposure-only within-fold ROC-AUC; not explained if it is more than 0.05 below; otherwise inconclusive.",
+    "F2_algorithm_difference": "With inputs fixed, a cost difference between E-DDQN and another family is called established only if it is significant after Holm adjustment under both tests."
+   }
+  },
+  "fixed_epoch": {
+   "question": "How much of the selection optimism of the neural models comes from choosing the checkpoint on the same validation scores that also choose the threshold?",
+   "variants": [
+    {
+     "name": "E-DDQN-lastepoch",
+     "base": "E-DDQN",
+     "selected_configs": "primary (results/selected_configs.json)",
+     "change": "checkpoint = 'last': the final (40th) epoch is used instead of the validation-selected checkpoint; everything else, including the D1 threshold rule on the pooled OOF scores, unchanged"
+    },
+    {
+     "name": "E-CB-lastepoch",
+     "base": "E-CB",
+     "selected_configs": "primary (results/selected_configs.json)",
+     "change": "checkpoint = 'last': the final (40th) epoch is used instead of the validation-selected checkpoint; everything else, including the D1 threshold rule on the pooled OOF scores, unchanged"
+    },
+    {
+     "name": "DQN-lastepoch",
+     "base": "DQN",
+     "selected_configs": "primary (results/selected_configs.json)",
+     "change": "checkpoint = 'last': the final (40th) epoch is used instead of the validation-selected checkpoint; everything else, including the D1 threshold rule on the pooled OOF scores, unchanged"
+    },
+    {
+     "name": "CS-MLP-lastepoch",
+     "base": "CS-MLP",
+     "selected_configs": "primary (results/selected_configs.json)",
+     "change": "checkpoint = 'last': the final (40th) epoch is used instead of the validation-selected checkpoint; everything else, including the D1 threshold rule on the pooled OOF scores, unchanged"
+    }
+   ],
+   "analysis": "per variant and its checkpointed primary counterpart: seed-mean D1 test cost; threshold optimism = seed-mean outer-test D1 cost minus seed-mean pooled-OOF minimum 5:1 cost of the same final models; test-cost difference last-epoch minus checkpointed (seed ensembles; group bootstrap seed 5; exact sign-flip test).",
+   "note": "The configuration-selection optimism of Supplementary Sec. S9.5 (E-DDQN +0.288) also contains the selection of the configuration itself, which this check does not remove; it isolates checkpoint selection.",
+   "decision_rules": {
+    "C1_checkpoint_explains_optimism": "Checkpoint selection is called a substantial source of E-DDQN's optimism if its threshold optimism with the last epoch is less than half of that with the selected checkpoint; otherwise it is not."
+   }
+  },
+  "event_level": {
+   "question": "How do the detectors behave when alarms are counted as events with a refractory period and onsets as the unit of detection?",
+   "definitions": {
+    "alarm_event": "an alarm event is raised at a second at which the D1 decision (seed ensemble) is 'alarm' and no alarm event was raised in the preceding R seconds of the same session",
+    "R": "refractory period R = 60 s (primary); 30 s and 120 s (sensitivity)",
+    "onset": "the first second with y = 1 in a session; sessions without any y = 1 have no onset",
+    "detected_onset": "an alarm event occurs within [onset - 60 s, onset + 30 s]",
+    "lead_time": "onset time minus the time of the first alarm event in that window (positive = before the reported onset)",
+    "false_alarm_event": "an alarm event at a second with y = 0 that is not in [onset - 60 s, onset]; rate per 10 minutes of y = 0 time",
+    "event_cost": "per session: 5 x missed onsets + false alarm events; mean over sessions"
+   },
+   "models": "the seven primary families (seed ensembles, rule D1), Time-LR and always alarming",
+   "analysis": "per model: onset detection rate, median lead time, false-alarm events per 10 min, mean event cost with a 95% group-bootstrap interval (seed 7); E-DDQN minus each other primary family: event-cost difference (group bootstrap, exact sign-flip, Holm over six).",
+   "decision_rules": {
+    "E1_useful_operating_point": "A model is called to reach a useful event-level operating point at R = 60 s if it detects at least 80% of onsets with at most one false alarm event per 10 minutes of non-event time."
+   }
+  }
  }
 }

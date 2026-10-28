@@ -1,0 +1,937 @@
+{
+  "LogReg-draw2": {
+    "0": {
+      "config_id": 10,
+      "config": {
+        "feature_set": "telemetry",
+        "C": 0.0001
+      },
+      "pooled_oof_min_cost": 0.5149743297204792,
+      "pooled_oof_pr_auc": 0.6143846095481412
+    },
+    "1": {
+      "config_id": 9,
+      "config": {
+        "feature_set": "telemetry",
+        "C": 0.01
+      },
+      "pooled_oof_min_cost": 0.5274111675126903,
+      "pooled_oof_pr_auc": 0.6113484216287114
+    },
+    "2": {
+      "config_id": 4,
+      "config": {
+        "feature_set": "exposure+profile",
+        "C": 0.0001
+      },
+      "pooled_oof_min_cost": 0.5370240269776592,
+      "pooled_oof_pr_auc": 0.5095403837952793
+    },
+    "3": {
+      "config_id": 3,
+      "config": {
+        "feature_set": "exposure",
+        "C": 0.001
+      },
+      "pooled_oof_min_cost": 0.524887459807074,
+      "pooled_oof_pr_auc": 0.5824503991056091
+    },
+    "4": {
+      "config_id": 5,
+      "config": {
+        "feature_set": "exposure",
+        "C": 1.0
+      },
+      "pooled_oof_min_cost": 0.5362654320987654,
+      "pooled_oof_pr_auc": 0.5599758561334012
+    }
+  },
+  "E-CB-draw2": {
+    "0": {
+      "config_id": 12,
+      "config": {
+        "feature_set": "exposure",
+        "hidden": [
+          64,
+          64
+        ],
+        "dropout": 0.1,
+        "norm": "layer",
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "batch_size": 512,
+        "eps_decay": 0.9,
+        "warmup": 0,
+        "updates_per_learn": 2,
+        "rho": 0.4,
+        "full_info": true,
+        "epochs": 40,
+        "eval_every": 2,
+        "chunk": 256,
+        "learn_every": 2,
+        "consolidation": 5,
+        "eps_start": 1.0,
+        "eps_end": 0.01,
+        "buffer": 50000,
+        "grad_clip": 1.0,
+        "reward": "asymmetric",
+        "dueling": true,
+        "double": true,
+        "target_update": "soft",
+        "replay": "balanced",
+        "gamma": 0.0
+      },
+      "pooled_oof_min_cost": 0.4817455790074159,
+      "pooled_oof_pr_auc": 0.6029689603466665
+    },
+    "1": {
+      "config_id": 11,
+      "config": {
+        "feature_set": "exposure",
+        "hidden": [
+          256,
+          512,
+          256
+        ],
+        "dropout": 0.3,
+        "norm": "layer",
+        "lr": 0.001,
+        "weight_decay": 0.001,
+        "batch_size": 256,
+        "eps_decay": 0.95,
+        "warmup": 4000,
+        "updates_per_learn": 2,
+        "rho": 0.6,
+        "full_info": true,
+        "epochs": 40,
+        "eval_every": 2,
+        "chunk": 256,
+        "learn_every": 2,
+        "consolidation": 5,
+        "eps_start": 1.0,
+        "eps_end": 0.01,
+        "buffer": 50000,
+        "grad_clip": 1.0,
+        "reward": "asymmetric",
+        "dueling": true,
+        "double": true,
+        "target_update": "soft",
+        "replay": "balanced",
+        "gamma": 0.0
+      },
+      "pooled_oof_min_cost": 0.4714467005076142,
+      "pooled_oof_pr_auc": 0.6020101468448238
+    },
+    "2": {
+      "config_id": 5,
+      "config": {
+        "feature_set": "telemetry",
+        "hidden": [
+          128,
+          128
+        ],
+        "dropout": 0.2,
+        "norm": "layer",
+        "lr": 0.001,
+        "weight_decay": 0.001,
+        "batch_size": 256,
+        "eps_decay": 0.97,
+        "warmup": 4000,
+        "updates_per_learn": 2,
+        "rho": 0.5,
+        "full_info": false,
+        "epochs": 40,
+        "eval_every": 2,
+        "chunk": 256,
+        "learn_every": 2,
+        "consolidation": 5,
+        "eps_start": 1.0,
+        "eps_end": 0.01,
+        "buffer": 50000,
+        "grad_clip": 1.0,
+        "reward": "asymmetric",
+        "dueling": true,
+        "double": true,
+        "target_update": "soft",
+        "replay": "balanced",
+        "gamma": 0.0
+      },
+      "pooled_oof_min_cost": 0.5406772516509766,
+      "pooled_oof_pr_auc": 0.49143371669651775
+    },
+    "3": {
+      "config_id": 13,
+      "config": {
+        "feature_set": "exposure",
+        "hidden": [
+          256,
+          256
+        ],
+        "dropout": 0.3,
+        "norm": "batch",
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "batch_size": 256,
+        "eps_decay": 0.97,
+        "warmup": 4000,
+        "updates_per_learn": 2,
+        "rho": 0.5,
+        "full_info": true,
+        "epochs": 40,
+        "eval_every": 2,
+        "chunk": 256,
+        "learn_every": 2,
+        "consolidation": 5,
+        "eps_start": 1.0,
+        "eps_end": 0.01,
+        "buffer": 50000,
+        "grad_clip": 1.0,
+        "reward": "asymmetric",
+        "dueling": true,
+        "double": true,
+        "target_update": "soft",
+        "replay": "balanced",
+        "gamma": 0.0
+      },
+      "pooled_oof_min_cost": 0.5229581993569132,
+      "pooled_oof_pr_auc": 0.707306539667089
+    },
+    "4": {
+      "config_id": 1,
+      "config": {
+        "feature_set": "exposure+profile",
+        "hidden": [
+          64,
+          64
+        ],
+        "dropout": 0.2,
+        "norm": "batch",
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "batch_size": 256,
+        "eps_decay": 0.95,
+        "warmup": 4000,
+        "updates_per_learn": 2,
+        "rho": 0.5,
+        "full_info": true,
+        "epochs": 40,
+        "eval_every": 2,
+        "chunk": 256,
+        "learn_every": 2,
+        "consolidation": 5,
+        "eps_start": 1.0,
+        "eps_end": 0.01,
+        "buffer": 50000,
+        "grad_clip": 1.0,
+        "reward": "asymmetric",
+        "dueling": true,
+        "double": true,
+        "target_update": "soft",
+        "replay": "balanced",
+        "gamma": 0.0
+      },
+      "pooled_oof_min_cost": 0.4661779835390947,
+      "pooled_oof_pr_auc": 0.6890835740021765
+    }
+  },
+  "E-CB-draw3": {
+    "0": {
+      "config_id": 15,
+      "config": {
+        "feature_set": "exposure+profile",
+        "hidden": [
+          64,
+          64
+        ],
+        "dropout": 0.1,
+        "norm": "batch",
+        "lr": 0.003,
+        "weight_decay": 0.001,
+        "batch_size": 256,
+        "eps_decay": 0.9,
+        "warmup": 0,
+        "updates_per_learn": 4,
+        "rho": 0.4,
+        "full_info": false,
+        "epochs": 40,
+        "eval_every": 2,
+        "chunk": 256,
+        "learn_every": 2,
+        "consolidation": 5,
+        "eps_start": 1.0,
+        "eps_end": 0.01,
+        "buffer": 50000,
+        "grad_clip": 1.0,
+        "reward": "asymmetric",
+        "dueling": true,
+        "double": true,
+        "target_update": "soft",
+        "replay": "balanced",
+        "gamma": 0.0
+      },
+      "pooled_oof_min_cost": 0.4807472903593839,
+      "pooled_oof_pr_auc": 0.6623265363707564
+    },
+    "1": {
+      "config_id": 3,
+      "config": {
+        "feature_set": "exposure",
+        "hidden": [
+          256,
+          512,
+          256
+        ],
+        "dropout": 0.3,
+        "norm": "layer",
+        "lr": 0.001,
+        "weight_decay": 0.001,
+        "batch_size": 256,
+        "eps_decay": 0.97,
+        "warmup": 0,
+        "updates_per_learn": 4,
+        "rho": 0.4,
+        "full_info": true,
+        "epochs": 40,
+        "eval_every": 2,
+        "chunk": 256,
+        "learn_every": 2,
+        "consolidation": 5,
+        "eps_start": 1.0,
+        "eps_end": 0.01,
+        "buffer": 50000,
+        "grad_clip": 1.0,
+        "reward": "asymmetric",
+        "dueling": true,
+        "double": true,
+        "target_update": "soft",
+        "replay": "balanced",
+        "gamma": 0.0
+      },
+      "pooled_oof_min_cost": 0.45266497461928934,
+      "pooled_oof_pr_auc": 0.6005330470243327
+    },
+    "2": {
+      "config_id": 6,
+      "config": {
+        "feature_set": "exposure",
+        "hidden": [
+          64,
+          64
+        ],
+        "dropout": 0.3,
+        "norm": "layer",
+        "lr": 0.001,
+        "weight_decay": 0.001,
+        "batch_size": 512,
+        "eps_decay": 0.95,
+        "warmup": 4000,
+        "updates_per_learn": 4,
+        "rho": 0.4,
+        "full_info": false,
+        "epochs": 40,
+        "eval_every": 2,
+        "chunk": 256,
+        "learn_every": 2,
+        "consolidation": 5,
+        "eps_start": 1.0,
+        "eps_end": 0.01,
+        "buffer": 50000,
+        "grad_clip": 1.0,
+        "reward": "asymmetric",
+        "dueling": true,
+        "double": true,
+        "target_update": "soft",
+        "replay": "balanced",
+        "gamma": 0.0
+      },
+      "pooled_oof_min_cost": 0.5249402838274554,
+      "pooled_oof_pr_auc": 0.48106582325168173
+    },
+    "3": {
+      "config_id": 5,
+      "config": {
+        "feature_set": "exposure",
+        "hidden": [
+          128,
+          128
+        ],
+        "dropout": 0.3,
+        "norm": "layer",
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "batch_size": 512,
+        "eps_decay": 0.95,
+        "warmup": 0,
+        "updates_per_learn": 4,
+        "rho": 0.6,
+        "full_info": false,
+        "epochs": 40,
+        "eval_every": 2,
+        "chunk": 256,
+        "learn_every": 2,
+        "consolidation": 5,
+        "eps_start": 1.0,
+        "eps_end": 0.01,
+        "buffer": 50000,
+        "grad_clip": 1.0,
+        "reward": "asymmetric",
+        "dueling": true,
+        "double": true,
+        "target_update": "soft",
+        "replay": "balanced",
+        "gamma": 0.0
+      },
+      "pooled_oof_min_cost": 0.5187138263665595,
+      "pooled_oof_pr_auc": 0.633969283820904
+    },
+    "4": {
+      "config_id": 8,
+      "config": {
+        "feature_set": "exposure+profile",
+        "hidden": [
+          256,
+          512,
+          256
+        ],
+        "dropout": 0.1,
+        "norm": "layer",
+        "lr": 0.0003,
+        "weight_decay": 0.0,
+        "batch_size": 256,
+        "eps_decay": 0.95,
+        "warmup": 0,
+        "updates_per_learn": 2,
+        "rho": 0.5,
+        "full_info": false,
+        "epochs": 40,
+        "eval_every": 2,
+        "chunk": 256,
+        "learn_every": 2,
+        "consolidation": 5,
+        "eps_start": 1.0,
+        "eps_end": 0.01,
+        "buffer": 50000,
+        "grad_clip": 1.0,
+        "reward": "asymmetric",
+        "dueling": true,
+        "double": true,
+        "target_update": "soft",
+        "replay": "balanced",
+        "gamma": 0.0
+      },
+      "pooled_oof_min_cost": 0.4679783950617284,
+      "pooled_oof_pr_auc": 0.6480252535463635
+    }
+  },
+  "CS-MLP-draw2": {
+    "0": {
+      "config_id": 5,
+      "config": {
+        "feature_set": "exposure+profile",
+        "hidden": [
+          64,
+          64
+        ],
+        "dropout": 0.0,
+        "norm": "batch",
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "batch_size": 256,
+        "sampling": "balanced",
+        "epochs": 40,
+        "eval_every": 2
+      },
+      "pooled_oof_min_cost": 0.4900171135196805,
+      "pooled_oof_pr_auc": 0.6851347669395746
+    },
+    "1": {
+      "config_id": 15,
+      "config": {
+        "feature_set": "exposure",
+        "hidden": [
+          256,
+          256
+        ],
+        "dropout": 0.3,
+        "norm": "layer",
+        "lr": 0.003,
+        "weight_decay": 0.0,
+        "batch_size": 256,
+        "sampling": "balanced",
+        "epochs": 40,
+        "eval_every": 2
+      },
+      "pooled_oof_min_cost": 0.44263959390862945,
+      "pooled_oof_pr_auc": 0.6249306266000927
+    },
+    "2": {
+      "config_id": 3,
+      "config": {
+        "feature_set": "telemetry",
+        "hidden": [
+          128,
+          128
+        ],
+        "dropout": 0.3,
+        "norm": "layer",
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "batch_size": 256,
+        "sampling": "balanced",
+        "epochs": 40,
+        "eval_every": 2
+      },
+      "pooled_oof_min_cost": 0.5363214837712519,
+      "pooled_oof_pr_auc": 0.4734864858659661
+    },
+    "3": {
+      "config_id": 4,
+      "config": {
+        "feature_set": "telemetry",
+        "hidden": [
+          64,
+          64
+        ],
+        "dropout": 0.3,
+        "norm": "batch",
+        "lr": 0.001,
+        "weight_decay": 0.0,
+        "batch_size": 256,
+        "sampling": "uniform",
+        "epochs": 40,
+        "eval_every": 2
+      },
+      "pooled_oof_min_cost": 0.5269453376205788,
+      "pooled_oof_pr_auc": 0.5666859529252386
+    },
+    "4": {
+      "config_id": 6,
+      "config": {
+        "feature_set": "exposure",
+        "hidden": [
+          256,
+          512,
+          256
+        ],
+        "dropout": 0.0,
+        "norm": "batch",
+        "lr": 0.001,
+        "weight_decay": 0.001,
+        "batch_size": 512,
+        "sampling": "balanced",
+        "epochs": 40,
+        "eval_every": 2
+      },
+      "pooled_oof_min_cost": 0.49858539094650206,
+      "pooled_oof_pr_auc": 0.5635377104399286
+    }
+  },
+  "CS-MLP-draw3": {
+    "0": {
+      "config_id": 10,
+      "config": {
+        "feature_set": "exposure+profile",
+        "hidden": [
+          64,
+          64
+        ],
+        "dropout": 0.1,
+        "norm": "batch",
+        "lr": 0.003,
+        "weight_decay": 0.0,
+        "batch_size": 512,
+        "sampling": "balanced",
+        "epochs": 40,
+        "eval_every": 2
+      },
+      "pooled_oof_min_cost": 0.48787792355961207,
+      "pooled_oof_pr_auc": 0.6868522793088211
+    },
+    "1": {
+      "config_id": 0,
+      "config": {
+        "feature_set": "exposure+profile",
+        "hidden": [
+          256,
+          512,
+          256
+        ],
+        "dropout": 0.1,
+        "norm": "batch",
+        "lr": 0.001,
+        "weight_decay": 0.001,
+        "batch_size": 256,
+        "sampling": "balanced",
+        "epochs": 40,
+        "eval_every": 2
+      },
+      "pooled_oof_min_cost": 0.4860406091370558,
+      "pooled_oof_pr_auc": 0.5292739177296926
+    },
+    "2": {
+      "config_id": 1,
+      "config": {
+        "feature_set": "exposure",
+        "hidden": [
+          128,
+          128
+        ],
+        "dropout": 0.0,
+        "norm": "batch",
+        "lr": 0.001,
+        "weight_decay": 0.0,
+        "batch_size": 256,
+        "sampling": "balanced",
+        "epochs": 40,
+        "eval_every": 2
+      },
+      "pooled_oof_min_cost": 0.5249402838274554,
+      "pooled_oof_pr_auc": 0.5037969677301826
+    },
+    "3": {
+      "config_id": 7,
+      "config": {
+        "feature_set": "exposure",
+        "hidden": [
+          128,
+          128
+        ],
+        "dropout": 0.1,
+        "norm": "batch",
+        "lr": 0.0003,
+        "weight_decay": 0.0,
+        "batch_size": 256,
+        "sampling": "balanced",
+        "epochs": 40,
+        "eval_every": 2
+      },
+      "pooled_oof_min_cost": 0.5211575562700964,
+      "pooled_oof_pr_auc": 0.6343113626695327
+    },
+    "4": {
+      "config_id": 4,
+      "config": {
+        "feature_set": "exposure",
+        "hidden": [
+          128,
+          128
+        ],
+        "dropout": 0.1,
+        "norm": "layer",
+        "lr": 0.0003,
+        "weight_decay": 0.0,
+        "batch_size": 512,
+        "sampling": "uniform",
+        "epochs": 40,
+        "eval_every": 2
+      },
+      "pooled_oof_min_cost": 0.4924125514403292,
+      "pooled_oof_pr_auc": 0.5682837128697342
+    }
+  },
+  "LogReg-draw3": {
+    "0": {
+      "config_id": 7,
+      "config": {
+        "feature_set": "exposure",
+        "C": 0.0001
+      },
+      "pooled_oof_min_cost": 0.4860239589275528,
+      "pooled_oof_pr_auc": 0.6351820095396876
+    },
+    "1": {
+      "config_id": 6,
+      "config": {
+        "feature_set": "telemetry+profile",
+        "C": 10.0
+      },
+      "pooled_oof_min_cost": 0.5106598984771573,
+      "pooled_oof_pr_auc": 0.545986780285017
+    },
+    "2": {
+      "config_id": 0,
+      "config": {
+        "feature_set": "exposure",
+        "C": 10.0
+      },
+      "pooled_oof_min_cost": 0.539553182520725,
+      "pooled_oof_pr_auc": 0.4862482434521218
+    },
+    "3": {
+      "config_id": 7,
+      "config": {
+        "feature_set": "exposure",
+        "C": 0.0001
+      },
+      "pooled_oof_min_cost": 0.5109967845659164,
+      "pooled_oof_pr_auc": 0.568499953716521
+    },
+    "4": {
+      "config_id": 9,
+      "config": {
+        "feature_set": "exposure",
+        "C": 1.0
+      },
+      "pooled_oof_min_cost": 0.5362654320987654,
+      "pooled_oof_pr_auc": 0.5599758561334012
+    }
+  },
+  "HGB-draw2": {
+    "0": {
+      "config_id": 5,
+      "config": {
+        "feature_set": "exposure",
+        "learning_rate": 0.05,
+        "max_iter": 50,
+        "max_leaf_nodes": 4,
+        "min_samples_leaf": 100,
+        "l2_regularization": 1.0
+      },
+      "pooled_oof_min_cost": 0.4637763833428408,
+      "pooled_oof_pr_auc": 0.5641245571190053
+    },
+    "1": {
+      "config_id": 15,
+      "config": {
+        "feature_set": "exposure+profile",
+        "learning_rate": 0.05,
+        "max_iter": 200,
+        "max_leaf_nodes": 4,
+        "min_samples_leaf": 300,
+        "l2_regularization": 0.0
+      },
+      "pooled_oof_min_cost": 0.4931472081218274,
+      "pooled_oof_pr_auc": 0.47642259052771085
+    },
+    "2": {
+      "config_id": 9,
+      "config": {
+        "feature_set": "exposure",
+        "learning_rate": 0.02,
+        "max_iter": 50,
+        "max_leaf_nodes": 31,
+        "min_samples_leaf": 100,
+        "l2_regularization": 0.0
+      },
+      "pooled_oof_min_cost": 0.544330476324294,
+      "pooled_oof_pr_auc": 0.4272486519080886
+    },
+    "3": {
+      "config_id": 6,
+      "config": {
+        "feature_set": "telemetry",
+        "learning_rate": 0.1,
+        "max_iter": 200,
+        "max_leaf_nodes": 8,
+        "min_samples_leaf": 20,
+        "l2_regularization": 0.0
+      },
+      "pooled_oof_min_cost": 0.5313183279742765,
+      "pooled_oof_pr_auc": 0.5116882910595666
+    },
+    "4": {
+      "config_id": 6,
+      "config": {
+        "feature_set": "telemetry",
+        "learning_rate": 0.1,
+        "max_iter": 200,
+        "max_leaf_nodes": 8,
+        "min_samples_leaf": 20,
+        "l2_regularization": 0.0
+      },
+      "pooled_oof_min_cost": 0.5405092592592593,
+      "pooled_oof_pr_auc": 0.5050302640791199
+    }
+  },
+  "HGB-draw3": {
+    "0": {
+      "config_id": 11,
+      "config": {
+        "feature_set": "exposure",
+        "learning_rate": 0.05,
+        "max_iter": 100,
+        "max_leaf_nodes": 4,
+        "min_samples_leaf": 20,
+        "l2_regularization": 0.0
+      },
+      "pooled_oof_min_cost": 0.48987450085567597,
+      "pooled_oof_pr_auc": 0.5772911250936001
+    },
+    "1": {
+      "config_id": 10,
+      "config": {
+        "feature_set": "exposure+profile",
+        "learning_rate": 0.05,
+        "max_iter": 200,
+        "max_leaf_nodes": 4,
+        "min_samples_leaf": 300,
+        "l2_regularization": 1.0
+      },
+      "pooled_oof_min_cost": 0.4998730964467005,
+      "pooled_oof_pr_auc": 0.46748457232509344
+    },
+    "2": {
+      "config_id": 11,
+      "config": {
+        "feature_set": "exposure",
+        "learning_rate": 0.05,
+        "max_iter": 100,
+        "max_leaf_nodes": 4,
+        "min_samples_leaf": 20,
+        "l2_regularization": 0.0
+      },
+      "pooled_oof_min_cost": 0.544330476324294,
+      "pooled_oof_pr_auc": 0.42074321984802887
+    },
+    "3": {
+      "config_id": 13,
+      "config": {
+        "feature_set": "telemetry",
+        "learning_rate": 0.1,
+        "max_iter": 100,
+        "max_leaf_nodes": 31,
+        "min_samples_leaf": 20,
+        "l2_regularization": 10.0
+      },
+      "pooled_oof_min_cost": 0.524887459807074,
+      "pooled_oof_pr_auc": 0.5112547980888326
+    },
+    "4": {
+      "config_id": 3,
+      "config": {
+        "feature_set": "exposure+profile",
+        "learning_rate": 0.02,
+        "max_iter": 50,
+        "max_leaf_nodes": 8,
+        "min_samples_leaf": 100,
+        "l2_regularization": 1.0
+      },
+      "pooled_oof_min_cost": 0.49627057613168724,
+      "pooled_oof_pr_auc": 0.49197406681201705
+    }
+  },
+  "RF-draw2": {
+    "0": {
+      "config_id": 2,
+      "config": {
+        "feature_set": "telemetry",
+        "max_depth": 3,
+        "min_samples_leaf": 300,
+        "max_features": 0.5,
+        "n_estimators": 300
+      },
+      "pooled_oof_min_cost": 0.45792926411865376,
+      "pooled_oof_pr_auc": 0.5632246964045969
+    },
+    "1": {
+      "config_id": 14,
+      "config": {
+        "feature_set": "telemetry",
+        "max_depth": 8,
+        "min_samples_leaf": 5,
+        "max_features": "sqrt",
+        "n_estimators": 300
+      },
+      "pooled_oof_min_cost": 0.4687817258883249,
+      "pooled_oof_pr_auc": 0.5443131418591357
+    },
+    "2": {
+      "config_id": 11,
+      "config": {
+        "feature_set": "exposure",
+        "max_depth": 5,
+        "min_samples_leaf": 25,
+        "max_features": "sqrt",
+        "n_estimators": 300
+      },
+      "pooled_oof_min_cost": 0.5136995925249402,
+      "pooled_oof_pr_auc": 0.4478155409569108
+    },
+    "3": {
+      "config_id": 4,
+      "config": {
+        "feature_set": "exposure",
+        "max_depth": null,
+        "min_samples_leaf": 300,
+        "max_features": 0.5,
+        "n_estimators": 300
+      },
+      "pooled_oof_min_cost": 0.5054662379421222,
+      "pooled_oof_pr_auc": 0.5084851793559273
+    },
+    "4": {
+      "config_id": 7,
+      "config": {
+        "feature_set": "telemetry+profile",
+        "max_depth": null,
+        "min_samples_leaf": 100,
+        "max_features": "sqrt",
+        "n_estimators": 300
+      },
+      "pooled_oof_min_cost": 0.5180041152263375,
+      "pooled_oof_pr_auc": 0.5616464151973403
+    }
+  },
+  "RF-draw3": {
+    "0": {
+      "config_id": 7,
+      "config": {
+        "feature_set": "exposure",
+        "max_depth": 3,
+        "min_samples_leaf": 300,
+        "max_features": "sqrt",
+        "n_estimators": 300
+      },
+      "pooled_oof_min_cost": 0.45735881346263546,
+      "pooled_oof_pr_auc": 0.5879158934958566
+    },
+    "1": {
+      "config_id": 3,
+      "config": {
+        "feature_set": "exposure",
+        "max_depth": 5,
+        "min_samples_leaf": 25,
+        "max_features": 0.5,
+        "n_estimators": 300
+      },
+      "pooled_oof_min_cost": 0.4736040609137056,
+      "pooled_oof_pr_auc": 0.5248571901201216
+    },
+    "2": {
+      "config_id": 3,
+      "config": {
+        "feature_set": "exposure",
+        "max_depth": 5,
+        "min_samples_leaf": 25,
+        "max_features": 0.5,
+        "n_estimators": 300
+      },
+      "pooled_oof_min_cost": 0.5284529998594913,
+      "pooled_oof_pr_auc": 0.42937091490176066
+    },
+    "3": {
+      "config_id": 12,
+      "config": {
+        "feature_set": "exposure",
+        "max_depth": 3,
+        "min_samples_leaf": 300,
+        "max_features": 0.5,
+        "n_estimators": 300
+      },
+      "pooled_oof_min_cost": 0.4909324758842444,
+      "pooled_oof_pr_auc": 0.5041117664474642
+    },
+    "4": {
+      "config_id": 1,
+      "config": {
+        "feature_set": "telemetry+profile",
+        "max_depth": 5,
+        "min_samples_leaf": 25,
+        "max_features": "sqrt",
+        "n_estimators": 300
+      },
+      "pooled_oof_min_cost": 0.5222479423868313,
+      "pooled_oof_pr_auc": 0.541381795475574
+    }
+  }
+}

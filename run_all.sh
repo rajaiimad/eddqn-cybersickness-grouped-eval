@@ -33,3 +33,5 @@ python3 scripts/13_search_draw_sensitivity.py analyze    # its statistics and de
 python3 scripts/14_score_scale.py                        # score scale of rule D0 (descriptive, no training)
 python3 scripts/15_pipeline_verification.py              # split, preprocessing, selection and replay checks on the real folds
 python3 scripts/16_threshold_scale.py                    # threshold-scale sensitivity of rule D1 (post hoc, no training)
+python3 scripts/19_all_family_draws.py run --workers "$WORKERS"  # draws 2-3 of the remaining families (configs/posthoc.json)
+python3 scripts/19_all_family_draws.py analyze            # draw-matched and draw-averaged comparisons, MDE, seed-mean tests

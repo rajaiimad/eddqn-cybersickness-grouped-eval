@@ -1,218 +1,350 @@
 {
-  "_comment": "POST-HOC analyses, specified on 2026-10-13 after the frozen primary analysis (configs/protocol.json) had been completed and reported, in response to a pre-submission review. They add baselines and sensitivity analyses; they do not alter any primary result or any choice in protocol.json. Every post-hoc model uses the frozen splits, inner folds, selection objective, checkpoint/threshold rules, cross-fitting recipe and final seeds of protocol.json.",
-  "rationale": "Labels are near step functions (median onset 82 s; 9/35 sessions never report discomfort) and 29 of 35 selected configurations of the primary analysis use the exposure feature sets; an exposure-time-only model is therefore the natural minimal baseline.",
-  "families": {
-    "Time-LR": {
-      "base": "LogReg",
-      "feature_set": "time",
-      "features": [
-        "elapsed_s"
-      ],
-      "search_space": {
-        "C": [
-          0.0001,
-          0.001,
-          0.01,
-          0.1,
-          1.0,
-          10.0
-        ]
-      },
-      "budget": 6,
-      "hpo_seed": 801,
-      "note": "logistic regression on elapsed time only (class weight 5); full C grid"
-    },
-    "TimeGame-HGB": {
-      "base": "HGB",
-      "feature_set": "time+game",
-      "features": [
-        "elapsed_s",
-        "is_flight"
-      ],
-      "search_space": {
-        "learning_rate": [
-          0.02,
-          0.05,
-          0.1
-        ],
-        "max_iter": [
-          50,
-          100,
-          200,
-          400
-        ],
-        "max_leaf_nodes": [
-          4,
-          8,
-          16,
-          31
-        ],
-        "min_samples_leaf": [
-          20,
-          100,
-          300
-        ],
-        "l2_regularization": [
-          0.0,
-          1.0,
-          10.0
-        ]
-      },
-      "budget": 16,
-      "hpo_seed": 802,
-      "note": "gradient boosting on elapsed time and game (game-specific, non-linear onset curves); same HGB space and budget as the primary analysis"
-    }
-  },
-  "multiplicity": "Holm step-down adjustment over the six paired comparisons of E-DDQN with the other primary models, per operating rule (group-bootstrap p-values)",
-  "grouping_sensitivity": [
-    "paired bootstrap resampling sessions (35 units) instead of linkage groups (21 units)",
-    "leave-one-group-out jackknife of each model's 5:1 cost and of the paired cost differences"
-  ],
-  "always_alarm_comparison": "paired group bootstrap of each model's D1 cost against the always-alarm policy",
-  "cost_curves": {
-    "fn_fp_ratios": [
-      1,
-      1.5,
-      2,
-      3,
-      4,
-      5,
-      7,
-      10,
-      15,
-      20
-    ],
-    "threshold": "for each ratio R, the threshold minimising R*FN+FP on the pooled inner-OOF seed-ensemble scores of each outer fold's development groups (validation only), applied to that outer-test fold",
-    "normalisation": "test cost divided by the cost of the better trivial policy at the same R (always alarm or never alarm)"
-  },
-  "n_boot": 2000,
-  "review_round_2": {
-    "_comment": "Specified on 2026-10-14 after a structured pre-submission review of the manuscript, when all other results were known. Computed only from the saved per-sample predictions and selected configurations; no model is trained or re-tuned and no primary result changes.",
-    "within_fold_roc_auc": "ROC-AUC computed within each outer-test fold and averaged over folds (and over seeds for the seed-mean value), reported next to the pooled ROC-AUC, which combines the scores of five fold-specific models",
-    "group_sign_flip_test": "exact two-sided sign-flip permutation test of the pooled D1 cost difference (seed ensembles) with the 21 linkage groups as units: statistic sum_g eps_g D_g / N over all 2^21 sign vectors; E-DDQN vs every other model (Holm over the six primary comparisons) and every model vs always alarming (Holm over the nine models); also the exposure-time baselines versus the random forest",
-    "feature_set_association": "exploratory: within-fold ROC-AUC (seed mean) of each primary model and outer fold versus whether the selected feature set contains the 11 questionnaire (CSPQ) indicators; deviation from the fold mean over the seven primary models",
-    "search_space_sizes": "number of distinct configurations in each family's search space (configs/protocol.json), to qualify 'same number of configurations'",
-    "search_draw": "feature sets among each family's random-search candidates (results/hpo_results.csv) and, for E-DDQN, the lowest validation cost of candidates with and without the questionnaire indicators per outer fold"
-  },
-  "_later_additions": {
-    "_comment": "Recorded on 2026-10-14 for transparency. The keys 'families', 'multiplicity', 'grouping_sensitivity', 'always_alarm_comparison' and 'cost_curves' were committed before the corresponding analyses were run. The analyses listed here were added afterwards without prior commitment; they are reported as post hoc in the paper (limitation iv; Supplementary Sec. S5).",
-    "while_writing_up": [
-      "paired comparisons of the exposure-time baselines with the primary models (cost and ROC-AUC, group bootstrap)",
-      "Q-value scale relative to r_max/(1-gamma) (diagnostic)",
-      "label-dynamics summary (descriptive statistics of the data)",
-      "seed-ensemble block of the main results table (descriptive)",
-      "Holm adjustment over the nine models of the always-alarm comparison (the committed 'always_alarm_comparison' has no adjustment, and 'multiplicity' covers only the six comparisons with E-DDQN); added when the comparison was run"
-    ],
-    "after_pre_submission_review": "see 'review_round_2'",
-    "final_pre_submission_check": [
-      "score scale of rule D0: where the untuned cut-off p_hat >= 1/6 lies on P(y=1|s) given each selected configuration's training class mix and loss (descriptive, no training; scripts/14_score_scale.py; Supplementary S5.12)",
-      "decision rule R3 of 'search_draw_sensitivity' implemented as |gap| <= 0.03, as specified ('within 0.03 of DQN's'); the first implementation tested gap <= 0.03 only. The outcome ('supported', gap 0.026) is unchanged."
+ "_comment": "POST-HOC analyses, specified on 2026-10-13 after the frozen primary analysis (configs/protocol.json) had been completed and reported, in response to a pre-submission review. They add baselines and sensitivity analyses; they do not alter any primary result or any choice in protocol.json. Every post-hoc model uses the frozen splits, inner folds, selection objective, checkpoint/threshold rules, cross-fitting recipe and final seeds of protocol.json.",
+ "rationale": "Labels are near step functions (median onset 82 s; 9/35 sessions never report discomfort) and 29 of 35 selected configurations of the primary analysis use the exposure feature sets; an exposure-time-only model is therefore the natural minimal baseline.",
+ "families": {
+  "Time-LR": {
+   "base": "LogReg",
+   "feature_set": "time",
+   "features": [
+    "elapsed_s"
+   ],
+   "search_space": {
+    "C": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0
     ]
+   },
+   "budget": 6,
+   "hpo_seed": 801,
+   "note": "logistic regression on elapsed time only (class weight 5); full C grid"
   },
-  "search_draw_sensitivity": {
-    "_comment": "Specified on 2026-10-14 after all other results were known, in response to the second-round pre-submission review, and committed BEFORE any of these runs. Question: does E-DDQN's result depend on its single random search draw, which offered only 2 exposure-only configurations (DQN: 6)? Every result is reported whatever it shows; no draw is selected; the primary results are not replaced.",
-    "families_compared": [
-      "E-DDQN",
-      "DQN"
+  "TimeGame-HGB": {
+   "base": "HGB",
+   "feature_set": "time+game",
+   "features": [
+    "elapsed_s",
+    "is_flight"
+   ],
+   "search_space": {
+    "learning_rate": [
+     0.02,
+     0.05,
+     0.1
     ],
-    "protocol": "identical to configs/protocol.json: same splits, inner folds, training seed for the search (hpo_seed 777), budget (16 configurations), selection rule (pooled inner-OOF minimum 5:1 cost, ties PR-AUC), checkpoint rule, cross-fitting, final seeds 1000-1004 and threshold rules. Perturbation variants are not scored.",
-    "variants": [
-      {
-        "name": "E-DDQN-draw2",
-        "base": "E-DDQN",
-        "budget": 16,
-        "config_seed": 9120,
-        "feature_set": null,
-        "note": "second independent random draw of 16 configurations from the full E-DDQN search space"
-      },
-      {
-        "name": "E-DDQN-draw3",
-        "base": "E-DDQN",
-        "budget": 16,
-        "config_seed": 9130,
-        "feature_set": null,
-        "note": "third independent random draw"
-      },
-      {
-        "name": "DQN-draw2",
-        "base": "DQN",
-        "budget": 16,
-        "config_seed": 9122,
-        "feature_set": null,
-        "note": "second independent random draw from the full DQN search space"
-      },
-      {
-        "name": "DQN-draw3",
-        "base": "DQN",
-        "budget": 16,
-        "config_seed": 9132,
-        "feature_set": null,
-        "note": "third independent random draw"
-      },
-      {
-        "name": "E-DDQN-exposure",
-        "base": "E-DDQN",
-        "budget": 16,
-        "config_seed": 9200,
-        "feature_set": "exposure",
-        "note": "16 configurations from the E-DDQN space with the feature set fixed to 'exposure' (no questionnaire indicators)"
-      },
-      {
-        "name": "DQN-exposure",
-        "base": "DQN",
-        "budget": 16,
-        "config_seed": 9202,
-        "feature_set": "exposure",
-        "note": "16 configurations from the DQN space with the feature set fixed to 'exposure'"
-      }
+    "max_iter": [
+     50,
+     100,
+     200,
+     400
     ],
-    "pairs": [
-      [
-        "E-DDQN",
-        "DQN",
-        "draw 1 (primary)"
-      ],
-      [
-        "E-DDQN-draw2",
-        "DQN-draw2",
-        "draw 2"
-      ],
-      [
-        "E-DDQN-draw3",
-        "DQN-draw3",
-        "draw 3"
-      ],
-      [
-        "E-DDQN-exposure",
-        "DQN-exposure",
-        "exposure only"
-      ]
+    "max_leaf_nodes": [
+     4,
+     8,
+     16,
+     31
     ],
-    "analysis": [
-      "per variant: seed-mean D1 5:1 cost, seed-mean pooled ROC-AUC, within-fold ROC-AUC (seed mean), seed-ensemble D1 cost, selected feature set and discount factor per outer fold, and the number of exposure-only candidates in the draw",
-      "per pair: seed-ensemble D1 cost difference E-DDQN minus DQN with a 2,000-replicate group bootstrap (95% CI, two-sided p; seed 5) and an exact group sign-flip test; pooled ROC-AUC difference with a group bootstrap (seed 6)"
+    "min_samples_leaf": [
+     20,
+     100,
+     300
     ],
-    "decision_rules": {
-      "R1_headline": "The claim 'E-DDQN does not outperform the standard DQN' is challenged if, in any pair, E-DDQN's seed-ensemble D1 cost is lower than DQN's and the group-bootstrap 95% CI of the difference excludes zero.",
-      "R2_draw_dependence": "E-DDQN's result is called draw-dependent if, across its three full-space draws, its seed-mean D1 cost spans more than 0.05 or its within-fold ROC-AUC spans more than 0.05.",
-      "R3_feature_set": "Under the exposure-only restriction: if E-DDQN's within-fold ROC-AUC is within 0.03 of DQN's, the feature-set/search-draw explanation of Section V-G is supported; if it is more than 0.05 below DQN's, that explanation is insufficient and other components of E-DDQN remain plausible contributors; otherwise inconclusive."
-    }
-  },
-  "threshold_scale_sensitivity": {
-    "_comment": "Specified on 2026-10-21 after all other results were known, in response to an internal pre-submission review that noted the scale mismatch below; committed BEFORE the computation was run. Computed only from the saved per-inner-model validation and test scores of the final runs; no model is trained or re-tuned, no threshold is re-chosen, and no primary result is replaced. Every result is reported whatever it shows.",
-    "question": "The D1 threshold of each (family, outer fold, seed) is chosen on pooled OOF scores, each produced by ONE inner model, but applied to the outer-test score, which is the MEAN of the 3 inner models' scores. How much do the reported D1 results depend on this scale difference?",
-    "primary_models": [
-      "E-DDQN",
-      "E-CB",
-      "DQN",
-      "CS-MLP",
-      "LogReg",
-      "HGB",
-      "RF"
-    ],
-    "variant_single_model": "apply the unchanged D1 threshold of each (family, fold, seed) to each inner model's own test score separately (the scale on which the threshold was chosen); 5:1 cost, recall and false-positive rate pooled over the 5 outer folds per (seed, inner model), then averaged over the 3 inner models and the 5 seeds; compared with the reported seed-mean D1 results (pipeline recomputed from the same files as a check)",
-    "spread_diagnostic": "per (family, fold, seed): SD of the averaged test score divided by the mean SD of the single-model test scores (values below 1 = shrinkage by averaging); summarized by median and range per family",
-    "reporting": "descriptive, no test; the change in cost, recall and false-positive rate per family, and the spread ratio; stated in the limitation on threshold transfer and in the supplement (shortened version)",
-    "script": "scripts/16_threshold_scale.py"
+    "l2_regularization": [
+     0.0,
+     1.0,
+     10.0
+    ]
+   },
+   "budget": 16,
+   "hpo_seed": 802,
+   "note": "gradient boosting on elapsed time and game (game-specific, non-linear onset curves); same HGB space and budget as the primary analysis"
   }
+ },
+ "multiplicity": "Holm step-down adjustment over the six paired comparisons of E-DDQN with the other primary models, per operating rule (group-bootstrap p-values)",
+ "grouping_sensitivity": [
+  "paired bootstrap resampling sessions (35 units) instead of linkage groups (21 units)",
+  "leave-one-group-out jackknife of each model's 5:1 cost and of the paired cost differences"
+ ],
+ "always_alarm_comparison": "paired group bootstrap of each model's D1 cost against the always-alarm policy",
+ "cost_curves": {
+  "fn_fp_ratios": [
+   1,
+   1.5,
+   2,
+   3,
+   4,
+   5,
+   7,
+   10,
+   15,
+   20
+  ],
+  "threshold": "for each ratio R, the threshold minimising R*FN+FP on the pooled inner-OOF seed-ensemble scores of each outer fold's development groups (validation only), applied to that outer-test fold",
+  "normalisation": "test cost divided by the cost of the better trivial policy at the same R (always alarm or never alarm)"
+ },
+ "n_boot": 2000,
+ "review_round_2": {
+  "_comment": "Specified on 2026-10-14 after a structured pre-submission review of the manuscript, when all other results were known. Computed only from the saved per-sample predictions and selected configurations; no model is trained or re-tuned and no primary result changes.",
+  "within_fold_roc_auc": "ROC-AUC computed within each outer-test fold and averaged over folds (and over seeds for the seed-mean value), reported next to the pooled ROC-AUC, which combines the scores of five fold-specific models",
+  "group_sign_flip_test": "exact two-sided sign-flip permutation test of the pooled D1 cost difference (seed ensembles) with the 21 linkage groups as units: statistic sum_g eps_g D_g / N over all 2^21 sign vectors; E-DDQN vs every other model (Holm over the six primary comparisons) and every model vs always alarming (Holm over the nine models); also the exposure-time baselines versus the random forest",
+  "feature_set_association": "exploratory: within-fold ROC-AUC (seed mean) of each primary model and outer fold versus whether the selected feature set contains the 11 questionnaire (CSPQ) indicators; deviation from the fold mean over the seven primary models",
+  "search_space_sizes": "number of distinct configurations in each family's search space (configs/protocol.json), to qualify 'same number of configurations'",
+  "search_draw": "feature sets among each family's random-search candidates (results/hpo_results.csv) and, for E-DDQN, the lowest validation cost of candidates with and without the questionnaire indicators per outer fold"
+ },
+ "_later_additions": {
+  "_comment": "Recorded on 2026-10-14 for transparency. The keys 'families', 'multiplicity', 'grouping_sensitivity', 'always_alarm_comparison' and 'cost_curves' were committed before the corresponding analyses were run. The analyses listed here were added afterwards without prior commitment; they are reported as post hoc in the paper (limitation iv; Supplementary Sec. S5).",
+  "while_writing_up": [
+   "paired comparisons of the exposure-time baselines with the primary models (cost and ROC-AUC, group bootstrap)",
+   "Q-value scale relative to r_max/(1-gamma) (diagnostic)",
+   "label-dynamics summary (descriptive statistics of the data)",
+   "seed-ensemble block of the main results table (descriptive)",
+   "Holm adjustment over the nine models of the always-alarm comparison (the committed 'always_alarm_comparison' has no adjustment, and 'multiplicity' covers only the six comparisons with E-DDQN); added when the comparison was run"
+  ],
+  "after_pre_submission_review": "see 'review_round_2'",
+  "final_pre_submission_check": [
+   "score scale of rule D0: where the untuned cut-off p_hat >= 1/6 lies on P(y=1|s) given each selected configuration's training class mix and loss (descriptive, no training; scripts/14_score_scale.py; Supplementary S5.12)",
+   "decision rule R3 of 'search_draw_sensitivity' implemented as |gap| <= 0.03, as specified ('within 0.03 of DQN's'); the first implementation tested gap <= 0.03 only. The outcome ('supported', gap 0.026) is unchanged."
+  ]
+ },
+ "search_draw_sensitivity": {
+  "_comment": "Specified on 2026-10-14 after all other results were known, in response to the second-round pre-submission review, and committed BEFORE any of these runs. Question: does E-DDQN's result depend on its single random search draw, which offered only 2 exposure-only configurations (DQN: 6)? Every result is reported whatever it shows; no draw is selected; the primary results are not replaced.",
+  "families_compared": [
+   "E-DDQN",
+   "DQN"
+  ],
+  "protocol": "identical to configs/protocol.json: same splits, inner folds, training seed for the search (hpo_seed 777), budget (16 configurations), selection rule (pooled inner-OOF minimum 5:1 cost, ties PR-AUC), checkpoint rule, cross-fitting, final seeds 1000-1004 and threshold rules. Perturbation variants are not scored.",
+  "variants": [
+   {
+    "name": "E-DDQN-draw2",
+    "base": "E-DDQN",
+    "budget": 16,
+    "config_seed": 9120,
+    "feature_set": null,
+    "note": "second independent random draw of 16 configurations from the full E-DDQN search space"
+   },
+   {
+    "name": "E-DDQN-draw3",
+    "base": "E-DDQN",
+    "budget": 16,
+    "config_seed": 9130,
+    "feature_set": null,
+    "note": "third independent random draw"
+   },
+   {
+    "name": "DQN-draw2",
+    "base": "DQN",
+    "budget": 16,
+    "config_seed": 9122,
+    "feature_set": null,
+    "note": "second independent random draw from the full DQN search space"
+   },
+   {
+    "name": "DQN-draw3",
+    "base": "DQN",
+    "budget": 16,
+    "config_seed": 9132,
+    "feature_set": null,
+    "note": "third independent random draw"
+   },
+   {
+    "name": "E-DDQN-exposure",
+    "base": "E-DDQN",
+    "budget": 16,
+    "config_seed": 9200,
+    "feature_set": "exposure",
+    "note": "16 configurations from the E-DDQN space with the feature set fixed to 'exposure' (no questionnaire indicators)"
+   },
+   {
+    "name": "DQN-exposure",
+    "base": "DQN",
+    "budget": 16,
+    "config_seed": 9202,
+    "feature_set": "exposure",
+    "note": "16 configurations from the DQN space with the feature set fixed to 'exposure'"
+   }
+  ],
+  "pairs": [
+   [
+    "E-DDQN",
+    "DQN",
+    "draw 1 (primary)"
+   ],
+   [
+    "E-DDQN-draw2",
+    "DQN-draw2",
+    "draw 2"
+   ],
+   [
+    "E-DDQN-draw3",
+    "DQN-draw3",
+    "draw 3"
+   ],
+   [
+    "E-DDQN-exposure",
+    "DQN-exposure",
+    "exposure only"
+   ]
+  ],
+  "analysis": [
+   "per variant: seed-mean D1 5:1 cost, seed-mean pooled ROC-AUC, within-fold ROC-AUC (seed mean), seed-ensemble D1 cost, selected feature set and discount factor per outer fold, and the number of exposure-only candidates in the draw",
+   "per pair: seed-ensemble D1 cost difference E-DDQN minus DQN with a 2,000-replicate group bootstrap (95% CI, two-sided p; seed 5) and an exact group sign-flip test; pooled ROC-AUC difference with a group bootstrap (seed 6)"
+  ],
+  "decision_rules": {
+   "R1_headline": "The claim 'E-DDQN does not outperform the standard DQN' is challenged if, in any pair, E-DDQN's seed-ensemble D1 cost is lower than DQN's and the group-bootstrap 95% CI of the difference excludes zero.",
+   "R2_draw_dependence": "E-DDQN's result is called draw-dependent if, across its three full-space draws, its seed-mean D1 cost spans more than 0.05 or its within-fold ROC-AUC spans more than 0.05.",
+   "R3_feature_set": "Under the exposure-only restriction: if E-DDQN's within-fold ROC-AUC is within 0.03 of DQN's, the feature-set/search-draw explanation of Section V-G is supported; if it is more than 0.05 below DQN's, that explanation is insufficient and other components of E-DDQN remain plausible contributors; otherwise inconclusive."
+  }
+ },
+ "threshold_scale_sensitivity": {
+  "_comment": "Specified on 2026-10-21 after all other results were known, in response to an internal pre-submission review that noted the scale mismatch below; committed BEFORE the computation was run. Computed only from the saved per-inner-model validation and test scores of the final runs; no model is trained or re-tuned, no threshold is re-chosen, and no primary result is replaced. Every result is reported whatever it shows.",
+  "question": "The D1 threshold of each (family, outer fold, seed) is chosen on pooled OOF scores, each produced by ONE inner model, but applied to the outer-test score, which is the MEAN of the 3 inner models' scores. How much do the reported D1 results depend on this scale difference?",
+  "primary_models": [
+   "E-DDQN",
+   "E-CB",
+   "DQN",
+   "CS-MLP",
+   "LogReg",
+   "HGB",
+   "RF"
+  ],
+  "variant_single_model": "apply the unchanged D1 threshold of each (family, fold, seed) to each inner model's own test score separately (the scale on which the threshold was chosen); 5:1 cost, recall and false-positive rate pooled over the 5 outer folds per (seed, inner model), then averaged over the 3 inner models and the 5 seeds; compared with the reported seed-mean D1 results (pipeline recomputed from the same files as a check)",
+  "spread_diagnostic": "per (family, fold, seed): SD of the averaged test score divided by the mean SD of the single-model test scores (values below 1 = shrinkage by averaging); summarized by median and range per family",
+  "reporting": "descriptive, no test; the change in cost, recall and false-positive rate per family, and the spread ratio; stated in the limitation on threshold transfer and in the supplement (shortened version)",
+  "script": "scripts/16_threshold_scale.py"
+ },
+ "all_family_search_draws": {
+  "_comment": "Specified on 2026-10-28 after all other results were known, in response to an internal pre-submission review (round 5) that noted that only E-DDQN and the standard DQN had been re-drawn, so that the E-DDQN vs random-forest result and the rankings of the other families might depend on their single draw. Committed BEFORE any of these runs and before any of the analyses under 'saved_prediction_analyses' were computed. Every result is reported whatever it shows; no draw is selected; the primary results are not replaced.",
+  "protocol": "identical to configs/protocol.json and to search_draw_sensitivity: same splits, inner folds, search training seed (777), per-family budget (16 configurations; 12 for LogReg), selection rule, checkpoint rule, cross-fitting, final seeds 1000-1004 and threshold rules; perturbation variants are not scored.",
+  "variants": [
+   {
+    "name": "E-CB-draw2",
+    "base": "E-CB",
+    "config_seed": 9141,
+    "feature_set": null,
+    "note": "draw 2: independent random draw of the family's primary budget from its full search space"
+   },
+   {
+    "name": "E-CB-draw3",
+    "base": "E-CB",
+    "config_seed": 9151,
+    "feature_set": null,
+    "note": "draw 3: independent random draw of the family's primary budget from its full search space"
+   },
+   {
+    "name": "CS-MLP-draw2",
+    "base": "CS-MLP",
+    "config_seed": 9142,
+    "feature_set": null,
+    "note": "draw 2: independent random draw of the family's primary budget from its full search space"
+   },
+   {
+    "name": "CS-MLP-draw3",
+    "base": "CS-MLP",
+    "config_seed": 9152,
+    "feature_set": null,
+    "note": "draw 3: independent random draw of the family's primary budget from its full search space"
+   },
+   {
+    "name": "LogReg-draw2",
+    "base": "LogReg",
+    "config_seed": 9143,
+    "feature_set": null,
+    "note": "draw 2: independent random draw of the family's primary budget from its full search space"
+   },
+   {
+    "name": "LogReg-draw3",
+    "base": "LogReg",
+    "config_seed": 9153,
+    "feature_set": null,
+    "note": "draw 3: independent random draw of the family's primary budget from its full search space"
+   },
+   {
+    "name": "HGB-draw2",
+    "base": "HGB",
+    "config_seed": 9144,
+    "feature_set": null,
+    "note": "draw 2: independent random draw of the family's primary budget from its full search space"
+   },
+   {
+    "name": "HGB-draw3",
+    "base": "HGB",
+    "config_seed": 9154,
+    "feature_set": null,
+    "note": "draw 3: independent random draw of the family's primary budget from its full search space"
+   },
+   {
+    "name": "RF-draw2",
+    "base": "RF",
+    "config_seed": 9145,
+    "feature_set": null,
+    "note": "draw 2: independent random draw of the family's primary budget from its full search space"
+   },
+   {
+    "name": "RF-draw3",
+    "base": "RF",
+    "config_seed": 9155,
+    "feature_set": null,
+    "note": "draw 3: independent random draw of the family's primary budget from its full search space"
+   }
+  ],
+  "draws": {
+   "E-DDQN": [
+    "E-DDQN",
+    "E-DDQN-draw2",
+    "E-DDQN-draw3"
+   ],
+   "DQN": [
+    "DQN",
+    "DQN-draw2",
+    "DQN-draw3"
+   ],
+   "E-CB": [
+    "E-CB",
+    "E-CB-draw2",
+    "E-CB-draw3"
+   ],
+   "CS-MLP": [
+    "CS-MLP",
+    "CS-MLP-draw2",
+    "CS-MLP-draw3"
+   ],
+   "LogReg": [
+    "LogReg",
+    "LogReg-draw2",
+    "LogReg-draw3"
+   ],
+   "HGB": [
+    "HGB",
+    "HGB-draw2",
+    "HGB-draw3"
+   ],
+   "RF": [
+    "RF",
+    "RF-draw2",
+    "RF-draw3"
+   ]
+  },
+  "analysis": [
+   "A. Per variant: seed-mean D1 5:1 cost (+-SD), seed-ensemble D1 cost, seed-mean pooled ROC-AUC, within-fold ROC-AUC (seed mean), selected feature sets.",
+   "B. Draw-matched comparisons: for each draw d = 1, 2, 3, E-DDQN draw d minus each of the six other families' draw d: seed-ensemble D1 cost difference with a 2,000-replicate group bootstrap (95% CI, two-sided p; seed 5) and the exact group sign-flip test; Holm adjustment over the six comparisons within each draw, separately for each test.",
+   "C. Draw-averaged comparisons (the main analysis of this experiment): for every family, the per-sample 5:1 cost averaged over the seed-ensemble D1 decisions of its three draws; E-DDQN minus each of the six other families, with the group bootstrap (seed 5) and the exact sign-flip test; Holm over the six comparisons, separately for each test.",
+   "D. Draw-averaged comparison of every family (seven) with always alarming, same tests, Holm over the seven comparisons.",
+   "E. Rank of the seven families by seed-ensemble D1 cost within each draw (descriptive)."
+  ],
+  "decision_rules": {
+   "A1_rf_robustness": "The E-DDQN vs random-forest cost difference reported for the primary draw is called robust to the search draw only if the draw-averaged difference (C) is significant after Holm adjustment under BOTH the group bootstrap and the sign-flip test; otherwise it is called draw-specific.",
+   "A2_eddqn_better": "The statement that E-DDQN does not outperform another family is challenged for a family X if the draw-averaged difference E-DDQN minus X is negative and significant after Holm adjustment under both tests.",
+   "A3_draw_dependence": "A family is called draw-dependent if, across its three draws, its seed-mean D1 cost spans more than 0.05 or its within-fold ROC-AUC spans more than 0.05 (rule R2 of search_draw_sensitivity applied to every family).",
+   "A4_always_alarm": "The statement that no model is shown to beat always alarming (linkage groups as units) stands unless a family's draw-averaged cost (D) is lower than always alarming and significant after Holm adjustment under both tests."
+  },
+  "saved_prediction_analyses": {
+   "_comment": "Computed from the saved primary predictions only; no model is trained. Specified in the same commit, before computation.",
+   "B1_minimum_detectable_effect": "For each of the six primary seed-ensemble comparisons with E-DDQN (draw 1) and each draw-averaged comparison (C): minimum detectable difference at 80% power and two-sided alpha 0.05, approximated as (1.960 + 0.842) x the SD of the 2,000 group-bootstrap replicates of the paired difference; for the 5:1 cost and for the pooled ROC-AUC difference (bootstrap seed 6).",
+   "B2_seed_mean_paired_tests": "E-DDQN minus each of the six other primary families, on the per-sample 5:1 cost averaged over the five seeds' own D1 decisions (seed-mean analogue of the primary test): group bootstrap (seed 5), exact sign-flip test, Holm over the six comparisons.",
+   "B3_ensemble_vs_seed_mean": "Descriptive, for each primary family: recall and false-positive rate under the seed-mean (per-seed D1) and seed-ensemble decisions; ratio of the SD of the ensemble test scores to the mean SD of the per-seed test scores; and the position of the ensemble D1 threshold relative to the range of the per-seed D1 thresholds."
+  }
+ }
 }

@@ -1,0 +1,44 @@
+{
+ "A1_rf_difference": "draw-specific",
+ "A2_eddqn_better_than": [],
+ "A3_draw_dependent": {
+  "CS-MLP": false,
+  "DQN": true,
+  "E-CB": false,
+  "E-DDQN": true,
+  "HGB": true,
+  "LogReg": true,
+  "RF": false
+ },
+ "A3_spans": {
+  "CS-MLP": {
+   "cost": 0.010521831735889164,
+   "within_fold_auc": 0.04540450938746188
+  },
+  "DQN": {
+   "cost": 0.053823216187433465,
+   "within_fold_auc": 0.03728871991602567
+  },
+  "E-CB": {
+   "cost": 0.029435569755058566,
+   "within_fold_auc": 0.01802458659000994
+  },
+  "E-DDQN": {
+   "cost": 0.11365282215122463,
+   "within_fold_auc": 0.17523477365846052
+  },
+  "HGB": {
+   "cost": 0.0340788072417465,
+   "within_fold_auc": 0.0818379018729325
+  },
+  "LogReg": {
+   "cost": 0.058572949946751884,
+   "within_fold_auc": 0.015305828980718195
+  },
+  "RF": {
+   "cost": 0.03480298189563369,
+   "within_fold_auc": 0.041231840374272855
+  }
+ },
+ "A4_beats_always_alarm": []
+}

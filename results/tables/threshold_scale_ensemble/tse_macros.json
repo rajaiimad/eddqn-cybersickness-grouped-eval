@@ -1,0 +1,16 @@
+{
+ "TSEEDDQNRep": "0.726",
+ "TSEEDDQNSingle": "0.770",
+ "TSERFRep": "0.485",
+ "TSERFSingle": "0.493",
+ "TSEGapRep": "+0.242",
+ "TSEGapSingle": "+0.277",
+ "TSEFirstSame": "yes",
+ "TSELastSame": "yes",
+ "TSEFirst": "RF",
+ "TSELast": "E-DDQN",
+ "TSEMoved": "E-CB, DQN, HGB",
+ "TSEMovedN": "3",
+ "TSENeuralDeltaMin": "+0.037",
+ "TSENeuralDeltaMax": "+0.097"
+}

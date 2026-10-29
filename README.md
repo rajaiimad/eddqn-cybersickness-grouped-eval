@@ -42,7 +42,7 @@ bash run_all.sh --fresh --workers 4   # about 2.5-3.5 h on 4 CPU cores
 4. Hyper-parameter search, selection, final evaluation, ablation and reward-ratio runs (`03`).
 5. Aggregation, statistics, figures and SHAP (`04`, `07`), result tables (`05`).
 6. Post-hoc baselines and analyses (`11`), search-draw sensitivity (`13`), three search draws for every model family with draw-averaged comparisons (`19`), and exposure-only searches for every family, last-epoch retraining and event-level metrics (`20`).
-7. Score-scale, pipeline-verification and threshold-scale checks (`14`, `15`, `16`).
+7. Score-scale, pipeline-verification and threshold-scale checks (`14`, `15`, `16`, `21`).
 
 The trained-model files (`results/runs/`, about 300 MB) are not included; `run_all.sh` regenerates them. Steps `04`, `14`, `15` and `16` read them, so they need a full run first.
 

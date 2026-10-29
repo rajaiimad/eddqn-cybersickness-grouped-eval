@@ -35,5 +35,5 @@ python3 scripts/15_pipeline_verification.py              # split, preprocessing,
 python3 scripts/16_threshold_scale.py                    # threshold-scale sensitivity of rule D1 (post hoc, no training)
 python3 scripts/19_all_family_draws.py run --workers "$WORKERS"  # draws 2-3 of the remaining families (configs/posthoc.json)
 python3 scripts/19_all_family_draws.py analyze            # draw-matched and draw-averaged comparisons, MDE, seed-mean tests
-python3 scripts/20_review_round6.py run --workers "$WORKERS"  # exposure-only for every family, last-epoch retraining
-python3 scripts/20_review_round6.py analyze              # inputs-fixed comparisons, checkpoint check, event-level metrics
+python3 scripts/20_inputs_checkpoint_events.py run --workers "$WORKERS"  # exposure-only for every family, last-epoch retraining
+python3 scripts/20_inputs_checkpoint_events.py analyze              # inputs-fixed comparisons, checkpoint check, event-level metrics

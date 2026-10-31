@@ -1,0 +1,19 @@
+{
+ "RQRatioAucMin": "0.538",
+ "RQRatioAucMax": "0.563",
+ "RQRatioAucMaxDiff": "0.025",
+ "RQRatioAucSdMax": "0.030",
+ "RQPertN": "84",
+ "RQPertVariants": "12",
+ "RQPertRecallMin": "$-$3.7",
+ "RQPertRecallMax": "+5.1",
+ "RQPertFprMin": "$-$9.2",
+ "RQPertFprMax": "+15.7",
+ "RQPertCostMin": "$-$0.099",
+ "RQPertCostMax": "+0.064",
+ "RQPertRecallSmallShare": "82",
+ "RQWorstCleanFprMin": "81.7",
+ "RQWorstCleanFprMax": "93.9",
+ "RQWorstFprRiseMin": "2.6",
+ "RQWorstFprRiseMax": "16.8"
+}

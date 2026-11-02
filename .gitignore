@@ -4,3 +4,7 @@ __pycache__/
 results/runs
 results/audit/proxy_original_splits/
 results/original_repro/run/
+# figures, LaTeX tables and logs that the scripts also write (not part of this repository)
+results/figures/
+results/**/*.tex
+results/logs/

@@ -1,10 +1,13 @@
 # E-DDQN Cybersickness Detection: Session-Grouped Evaluation Code and Data
 
-This repository contains the code and data for the manuscript:
+This repository contains the code and data for the following manuscript:
 
-> **Does an asymmetric reward improve a Double DQN for cybersickness detection? A session-grouped re-evaluation on the UFFCSData gameplay dataset**
-> Rajai Darabee, Manoranjitham Muniandy, Wai Khuen Cheng, Ebrahim Hamid Sumiea, Omar Shindi
-> Submitted to *PeerJ Computer Science* (under review).
+| | |
+|---|---|
+| **Title** | Does an asymmetric reward improve a Double DQN for cybersickness detection? A session-grouped re-evaluation on the UFFCSData gameplay dataset |
+| **Authors** | Rajai Darabee, Manoranjitham Muniandy, Wai Khuen Cheng, Ebrahim Hamid Sumiea, Omar Shindi |
+| **Journal** | *PeerJ Computer Science* |
+| **Status** | Submitted, under review |
 
 The study tests whether E-DDQN, a dueling Double Deep Q-Network whose reward penalizes a missed cybersickness event five times more than a false alarm, detects cybersickness better than a standard DQN and cost-weighted supervised models once data leakage is controlled. All models are evaluated under the same nested, session-grouped protocol on the public UFFCSData gameplay dataset.
 

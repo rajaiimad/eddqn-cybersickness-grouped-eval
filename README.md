@@ -75,7 +75,7 @@ bash code/run_all.sh --fresh --workers 4   # about 2.5-3.5 h on 4 CPU cores
 6. Post-hoc baselines (`11`), search-draw sensitivity (`13`), three search draws for every model family (`19`), and exposure-only searches, last-epoch retraining and event-level metrics (`20`).
 7. Score-scale, pipeline-verification, threshold-scale and reporting checks (`14`, `15`, `16`, `21`, `22`).
 
-The trained-model files (`results/runs/`, about 300 MB) are not included; `run_all.sh` regenerates them. Steps `04`, `14`, `15` and `16` read these files, so they require a full run first. The scripts also write figures, LaTeX tables and logs, which are not part of this repository (see `.gitignore`).
+The trained-model files (`results/runs/`, about 300 MB) are not included; `run_all.sh` regenerates them. The analysis steps `04`, `11`, `13`, `14`, `15`, `16`, `19`, `20` and `21` read these files, so they require the training steps of a full run first. Without retraining, every reported number can be checked from the saved predictions and result tables in `results/`, and the quick checks above run as they are. The scripts also write figures, LaTeX tables and logs, which are not part of this repository (see `.gitignore`).
 
 **Random seeds.** Data splitting: 20261012 (outer) and 20261013-20261017 (inner). Hyper-parameter search: 777, with 801-802 for the post-hoc baselines and 21 configuration seeds between 9120 and 9208 for the further search draws (set in `code/configs/posthoc.json`). Final training: 1000-1004. Perturbations: 4242.
 
